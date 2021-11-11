@@ -1,0 +1,33 @@
+@import "./../../global/sass/colors";
+
+
+    footer {
+       
+        background-color: $opaque-white;
+        color: $white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+
+        .footer-items {
+            list-style-type: none;
+            .footer-item {
+                text-align: left;
+                margin-left: 15%;
+
+            }
+        }
+        .name-tag {
+            text-align: center;
+            background-color: $off-white;
+            color: $dark-sky-blue;
+            bottom: 0;
+            overflow: hidden;
+            margin-bottom: 0;
+            padding: 1rem;
+            
+        }
+    }
+    
