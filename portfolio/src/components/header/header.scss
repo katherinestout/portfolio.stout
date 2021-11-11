@@ -1,0 +1,27 @@
+@import "./../../global/sass/colors";
+
+header {
+    line-height: 80%;
+    // position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    // width: 100%;
+    // overflow: hidden;
+    // margin: 5px;
+    h1 {
+        color: $off-white;
+        text-transform: uppercase;
+        font-weight: 1;
+        font-size: 50px;
+    }
+    
+    h2 {
+        color: $dark-sky-blue;
+        text-transform: uppercase;
+        font-weight: 1;
+        font-size: 30px;
+    }
+}
