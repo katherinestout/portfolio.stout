@@ -5,7 +5,7 @@
        
         background-color: $opaque-white;
         color: $white;
-        position: absolute;
+        // position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
@@ -16,6 +16,21 @@
             .footer-item {
                 text-align: left;
                 margin-left: 15%;
+                line-height: 180%;
+                
+                a:link{
+                    color: $white;
+                    text-decoration: none;
+                  
+                }
+                 a:visited{
+                    color: $white;
+                    text-decoration: none;
+                }
+                span {
+                    position: relative;
+                   bottom: 10px;
+                }
 
             }
         }
