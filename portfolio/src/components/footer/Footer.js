@@ -31,7 +31,7 @@ const Footer = () => (
           <span> stout.katie@outlook.com</span>
         </li>
       </ul>
-      <p className="name-tag">&#169; Katie Stout 2021</p>
+      {/* <p className="name-tag">&#169; Katie Stout 2021</p> */}
     </footer>
   </div>
   // </Router>

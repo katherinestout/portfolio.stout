@@ -8,7 +8,6 @@ import {
   Redirect,
 } from "react-router-dom";
 import MainPage from "./../../routes/projects/components/mainPage";
-import ContactPage from "./../../routes/contact/components/contactPage";
 import AboutPage from "./../../routes/about/components/aboutPage";
 import Drinkerator from "./../../routes/projects/components/drinkerator";
 import Gallery from "./../../routes/projects/components/gallery";
@@ -30,14 +29,12 @@ const Nav = () => {
               <li className="nav-item" onClick={() => setOpen("!active")}>
                 <Link to="/about">About</Link>
               </li>
-              <li className="nav-item" onClick={() => setOpen("!active")}>
-                <Link to="/contact">Contact</Link>
-              </li>
+
               <li className="nav-item" onClick={() => setOpen("!active")}>
                 <Link
                   to={{
                     pathname:
-                      "https://drive.google.com/file/d/1yswrnbyyW2jdyKnh3BWLWITevmLxe3Qh/view?usp=sharing",
+                      "https://docs.google.com/document/d/1aLMFaIkVNjb4KejTRuDj2tsmybOk5HtxAFdej7_aVEM/edit?usp=sharing",
                   }}
                   target="_blank"
                 >
@@ -70,7 +67,6 @@ const Nav = () => {
 
             <Route exact path="/work" component={MainPage} />
             <Route path="/about" component={AboutPage} />
-            <Route path="/contact" component={ContactPage} />
 
             <Route path="/drinkerator" component={Drinkerator} />
             <Route path="/gallery" component={Gallery} />
