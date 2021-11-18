@@ -1,63 +1,83 @@
 import styles from "./nav.scss";
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+} from "react-router-dom";
 import MainPage from "./../../routes/projects/components/mainPage";
 import ContactPage from "./../../routes/contact/components/contactPage";
 import AboutPage from "./../../routes/about/components/aboutPage";
+import Drinkerator from "./../../routes/projects/components/drinkerator";
+import Gallery from "./../../routes/projects/components/gallery";
+import WorkRelated from "./../../routes/projects/components/workRelated";
+import Portfolio from "./../../routes/projects/components/portfolio";
 
 const Nav = () => {
   const [open, setOpen] = useState("!active");
+
   return (
     <Router>
-      <div className={styles}>
-        <nav className={open === "active" ? "open" : "!open"}>
-          <ul className="nav-items">
-            <li className="nav-item" onClick={() => setOpen("!active")}>
-              <Link to="/projects">Work</Link>
-            </li>
-            <li className="nav-item" onClick={() => setOpen("!active")}>
-              <Link to="/about">About</Link>
-            </li>
-            <li className="nav-item" onClick={() => setOpen("!active")}>
-              <Link to="/contact">Contact</Link>
-            </li>
-            <li className="nav-item" onClick={() => setOpen("!active")}>
-              <Link
-                to={{
-                  pathname:
-                    "https://drive.google.com/file/d/1yswrnbyyW2jdyKnh3BWLWITevmLxe3Qh/view?usp=sharing",
-                }}
-                target="_blank"
-              >
-                {" "}
-                Resume{" "}
-              </Link>
-            </li>
-          </ul>
+      <div>
+        <div className={styles}>
+          <nav className={open === "active" ? "open" : "!open"}>
+            <ul className="nav-items">
+              <li className="nav-item" onClick={() => setOpen("!active")}>
+                <Link to="/work">Work</Link>
+              </li>
+              <li className="nav-item" onClick={() => setOpen("!active")}>
+                <Link to="/about">About</Link>
+              </li>
+              <li className="nav-item" onClick={() => setOpen("!active")}>
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li className="nav-item" onClick={() => setOpen("!active")}>
+                <Link
+                  to={{
+                    pathname:
+                      "https://drive.google.com/file/d/1yswrnbyyW2jdyKnh3BWLWITevmLxe3Qh/view?usp=sharing",
+                  }}
+                  target="_blank"
+                >
+                  {" "}
+                  Resume{" "}
+                </Link>
+              </li>
+            </ul>
 
-          <div
-            className="hamburger"
-            onClick={() => setOpen(open === "!active" ? "active" : "!active")}
-          >
-            <div className={open === "active" ? "close-icon" : "open-icon"}>
-              <span className="bar bar-one"></span>
-              <span className="bar bar-two"></span>
-              <span className="bar bar-three"></span>
+            <div
+              className="hamburger"
+              onClick={() => setOpen(open === "!active" ? "active" : "!active")}
+            >
+              <div className={open === "active" ? "close-icon" : "open-icon"}>
+                <span className="bar bar-one"></span>
+                <span className="bar bar-two"></span>
+                <span className="bar bar-three"></span>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
 
-        <Switch>
-          <Route path="/projects">
-            <MainPage />
-          </Route>
-          <Route path="/about">
-            <AboutPage />
-          </Route>
-          <Route path="/contact">
-            <ContactPage />
-          </Route>
-        </Switch>
+          <Switch>
+            <Route
+              exact
+              path="/"
+              render={() => {
+                return <Redirect to="/work" />;
+              }}
+            />
+
+            <Route exact path="/work" component={MainPage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/contact" component={ContactPage} />
+
+            <Route path="/drinkerator" component={Drinkerator} />
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/workrelated" component={WorkRelated} />
+            <Route path="/portfolio" component={Portfolio} />
+          </Switch>
+        </div>
       </div>
     </Router>
   );

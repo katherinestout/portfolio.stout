@@ -1,6 +1,6 @@
-//import React from 'react';
+import React from "react";
 //import styles from './../styles/drinkerator.scss';
 
-const Drinkerator = () => {};
+const Drinkerator = () => <div>Drinkerator</div>;
 
 export default Drinkerator;
