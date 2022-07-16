@@ -1,6 +1,6 @@
 import React from "react";
 //import styles from './../styles/galleryApp.scss';
 
-const GalleryApp = () => <div>Gallery App</div>;
+const ArtGallery = () => <div>Art Gallery</div>;
 
-export default GalleryApp;
+export default ArtGallery;

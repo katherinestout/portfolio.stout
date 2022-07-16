@@ -1,8 +1,10 @@
 //import React from 'react';
 import styles from "./../styles/aboutPage.scss";
+import selfie from "./../../../svg/selfie.png";
 
 const AboutPage = () => (
   <div className={styles}>
+    <img src={selfie} alt="graphic" className="selfie"/>
     <p className="bio">
       I'm a UI/UX Designer and Front End Web Developer, with a background in
       Painting and Drawing. I am also a wedding and portrait Photographer! I

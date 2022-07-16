@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 const MainPage = () => (
   <div className={styles}>
     <div className="project-container">
-      <Link to="/drinkerator">
-        <div className="project project-1"> drinkerator</div>
+      <Link to="/crewCuts">
+        <div className="project project-1"> crewcuts</div>
       </Link>
-      <Link to="/gallery">
+      <Link to="/mpp">
         {" "}
-        <div className="project project-2"> gallery</div>
+        <div className="project project-2"> mpp</div>
       </Link>
 
-      <Link to="/workrelated">
+      <Link to="/artGallery">
         {" "}
-        <div className="project project-3">workrelated</div>
+        <div className="project project-3">artGallery</div>
       </Link>
 
       <Link to="/portfolio">

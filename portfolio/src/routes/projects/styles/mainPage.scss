@@ -4,10 +4,11 @@
 .project-container {
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    // margin-left: 5%;
+    // margin-right: 5%;
+    // margin-top: 5%;
+    // margin-bottom: 5%;
+    margin: 10%;
 
 
     .project {
@@ -17,7 +18,7 @@
         margin: 10px;
         // width: 100px;
         // height: 100px;
-        box-shadow: 0px 5px 10px $dark-sky-blue;
+        box-shadow: 0px 5px 10px $main-shadow;
     }
 
     .project:hover {

@@ -1,6 +1,6 @@
 import React from "react";
 //import styles from './../styles/project3.scss';
 
-const WorkRelated = () => <div>Work Related</div>;
+const MPP = () => <div>MPP</div>;
 
-export default WorkRelated;
+export default MPP;

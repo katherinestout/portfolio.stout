@@ -1,6 +1,6 @@
 import React from "react";
 //import styles from './../styles/drinkerator.scss';
 
-const Drinkerator = () => <div>Drinkerator</div>;
+const CrewCuts = () => <div>crewCuts</div>;
 
-export default Drinkerator;
+export default CrewCuts;

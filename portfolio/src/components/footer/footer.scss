@@ -3,7 +3,7 @@
 
     footer {
        
-        background-color: $opaque-white;
+        background-color: $main-shadow;
         color: $white;
         // position: absolute;
         bottom: 0;
@@ -16,8 +16,8 @@
         .footer-items {
             list-style-type: none;
             .footer-item {
-                text-align: left;
-                margin-left: 15%;
+                text-align: center;
+                // margin-left: 15%;
                 line-height: 180%;
                 
                 a:link{

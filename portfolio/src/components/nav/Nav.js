@@ -9,9 +9,9 @@ import {
 } from "react-router-dom";
 import MainPage from "./../../routes/projects/components/mainPage";
 import AboutPage from "./../../routes/about/components/aboutPage";
-import Drinkerator from "./../../routes/projects/components/drinkerator";
-import Gallery from "./../../routes/projects/components/gallery";
-import WorkRelated from "./../../routes/projects/components/workRelated";
+import CrewCuts from "./../../routes/projects/components/crewCuts";
+import ArtGallery from "./../../routes/projects/components/artGallery";
+import MPP from "./../../routes/projects/components/mpp";
 import Portfolio from "./../../routes/projects/components/portfolio";
 
 const Nav = () => {
@@ -68,9 +68,9 @@ const Nav = () => {
             <Route exact path="/work" component={MainPage} />
             <Route path="/about" component={AboutPage} />
 
-            <Route path="/drinkerator" component={Drinkerator} />
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/workrelated" component={WorkRelated} />
+            <Route path="/crewcuts" component={CrewCuts} />
+            <Route path="/artgallery" component={ArtGallery} />
+            <Route path="/mpp" component={MPP} />
             <Route path="/portfolio" component={Portfolio} />
           </Switch>
         </div>
