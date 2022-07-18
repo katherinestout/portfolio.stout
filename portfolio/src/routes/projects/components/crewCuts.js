@@ -132,7 +132,7 @@ Low-Fidelity Prototype
 
 User Testing
 
-High-Fidelity Prototype
+High-Fidelity Prototypes
 
 
        </div>
