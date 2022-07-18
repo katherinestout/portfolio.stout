@@ -1,28 +1,30 @@
 @import "./../../global/sass/colors";
 
-header {
-    line-height: 80%;
-    // position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 15%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    // width: 100%;
-    // overflow: hidden;
-    // margin: 5px;
-    // position: absolute;
-    h1 {
-        color: $main-shadow;;
-        text-transform: uppercase;
-        font-weight: 1;
-        font-size: 50px;
-    }
-    
-    h2 {
-        color: $main-shadow;
-        text-transform: uppercase;
-        font-weight: 1;
-        font-size: 30px;
-    }
+.headerGraphic {
+    width: 100%;
+    max-height: 1000px;
 }
+
+// header {
+//     line-height: 80%;
+
+//     top: 0;
+//     left: 0;
+//     // margin-left: 15%;
+//     // margin-top: 10%;
+//     // margin-bottom: 5%;
+   
+//     h1 {
+//         color: $main-shadow;;
+//         text-transform: uppercase;
+//         font-weight: 1;
+//         font-size: 50px;
+//     }
+    
+//     h2 {
+//         color: $main-shadow;
+//         text-transform: uppercase;
+//         font-weight: 1;
+//         font-size: 30px;
+//     }
+// }
