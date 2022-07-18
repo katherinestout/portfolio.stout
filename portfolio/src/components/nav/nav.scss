@@ -2,7 +2,7 @@
 
 
     nav {
-        background-color: $opaque-white;
+        background-color: $white;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -56,7 +56,7 @@
             width: 25px;
             height: 3px;
             margin: 5px auto;
-            background-color: $white;
+            background-color: $main-shadow;
             transition: all 0.5s linear;
             transform-origin: 1px;
         }
