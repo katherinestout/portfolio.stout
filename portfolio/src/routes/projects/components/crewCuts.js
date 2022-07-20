@@ -80,10 +80,8 @@ const CrewCuts = () => (
               
               </div>
 
-          <div className="boldContent div4"> </div>
-          <div className="boldContent div5"> </div>
-          <div className="boldContent div6"> </div>
-          <div className="div7">    
+        
+          <div className="div4">    
       <p className="percents">80%</p>
        <p className="boldContent">
        Would
