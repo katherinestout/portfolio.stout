@@ -9,17 +9,28 @@
 }
 
 @mixin content {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 @mixin percents {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 @mixin boldContent {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+    margin: 0;
+}
+
+@mixin center {
+    text-align: center;
+    margin: 0;
+}
+@mixin  bold {
+    font-weight: bold;
+    margin: 0;
 }

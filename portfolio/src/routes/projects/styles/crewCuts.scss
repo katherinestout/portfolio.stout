@@ -6,6 +6,13 @@
 
 .crewCutsBody {
     background-color: #E5FFEB;
+
+
+//Responsive- Small screens
+    .crewCutsContent { 
+        margin-left: 5%;
+        margin-right: 5%;
+  
     .header {
         @include projectHeaders;
     }
@@ -23,6 +30,14 @@
         @include boldContent;
     }
 
+    .center {
+        @include center;
+    }
+
+    .bold {
+        @include bold;
+    }
+
     .wrapper-1 {
         
         display: grid; 
@@ -34,7 +49,7 @@
            
              grid-area: 1 / 1 / 2 / 2;
             ul {list-style-type: none;
-               
+               font-weight: bold;
             }
             }
         .div2 {
@@ -83,4 +98,72 @@
         .div4 { grid-area: 2 / 3 / 3 / 4; } 
     }
 
+
+
+    .wrapper-5 { 
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+
+
+        
+
+        .div1 { grid-area: 1 / 1 / 2 / 2; } 
+        .div2 { grid-area: 1 / 2 / 2 / 4; } 
+        .div3 { grid-area: 2 / 1 / 3 / 2; 
+        
+            ul {list-style-type: none; 
+                margin: 0;
+                .personaName {font-weight: bold;}
+            }
+        } 
+        .div4 { grid-area: 2 / 2 / 3 / 4; 
+        
+        } 
+        }
+
+        .talkBubbles {
+            height: 500px;
+            margin: 0;
+        }
+        .wrapper-6 { 
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr); 
+            grid-template-rows: repeat(3, 1fr); 
+            grid-column-gap: 0px;
+            grid-row-gap: 0px; 
+            
+            .div1 { grid-area: 1 / 1 / 2 / 2; } 
+            .div2 { grid-area: 1 / 2 / 2 / 4; } 
+            .div3 { grid-area: 2 / 1 / 3 / 2; } 
+            .div4 { grid-area: 2 / 2 / 3 / 4; } 
+            .div5 { grid-area: 3 / 1 / 4 / 2; } 
+            .div6 { grid-area: 3 / 2 / 4 / 4; } 
+        }
+        .wrapper-7 {
+            .div1 {
+
+            }
+            // .div2 {
+            //     align-content: center;
+              
+            // }
+            .ccsitemap {
+                height: 500px;
+                width: 500px;
+                align-content: center;
+                
+            }
+          
+        }
+
+    }
 }
+
+//Responsive - Medium Screens
+// @media only screen and (min-width: 600px) {}
+
+//Responsive - Large screens
+//   @media only screen and (min-width: 768px) {}
