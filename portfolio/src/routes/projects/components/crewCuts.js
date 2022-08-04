@@ -1,8 +1,14 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import styles from "./../styles/crewCuts.scss";
 import ccGraphic from "./../../../svg/crewCuts/crewcutssq.png";
 import talkBubbles from "./../../../svg/crewCuts/talkBubbles.png";
-import sitemap from "./../../../svg/crewCuts/sitemapCrewCuts.png"
+import sitemap from "./../../../svg/crewCuts/sitemapCrewCuts.png";
+import lowFiPrototype from "./../../../svg/crewCuts/lowFiScreenshot.png";
+import lowFi from "./../../../svg/crewCuts/lowFi.png";
+import highFiPrototype from "./../../../svg/crewCuts/highFiScreenshot.png";
+import highFi from "./../../../svg/crewCuts/highFi.png";
+import ccWireframes from "./../../../svg/crewCuts/ccWireframes.png";
 
 const CrewCuts = () => (
   <div className={styles}>
@@ -181,12 +187,57 @@ const CrewCuts = () => (
       <div className = "wrapper-7">
           <div className="header div1"> Sitemap </div>
           <div div2> <img src={sitemap} alt="sitemapcc" className="ccsitemap" /></div>
-          <div className="header">Wireframes</div>
-          <div></div>
-          <div className="header">Low-Fidelity Prototype</div>
-          <div></div>
-          <div className="header">High-Fidelity Prototype</div>
-          <div></div>
+          <div className="header div3">Wireframes</div>
+          <div className= "div4">
+          <img src = {ccWireframes} alt = "ccWireframes" className="wireframes"/>
+         
+          </div>
+          <div className="header div5">Low-Fidelity Prototype</div>
+          <div className = "div6">
+              <img src = {lowFiPrototype} alt="lowfi" className="lowFiPrototype"/>
+              <img src = {lowFi} alt="lowFi2" className="lowFi"/>
+              
+              <Link
+                  to={{
+                    pathname:
+                      "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen",
+                  }}
+                  target="_blank"
+                > Click here to see the low-fidelity prototype of CrewCuts Mobile App here!
+                </Link>
+                <Link
+                  to={{
+                    pathname:
+                      "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/grid",
+                  }}
+                  target="_blank"
+                > Click here to see all screens!
+                </Link>
+           
+          </div>
+          <div className="header div7">High-Fidelity Prototype</div>
+          <div className = "div8">
+          <img src = {highFiPrototype} alt = "highfi" className="highFiPrototype"/>
+           <img src = {highFi} alt = "highfi2" className="highFi"/>
+              
+           <Link
+                  to={{
+                    pathname:
+                      "https://xd.adobe.com/view/d8470e34-f515-4044-8a05-7127faf10f3f-8d14/?fullscreen",
+                  }}
+                  target="_blank"
+                > Click here to see the high-fidelity prototype of CrewCuts Mobile App here!
+                </Link>
+           <Link
+                  to={{
+                    pathname:
+                      "https://xd.adobe.com/view/d8470e34-f515-4044-8a05-7127faf10f3f-8d14/grid/",
+                  }}
+                  target="_blank"
+                > Click here to see all screens!
+                </Link>
+          </div>
+
 
       </div>
     </div>
