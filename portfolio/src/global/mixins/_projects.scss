@@ -10,6 +10,7 @@
 
 @mixin content {
     font-size: 20px;
+    margin-top: 3%;
 }
 
 @mixin percents {
@@ -23,7 +24,7 @@
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    margin: 0;
+    margin-top: 3%;
 }
 
 @mixin center {
@@ -32,5 +33,6 @@
 }
 @mixin  bold {
     font-weight: bold;
-    margin: 0;
+    margin-top: 5%;
+
 }

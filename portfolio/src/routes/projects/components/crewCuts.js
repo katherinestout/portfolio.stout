@@ -45,10 +45,15 @@ const CrewCuts = () => (
           </div>
         </div>
       </div>
-      <div className="wrapper-2">
+
+      
+      <div className="wrapper-2"> 
+          
         <div className="header div1">Problem</div>
+
         <div className="div2">
         <div className = "subHeader">Distrust </div>
+
         <div className = "content">
           I first began empathizing with users. I learned that clients
           want to easily book a lawn care service online from a proven reputable
@@ -58,8 +63,11 @@ const CrewCuts = () => (
           seek services from larger companies.
           </div>
         </div>
-        <div className="header div3">Solution</div>
-        <div className="div4">
+        </div>
+
+        <div className = "wrapper-3"> 
+        <div className="header div1">Solution</div>
+        <div className="div2">
         <div className = "subHeader">Display Previous Work and Reviews </div>
         <div className = "content">
           The goal is to build a lawn-care
@@ -67,20 +75,23 @@ const CrewCuts = () => (
           work, so that they can book lawn-services at their convenience.
           </div>
         </div>
-        <div className="header div5">Research</div>
-        <div className="div6">
+        </div>
+
+        <div className="wrapper-4">
+        <div className="header div1">Research</div>
+        <div className="div2">
         <div className = "subHeader">Homeowner Survey </div>
         <div className = "content">
         I took a survey of 10 homeowners in the Silver
           Spring, MD area. Specifically all of these homeowners had yards. Five
           of homeowners were over the age of 50, and the other five homeowners
           were under the age of 50.
+      
         </div>
-       
         </div>
       </div>
 
-      <div className="wrapper-3">
+      <div className="wrapper-5">
           <div className="div1">
               <p className="percents ">70% </p>
               <p className = "boldContent">Would book online vs call</p>
@@ -125,7 +136,7 @@ const CrewCuts = () => (
 
       </div>
  
-      <div className="wrapper-4 center">
+      <div className="wrapper-6 center">
         <div className="header div1">Key themes found in survey:</div>
         <div className="subHeader div2">Timeliness</div>
         <div className="subHeader div3">Trustworthiness</div>
@@ -133,7 +144,7 @@ const CrewCuts = () => (
       </div>
     
   
-      <div className="wrapper-5">
+      <div className="wrapper-7">
       <div className="div1 header">
       Persona
       </div>
@@ -158,7 +169,7 @@ const CrewCuts = () => (
         <img src = {talkBubbles} alt="talkbubbles" className="talkBubbles" />
         </div>
     
-     <div className="wrapper-6">
+     <div className="wrapper-8">
      <div className="div1 header">
      Needs 
      </div>
@@ -184,13 +195,14 @@ const CrewCuts = () => (
         
 
       
-      <div className = "wrapper-7">
+      <div className = "wrapper-9">
 
 
           <div className = "parent-1">
           <div className="header div1"> Sitemap </div>
           <div className="div2"></div>
-          {/* <div classname= "div3"> <img src={sitemap} alt="sitemapcc" className="sitemap"/></div> */}
+          <div className= "div3"> <img src={sitemap} alt="sitemapcc" className="sitemap" /></div>
+         
           </div>
 
           <div className = "parent-2">
