@@ -25,8 +25,7 @@
             
             
             a {
-            color: $main-shadow;
-            opacity: 1;
+            color: $main-font-color;
             text-decoration: none; 
             text-transform: lowercase;
             padding: 1rem;
@@ -34,7 +33,7 @@
             }
             a:hover {
                 color: $main-background;
-                background-color: $main-shadow;
+                background-color: $main-font-color;
                 padding: 1rem;
                 transition: 0.5s;
             }
@@ -56,7 +55,7 @@
             width: 25px;
             height: 3px;
             margin: 5px auto;
-            background-color: $main-shadow;
+            background-color: $main-font-color;
             transition: all 0.5s linear;
             transform-origin: 1px;
         }
@@ -105,7 +104,7 @@
                     text-align: center;
                    
                     a {
-                        color: $main-shadow;
+                        color: $main-font-color;
                         text-decoration: none; 
                         text-transform: lowercase;
                         display: block;
@@ -116,7 +115,7 @@
                         }
                         a:hover {
                             color: $main-background;
-                            background-color: $main-shadow;
+                            background-color: $main-font-color;
                             transition: 0.5s;
                             display: block;
                            

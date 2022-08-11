@@ -185,19 +185,25 @@ const CrewCuts = () => (
 
       
       <div className = "wrapper-7">
+
+
+          <div className = "parent-1">
           <div className="header div1"> Sitemap </div>
-          <div div2> <img src={sitemap} alt="sitemapcc" className="ccsitemap" /></div>
-          <div className="header div3">Wireframes</div>
-          <div className= "div4">
-          <img src = {ccWireframes} alt = "ccWireframes" className="wireframes"/>
-         
+          <div className="div2"></div>
+          {/* <div classname= "div3"> <img src={sitemap} alt="sitemapcc" className="sitemap"/></div> */}
           </div>
-          <div className="header div5">Low-Fidelity Prototype</div>
-          <div className = "div6">
-              <img src = {lowFiPrototype} alt="lowfi" className="lowFiPrototype"/>
-              <img src = {lowFi} alt="lowFi2" className="lowFi"/>
-              
-              <Link
+
+          <div className = "parent-2">
+          <div className="header div1">Wireframes</div>
+          <div className="div2"></div>
+          <div className = "div3"><img src = {ccWireframes} alt = "ccWireframes" className="wireframes"/></div>
+         </div>
+
+          <div className = "parent-3">
+          <div className="header div1">Low-Fidelity Prototype</div>
+          <div className="div2"><img src = {lowFi} alt="lowFi2" className="lowFi"/></div>
+          <div className="div3"><img src = {lowFiPrototype} alt="lowfi" className="lowFiPrototype"/></div>
+          <div className="div4">    <Link
                   to={{
                     pathname:
                       "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen",
@@ -212,15 +218,16 @@ const CrewCuts = () => (
                   }}
                   target="_blank"
                 > Click here to see all screens!
-                </Link>
-           
+                </Link></div>
+
           </div>
-          <div className="header div7">High-Fidelity Prototype</div>
-          <div className = "div8">
-          <img src = {highFiPrototype} alt = "highfi" className="highFiPrototype"/>
-           <img src = {highFi} alt = "highfi2" className="highFi"/>
-              
-           <Link
+      
+
+          <div className = "parent-4">
+          <div className="header div1">High-Fidelity Prototype</div>
+          <div className = "div2"> <img src = {highFi} alt = "highfi2" className="highFi"/></div>
+          <div className = "div3">  <img src = {highFiPrototype} alt = "highfi" className="highFiPrototype"/></div>
+          <div className = "div4">    <Link
                   to={{
                     pathname:
                       "https://xd.adobe.com/view/d8470e34-f515-4044-8a05-7127faf10f3f-8d14/?fullscreen",
@@ -235,9 +242,13 @@ const CrewCuts = () => (
                   }}
                   target="_blank"
                 > Click here to see all screens!
-                </Link>
-          </div>
-
+                </Link></div>
+       
+         
+          
+              
+       
+                </div>
 
       </div>
     </div>

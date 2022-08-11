@@ -142,37 +142,86 @@
             .div5 { grid-area: 3 / 1 / 4 / 2; } 
             .div6 { grid-area: 3 / 2 / 4 / 4; } 
         }
+
+
         .wrapper-7 {
-            .div1 {
+            
+
+
+           
+            .parent-1 {
+                display: grid; 
+                grid-template-columns: repeat(3, 1fr); 
+                grid-template-rows: .25fr repeat(2, 1fr); 
+                grid-column-gap: 0px;
+                grid-row-gap: 0px; 
+                .div1 { grid-area: 1 / 1 / 2 / 4; } 
+                .div2 { grid-area: 2 / 1 / 4 / 2; } 
+                .div3 { grid-area: 2 / 2 / 4 / 4; } 
+                .sitemap {
+           
+                    // width: 500px;
+                    // height: 500px;
+                    // margin: 0;
+                    
+                }
 
             }
-            // .div2 {
-            //     align-content: center; test
-              
-            // }
-            .ccsitemap {
-                height: 500px;
-                width: 500px;
-                // align-content: center;
-                
+            .parent-2 {
+                display: grid; 
+                grid-template-columns: repeat(3, 1fr); 
+                grid-template-rows: .25fr repeat(2, 1fr); 
+                grid-column-gap: 0px;
+                grid-row-gap: 0px; 
+                .div1 { grid-area: 1 / 1 / 2 / 4; } 
+                .div2 { grid-area: 2 / 1 / 4 / 2; } 
+                .div3 { grid-area: 2 / 2 / 4 / 4; 
+                    .wireframes {
+                        width: 500px;
+                    }
+                } 
+               
             }
-            .lowFiPrototype{
-                // height: 500px;
-                width: 1000px;
-                // align-content: center;
-            }
-            .lowFi {
-                width: 500px;
-            }
-            .highFiPrototype {
-                width: 1000px;
+            .parent-3 {
+                display: grid; 
+                grid-template-columns: repeat(3, 1fr); 
+                grid-template-rows: .25fr repeat(2, 1fr); 
+                grid-column-gap: 0px;
+                grid-row-gap: 0px; 
 
+                .div1 { grid-area: 1 / 1 / 2 / 4; 
+                } 
+                .div2 { grid-area: 2 / 1 / 4 / 2; } 
+                .div3 { grid-area: 2 / 2 / 3 / 4; } 
+                .div4 { grid-area: 3 / 2 / 4 / 4; } 
+                .lowFiPrototype{
+          
+                    width: 1000px;
+                   
+                }
+                .lowFi {
+                    width: 500px;
+                }
             }
-            .highFi {
-                width: 500px;
-            }
-            .ccWireframes {
-                height: 500px;
+
+            .parent-4 {
+                display: grid; 
+                grid-template-columns: repeat(3, 1fr); 
+                grid-template-rows: .25fr repeat(2, 1fr); 
+                grid-column-gap: 0px;
+                grid-row-gap: 0px; 
+
+                .div1 { grid-area: 1 / 1 / 2 / 4; 
+                } 
+                .div2 { grid-area: 2 / 1 / 4 / 2; } 
+                .div3 { grid-area: 2 / 2 / 3 / 4; } 
+                .div4 { grid-area: 3 / 2 / 4 / 4; } 
+                .highFiPrototype {
+                    width: 1000px;
+                }
+                .highFi {
+                    width: 500px;
+                }
             }
           
         }
