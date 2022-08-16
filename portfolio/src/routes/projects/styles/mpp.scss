@@ -1,0 +1,97 @@
+@import "./../../../global/mixins/projects";
+@import "./../../../global//sass/colors";
+
+// .ccGraphic {
+//     height: 300px;
+// }
+
+.mppBody {
+    background-color: $mpp-body;
+    color: black;
+
+
+//Responsive- Small screens
+    .mppContent { 
+        margin-left: 5%;
+        margin-right: 5%;
+  
+    .header {
+        @include projectHeaders;
+    }
+    .subHeader{
+        @include projectSubHeaders;
+    }
+    .content {
+        @include content;
+    }
+    .percents {
+        @include percents;
+    }
+
+    .boldContent {
+        @include boldContent;
+    }
+
+    .center {
+        @include center;
+    }
+
+    .bold {
+        @include bold;
+    }
+
+
+    .wrapper-1 {
+     
+        // margin-bottom: 5%;
+        margin-top: 5%;
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: 1fr; 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+        .div1{
+   
+             grid-area: 1 / 1 / 2 / 2;
+            ul {list-style-type: none;
+               font-weight: bold;
+            }
+            }
+        .div2 {
+          
+            grid-area: 1 / 2 / 2 / 4;
+        .marginDiv {
+            margin-top: 5%;
+        }
+        }
+    }
+
+
+
+    .wrapper-2 {
+        margin-top: 5%;
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: 1fr; 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+       .div1{grid-area: 1 / 1 / 2 / 2;}
+       .div2 {grid-area: 1 / 2 / 2 / 4;}
+}
+
+.wrapper-3 {
+    margin-top: 5%;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+   .div1{grid-area: 1 / 1 / 2 / 2;}
+   .div2 {grid-area: 1 / 2 / 2 / 4;}
+}
+
+
+
+
+
+}}

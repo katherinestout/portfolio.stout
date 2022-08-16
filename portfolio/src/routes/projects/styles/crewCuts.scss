@@ -1,11 +1,12 @@
 @import "./../../../global/mixins/projects";
+@import "./../../../global//sass/colors";
 
 .ccGraphic {
     height: 300px;
 }
 
 .crewCutsBody {
-    background-color: #E5FFEB;
+    background-color: $crewcuts-body;
 
 
 //Responsive- Small screens

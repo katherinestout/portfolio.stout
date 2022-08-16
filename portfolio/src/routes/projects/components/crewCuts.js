@@ -35,7 +35,7 @@ const CrewCuts = () => (
             </ul>
           </div>
           <div className="div2">
-            <div className="header">Background </div>
+            <div className="subHeader">Background </div>
             <div className="content">
               Crew Cuts is a small business ran by two brothers in Silver
               Spring, MD, offering various services such as lawn care, moving,
@@ -75,7 +75,7 @@ const CrewCuts = () => (
         </div>
 
         <div className="wrapper-4">
-          <div className="header div1">Research</div>
+          <div className="header div1">User Research</div>
           <div className="div2">
             <div className="subHeader">Homeowner Survey </div>
             <div className="content">
