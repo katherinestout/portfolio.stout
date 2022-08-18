@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./../styles/mpp.scss";
+import styles from "./../../styles/mpp.scss";
+import MppNav from "./mppNav";
 
 const MPP = () => (
   <div className={styles}>
@@ -66,28 +67,6 @@ const MPP = () => (
           </div>
         </div>
 
-        <div className="wrapper-3">
-          <div className="darkHeader div1">Solution</div>
-          <div className="div2">
-            <div className="darkSubHeader">
-              {" "}
-              Comprehensive Facts and Figures{" "}
-            </div>
-            <div className="content">
-              The UI UX team decided we needed to really break it down into bite
-              sized pieces, so any user who came to the site could comprehend
-              MPP. Each of the particular pages we created were to direct users
-              to the (future) data visualization tool.
-              <br />
-              <br />I provided all of the graphics, icons, and the overall
-              layout and design of the About, Part A, Part B, Part D, and DEMPOS
-              pages. I also created graphics and CSS animations for the home
-              page. For graphics and icons I used Affinity Designer (similar to
-              illustrator), and for layouts and wireframes I used Adobe XD.{" "}
-            </div>
-          </div>
-        </div>
-
         <div className="mppContent2">
           <div className="wrapper-4">
             <div className="lightHeader div1">User Research</div>
@@ -106,6 +85,33 @@ const MPP = () => (
             </div>
           </div>
         </div>
+
+        <div className="mppContent3">
+          <div className="wrapper-3">
+            <div className="darkHeader div1">Solution</div>
+            <div className="div2">
+              <div className="darkSubHeader">
+                {" "}
+                Comprehensive Facts and Figures{" "}
+              </div>
+              <div className="content">
+                The UI UX team decided we needed to really break it down into
+                bite sized pieces, so any user who came to the site could
+                comprehend MPP. Each of the particular pages we created were to
+                direct users to the (future) data visualization tool.
+                <br />
+                <br />I provided all of the graphics, icons, and the overall
+                layout and design of the About, Part A, Part B, Part D, and
+                DEMPOS pages. I also created graphics and CSS animations for the
+                home page. For graphics and icons I used Affinity Designer
+                (similar to illustrator), and for layouts and wireframes I used
+                Adobe XD.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <MppNav />
       </div>
     </div>
   </div>

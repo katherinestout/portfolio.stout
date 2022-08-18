@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./../styles/crewCuts.scss";
-import ccGraphic from "./../../../svg/crewCuts/crewcutssq.png";
-import talkBubbles from "./../../../svg/crewCuts/talkBubbles.png";
-import sitemap from "./../../../svg/crewCuts/sitemapCrewCuts.png";
-import lowFiPrototype from "./../../../svg/crewCuts/lowFiScreenshot.png";
-import lowFi from "./../../../svg/crewCuts/lowFi.png";
-import highFiPrototype from "./../../../svg/crewCuts/highFiScreenshot.png";
-import highFi from "./../../../svg/crewCuts/highFi.png";
-import ccWireframes from "./../../../svg/crewCuts/ccWireframes.png";
+import styles from "./../../styles/crewCuts.scss";
+import ccGraphic from "./../../../../svg/crewCuts/crewcutssq.png";
+import talkBubbles from "./../../../../svg/crewCuts/talkBubbles.png";
+import sitemap from "./../../../../svg/crewCuts/sitemapCrewCuts.png";
+import lowFiPrototype from "./../../../../svg/crewCuts/lowFiScreenshot.png";
+import lowFi from "./../../../../svg/crewCuts/lowFi.png";
+import highFiPrototype from "./../../../../svg/crewCuts/highFiScreenshot.png";
+import highFi from "./../../../../svg/crewCuts/highFi.png";
+import ccWireframes from "./../../../../svg/crewCuts/ccWireframes.png";
 
 const CrewCuts = () => (
   <div className={styles}>

@@ -87,37 +87,46 @@
        .div1{grid-area: 1 / 1 / 2 / 2;}
        .div2 {grid-area: 1 / 2 / 2 / 4;}
 }
-
-.wrapper-3 {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: 1fr; 
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; 
-   .div1{grid-area: 1 / 1 / 2 / 2;}
-   .div2 {grid-area: 1 / 2 / 2 / 4;}
-}
     }
 
+    .mppContent2 {
+        background-color: $mpp-dark;;
+        .wrapper-4 {
+            margin-left: 5%;
+            margin-right: 5%;
+            .p1 {
+                font-style: italic;
+            }
+            .p2 {
+                font-weight: bold;
+                font-size: 22px;
+                color: $mpp-light;
+            }
+        }
+    }
 
-
-.mppContent2 {
-    background-color: $mpp-dark;;
-    .wrapper-4 {
+.mppContent3 {
+    background-color: $white;
+    color: black;
+    .wrapper-3 {
         margin-left: 5%;
         margin-right: 5%;
-        .p1 {
-            font-style: italic;
-        }
-        .p2 {
-            font-weight: bold;
-            font-size: 22px;
-            color: $mpp-light;
-        }
+        margin-top: 5%;
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: 1fr; 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+       .div1{grid-area: 1 / 1 / 2 / 2;}
+       .div2 {grid-area: 1 / 2 / 2 / 4;}
     }
+        
+
 }
+
+
+
+
+
 
 }
