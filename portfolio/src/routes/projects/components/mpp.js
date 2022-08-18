@@ -69,7 +69,10 @@ const MPP = () => (
         <div className="wrapper-3">
           <div className="darkHeader div1">Solution</div>
           <div className="div2">
-            <div className="darkSubHeader"> Comprehensive Facts and Figures </div>
+            <div className="darkSubHeader">
+              {" "}
+              Comprehensive Facts and Figures{" "}
+            </div>
             <div className="content">
               The UI UX team decided we needed to really break it down into bite
               sized pieces, so any user who came to the site could comprehend
@@ -84,26 +87,25 @@ const MPP = () => (
             </div>
           </div>
         </div>
-        
-<div className = "mppContent2">
-        <div className = "wrapper-4">
-          <div className="lightHeader div1">User Research</div>
-          <div className="div2">
-            <div className="lightSubHeader"> ?? </div>
-            <div className="lightContent">
-              The team was asked to use the CMS site (statistical graphs and
-              charts) to find useful and tangible data regarding payments and
-              utilization of Medicare services.
-            
-              <p className = "p1">During this time we put ourselves in the users shoes in order to
-              ask:</p>
-              
-              <p className = "p2">What are the issues with the CMS site?</p>
+
+        <div className="mppContent2">
+          <div className="wrapper-4">
+            <div className="lightHeader div1">User Research</div>
+            <div className="div2">
+              <div className="lightSubHeader"> ?? </div>
+              <div className="lightContent">
+                The team was asked to use the CMS site (statistical graphs and
+                charts) to find useful and tangible data regarding payments and
+                utilization of Medicare services.
+                <p className="p1">
+                  During this time we put ourselves in the users shoes in order
+                  to ask:
+                </p>
+                <p className="p2">What are the issues with the CMS site?</p>
+              </div>
             </div>
           </div>
         </div>
-        </div>
-
       </div>
     </div>
   </div>
