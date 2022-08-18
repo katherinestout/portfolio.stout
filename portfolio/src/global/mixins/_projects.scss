@@ -1,16 +1,53 @@
+@import "./../sass//colors";
+
+//headers
 @mixin projectHeaders {
     font-weight: lighter;
     font-size: 30px;
 }
+
+@mixin lightMppHeaders {
+    font-weight: lighter;
+    font-size: 30px;
+    color: $mpp-light;
+}
+
+@mixin darkMppHeaders {
+    font-weight: lighter;
+    font-size: 30px;
+    color: $mpp-dark;
+}
+
+// subheaders
 
 @mixin projectSubHeaders {
     font-weight: bold;
     font-size: 30px;
 }
 
+@mixin lightMppSubHeaders {
+    font-weight: bold;
+    font-size: 30px; 
+    color: $mpp-light;
+}
+
+@mixin darkMppSubHeaders {
+    font-weight: bold;
+    font-size: 30px;
+    color: $mpp-dark;
+}
+
+// content
+
 @mixin content {
     font-size: 20px;
     margin-top: 3%;
+}
+
+@mixin lightMppContent {
+    font-size: 20px;
+    margin-top: 3%;
+    color: $white; 
 }
 
 @mixin percents {

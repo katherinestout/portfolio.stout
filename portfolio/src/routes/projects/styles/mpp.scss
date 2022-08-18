@@ -6,44 +6,50 @@
 // }
 
 .mppBody {
-    background-color: $mpp-body;
-    color: black;
-
-
 //Responsive- Small screens
-    .mppContent { 
-        margin-left: 5%;
-        margin-right: 5%;
+   
   
-    .header {
-        @include projectHeaders;
+    .lightHeader {
+        @include lightMppHeaders;
+        
     }
-    .subHeader{
-        @include projectSubHeaders;
+
+    .darkHeader {
+        @include darkMppHeaders;
     }
+    
+    .lightSubHeader{
+        @include lightMppSubHeaders;
+    }
+
+    .darkSubHeader {
+        @include darkMppSubHeaders;
+    }
+
     .content {
         @include content;
-    }
-    .percents {
-        @include percents;
     }
 
     .boldContent {
         @include boldContent;
     }
 
+    .lightContent {
+        @include lightMppContent;
+    }
+
     .center {
         @include center;
     }
 
-    .bold {
-        @include bold;
-    }
 
-
+    .mppContent1 { 
+        background-color: $white;
+        color: black;
+        
     .wrapper-1 {
-     
-        // margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-top: 5%;
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
@@ -55,6 +61,7 @@
              grid-area: 1 / 1 / 2 / 2;
             ul {list-style-type: none;
                font-weight: bold;
+               color: $mpp-dark;
             }
             }
         .div2 {
@@ -69,6 +76,8 @@
 
 
     .wrapper-2 {
+        margin-left: 5%;
+        margin-right: 5%;
         margin-top: 5%;
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
@@ -80,6 +89,8 @@
 }
 
 .wrapper-3 {
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 5%;
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
@@ -89,9 +100,24 @@
    .div1{grid-area: 1 / 1 / 2 / 2;}
    .div2 {grid-area: 1 / 2 / 2 / 4;}
 }
+    }
 
 
 
+.mppContent2 {
+    background-color: $mpp-dark;;
+    .wrapper-4 {
+        margin-left: 5%;
+        margin-right: 5%;
+        .p1 {
+            font-style: italic;
+        }
+        .p2 {
+            font-weight: bold;
+            font-size: 22px;
+            color: $mpp-light;
+        }
+    }
+}
 
-
-}}
+}
