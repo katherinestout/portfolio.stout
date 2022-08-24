@@ -13,6 +13,11 @@ const AboutPage = () => (
       really enjoy is the visual aspect of User Experience Design, as it has
       such an impact overall on what we create.
     </p>
+
+    <p>
+      A link to my previous portfolio (2019): 
+      https://katherinestout.github.io/KatStout_ReactPortfolio/
+    </p>
   </div>
 );
 export default AboutPage;
