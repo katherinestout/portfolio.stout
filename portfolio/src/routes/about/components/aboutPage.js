@@ -15,7 +15,7 @@ const AboutPage = () => (
     </p>
 
     <p>
-      A link to my previous portfolio (2019): 
+      A link to my previous portfolio (2019):
       https://katherinestout.github.io/KatStout_ReactPortfolio/
     </p>
   </div>
