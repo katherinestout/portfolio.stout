@@ -139,47 +139,68 @@ const ArtGallery = () => (
         </div>
 
         <div className="wrapper-8">
-          <div className="header">
+          <div className="subHeader div1">
             Starting The Design: Ideate, Prototype, and Test
           </div>
-          <div className="subHeader">Paper Wireframes</div>
-          <div>Paper wireframes IMAGE</div>
+          <div className="header div2">Paper Wireframes</div>
+          <div className="div3">Paper wireframes IMAGE</div>
 
-          <div>Digital Wireframes</div>
+          <div className="div4 header">Digital Wireframes</div>
 
-          <div>IMAGE WITH LABELS</div>
+          <div className="div5">IMAGE WITH LABELS</div>
 
-          <div>Low-Fidelity Prototypes</div>
-          <div>Image</div>
-          <div>
+          <div className="div6 header">Low-Fidelity Prototypes</div>
+         
+          <div className="div7">
             https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415{" "}
           </div>
+          </div>
 
-          <div> Usability Studies</div>
-          <div>
+            <div className = "wrapper-9">
+           
+          <div className="div1 header"> Usability Studies</div>
+          <div className="div2">
             I conducted two rounds of usability studies. Findings from the first
             study helped guide the designs from wireframes to mockups. The
             second study used a high fidelity prototype and revealed what
-            aspects of the mockups needed refining. Round One Findings: 1.Users
-            want to easily find what art They are looking for. 2. Users want to
-            be able to view art in Great detail. Round Two Findings: 1. Users
+            aspects of the mockups needed refining. 
+            </div>
+            <div className="div3">
+            Round One Findings: 
+            <br/>
+            1.Users
+            want to easily find what art They are looking for. 
+            <br/>
+            2. Users want to
+            be able to view art in Great detail. 
+            </div>
+            <div className="div4">
+            Round Two Findings: 
+            <br/>
+            1. Users
             want to be able to be directed somewhere after filling out contact
-            form. 2. Users want to get a confirmation email.
+            form. 
+            <br/>
+            2. Users want to get a confirmation email.
+            </div>
           </div>
-        </div>
-
-        <div className="wrapper-9">
-          <div>Refining the Design</div>
-          <div>High-Fidelity Prototype</div>
-          <div>
-            https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455
-          </div>
-        </div>
 
         <div className="wrapper-10">
-          <div>User Testing</div>
-          <div>Accessibility Considerations</div>
-          <div>BEFORE AND AFTER</div>
+          <div className = "div1 subHeader">Refining the Design</div>
+          <div className = "div2 header">High-Fidelity Prototype</div>
+          <div className = "div3">
+            https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455
+          </div>
+          <div className = "div4">
+                text 
+          </div>
+        </div>
+
+        <div className="wrapper-11">
+          <div className = "div1 subHeader">User Testing</div>
+          <div className = "div2 header">Accessibility Considerations</div>
+          <div className = "div3">BEFORE</div>
+          <div className ="div4">AFTER</div>
         </div>
       </div>
     </div>

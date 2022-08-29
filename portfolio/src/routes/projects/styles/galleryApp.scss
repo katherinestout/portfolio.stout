@@ -38,7 +38,7 @@
 
     .wrapper-1 {
 
-        margin-top: 5%;
+        margin-top: 10%;
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
         grid-template-rows: 1fr; 
@@ -57,7 +57,7 @@
     }
 
     .wrapper-2 {
-            margin-top: 5%;
+        margin-top: 10%;
             display: grid; 
             grid-template-columns: repeat(3, 1fr); 
             grid-template-rows: 1fr; 
@@ -68,7 +68,7 @@
     }
 
     .wrapper-3 {
-        margin-top: 5%;
+        margin-top: 10%;
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
         grid-template-rows: 1fr; 
@@ -78,7 +78,7 @@
        .div2 {grid-area: 1 / 2 / 2 / 4;}
     }
     .wrapper-4 {
-        margin-top: 5%;
+        margin-top: 15%;
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(2, 1fr);
@@ -97,26 +97,41 @@ grid-row-gap: 0px;
 
 
     .wrapper-5 {
+        margin-top: 10%;
         text-align: center;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        // margin-top: 5%;
         .div1 { grid-area: 1 / 1 / 2 / 4; }
         .div2 { grid-area: 2 / 1 / 3 / 2; }
         .div3 { grid-area: 2 / 2 / 3 / 3; }
         .div4 { grid-area: 2 / 3 / 3 / 4; }
-        .div5 { grid-area: 3 / 1 / 4 / 2; }
-        .div6 { grid-area: 3 / 2 / 4 / 3; }
-        .div7 { grid-area: 3 / 3 / 4 / 4; }
-        .div8 { grid-area: 4 / 1 / 5 / 2; }
-        .div9 { grid-area: 4 / 2 / 5 / 3; }
-        .div10 { grid-area: 4 / 3 / 5 / 4; }
+        .div5 { grid-area: 3 / 1 / 4 / 2; 
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+        .div6 { grid-area: 3 / 2 / 4 / 3; 
+            margin-left: 3%;
+            margin-right: 3%;}
+        .div7 { grid-area: 3 / 3 / 4 / 4; 
+            margin-left: 3%;
+            margin-right: 3%;}
+        .div8 { grid-area: 4 / 1 / 5 / 2; 
+            margin-left: 3%;
+            margin-right: 3%;}
+        .div9 { grid-area: 4 / 2 / 5 / 3; 
+            margin-left: 3%;
+            margin-right: 3%;}
+        .div10 { grid-area: 4 / 3 / 5 / 4; 
+            margin-left: 3%;
+            margin-right: 3%;}
     }
 
     .wrapper-6 {
-        margin-top: 5%;
+        margin-top: 10%;
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
         grid-template-rows: 1fr; 
@@ -129,7 +144,7 @@ grid-row-gap: 0px;
 
 
     .wrapper-7 { 
-        margin-top: 5%;
+        margin-top: 10%;
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
         grid-template-rows: 1fr; 
@@ -139,18 +154,101 @@ grid-row-gap: 0px;
        .div2 {grid-area: 1 / 2 / 2 / 4;}}
        
         .wrapper-8 { 
-            
+            margin-top: 10%;
+            display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+
+.div1 { grid-area: 1 / 1 / 2 / 4; 
+}
+.div2 { grid-area: 2 / 1 / 3 / 2; 
+    margin-top: 5%;
+
+
+}
+.div3 { grid-area: 2 / 2 / 3 / 4; 
+    margin-top: 5%;}
+.div4 { grid-area: 3 / 1 / 4 / 2; 
+    margin-top: 5%;}
+.div5 { grid-area: 3 / 2 / 4 / 4;
+    margin-top: 5%; }
+.div6 { grid-area: 4 / 1 / 5 / 2; 
+    margin-top: 5%;}
+.div7 { grid-area: 4 / 2 / 5 / 4; 
+    margin-top: 5%;}
           
         }
 
 
         .wrapper-9 {
-       
+            margin-top: 5%;
+        
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                
+                
+                .div1 { grid-area: 1 / 1 / 2 / 3; 
+           
+                }
+                .div2 { grid-area: 1 / 3 / 2 / 7; 
+                    font-size: 20px;
+                    }
+                .div3 { grid-area: 2 / 1 / 3 / 4; 
+                    font-size: 20px;
+                    margin: 5%;
+                text-align: center;}
+                .div4 { grid-area: 2 / 4 / 3 / 7; 
+                    font-size: 20px;
+                    margin: 5%;
+                    text-align: center;
+                }
             
                
             
             
           
+        }
+
+        .wrapper-10 {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-top: 10%;
+            
+            
+            .div1 { grid-area: 1 / 1 / 2 / 7; }
+            .div2 { grid-area: 2 / 1 / 3 / 7; 
+                margin-top: 2%;
+            }
+            .div3 { grid-area: 3 / 1 / 4 / 4; text-align: center;margin-top: 5%;}
+            .div4 { grid-area: 3 / 4 / 4 / 7; text-align: center;margin-top: 5%;}
+        }
+
+        .wrapper-11 {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-top: 10%;
+            
+            
+            .div1 { grid-area: 1 / 1 / 2 / 7; }
+            .div2 { grid-area: 2 / 1 / 3 / 7; 
+                margin-top: 2%;
+               }
+            .div3 { grid-area: 3 / 1 / 4 / 4; 
+                text-align: center; margin-top: 5%;}
+            .div4 { grid-area: 3 / 4 / 4 / 7; 
+            text-align: center;margin-top: 5%;}
         }
 
     }
