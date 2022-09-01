@@ -4,11 +4,12 @@
 .project-container {
     display: grid;
     grid-template-columns: auto auto;
-    // margin-left: 5%;
-    // margin-right: 5%;
-    // margin-top: 5%;
-    // margin-bottom: 5%;
     margin: 10%;
+
+    a:link {
+        text-decoration: none;
+        
+    }
 
 
     .project {
@@ -16,15 +17,51 @@
         padding: 50px;
         background-color: $white;
         margin: 10px;
-        // width: 300px;
-        // height: 100px;
         box-shadow: 0px 5px 10px $main-shadow;
-        align-content: center;
 
-        .ccGraphic {
-            height: 200px;
-            width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+        .div1 {
+            text-align: right;
+            display: flex;
+            height: 100%;
+            div {
+                display: inline-block;
+                align-self: flex-end;
+                .project-title {
+                    font-size: 40px;
+                    color: black;
+                    
+                  
+                    
+                }
+        
+                .project-content {
+                    font-size: 20px;
+                    color: black;
+                    line-height: 50%;
+                   
+                
+            }
+            }
+
+         
         }
+
+       
+
+        .front-graphic {
+            height: 400px;
+            
+        }
+
+        
+
+       
     }
 
     .project:hover {
@@ -38,5 +75,18 @@
     .project-container {
         display: grid;
         grid-template-columns: auto;
+
+        .project {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: .5fr 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+
+            .div1 {
+                grid-area: 1 / 1 / 2 / 2;
+                text-align: left;
+            }
+        }
     }
 }
