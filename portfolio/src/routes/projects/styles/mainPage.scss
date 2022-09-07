@@ -76,10 +76,23 @@
        
     }
 
-    .project:hover {
-        background-color: $white;
+    .project-1:hover {
+        background-color: $crewcuts-body;
         transition: 0.5s;
     }
+    .project-2:hover {
+        background-color: $mpp-light;
+        transition: 0.5s;
+    }
+    .project-3:hover {
+        background-color: $alice-blue;
+        transition: 0.5s;
+    }
+    .project-4:hover {
+        background-color: $pink;
+        transition: 0.5s;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
