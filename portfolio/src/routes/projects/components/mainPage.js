@@ -13,9 +13,9 @@ const MainPage = () => (
           <div className="div1">
             <div className="div2">
               <span className="project-title">CrewCuts </span>
-              <br />
               <span className="project-content">
-                <ul>
+
+              <ul>
                   <li>Mobile App</li>
                   <li>Adobe XD</li>
 
@@ -23,6 +23,8 @@ const MainPage = () => (
                   <li>Real-World project</li>
                 </ul>
               </span>
+
+            
             </div>
           </div>
 

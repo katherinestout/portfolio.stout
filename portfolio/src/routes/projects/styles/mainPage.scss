@@ -4,6 +4,10 @@
 .project-container {
     display: grid;
     grid-template-columns: auto auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
 
     a:link {
@@ -14,7 +18,7 @@
 
     .project {
        
-        padding: 50px;
+        padding: 3%;
         background-color: $white;
         margin: 10px;
         box-shadow: 0px 5px 10px $main-shadow;
@@ -33,6 +37,7 @@
                 // display: inline-block;
                 align-self: flex-end;
                 padding: 25px;
+                text-align: right;
                 .project-title {
                     font-size: 50px;
                     color: black;
@@ -48,6 +53,8 @@
 
                     ul {
                         list-style-type: none;
+                        text-align: right;
+                        padding-left: 0;
                     }
                    
                 
@@ -75,11 +82,100 @@
     }
 }
 
+@media only screen and (max-width: 992px) {
+
+.project-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+    a:link {
+        text-decoration: none;
+        
+    }
+
+
+    .project {
+       
+        // padding: 50px;
+        background-color: $white;
+        margin: 10px;
+        box-shadow: 0px 5px 10px $main-shadow;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding: 2%;
+
+        .div1 {
+            
+            display: flex;
+            height: 100%;
+            text-align: center;
+            
+            .div2 {
+                
+                align-self: flex-end;
+                padding: 25px;
+                text-align: center;
+                
+                .project-title {
+                    font-size: 50px;
+                    color: black;
+                    text-align: center;
+                  
+                    
+                }
+        
+                .project-content {
+                    font-size: 15px;
+                    color: black;
+                    // line-height: 50%;
+                    
+                    ul {
+                        list-style-type: none;
+                        text-align: center;
+
+                    }
+                   
+                
+            }
+            }
+
+         
+        }
+
+       
+
+        .front-graphic {
+            height: 400px;
+            
+        }
+
+        
+
+       
+    }
+
+    .project:hover {
+        background-color: $white;
+        transition: 0.5s;
+    }
+}
+    
+}
+
 @media only screen and (max-width: 768px) {
 
     .project-container {
         display: grid;
         grid-template-columns: auto;
+        margin-left: 5%;
+        margin-right: 5%;
 
 
 
@@ -91,6 +187,7 @@
             grid-row-gap: 0px;
         
             text-align: center;
+            padding: 1%;
             
 
             .div1 {
@@ -113,3 +210,53 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 576px) {
+
+    .project-container {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 1%;
+        margin-right: 1%;
+
+
+        .project {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(.5, 1fr);
+            grid-column-gap: 0px; 
+            grid-row-gap: 0px;
+        
+            text-align: center;
+            padding: 1%;
+            
+
+            .div1 {
+                display: grid;
+     
+                text-align: center;
+                grid-area: 1 / 1 / 2 / 2;
+
+        
+            .div2 {
+            
+                text-align: center;
+
+                .project-title {
+                    font-size: 25px;
+                }
+                .project-content {
+                    font-size: 15px;
+                }
+            
+            }
+            } 
+            .div3 {
+                grid-area: 2 / 1 / 3 / 2; 
+                text-align: center;
+            }
+        }
+    }
+}
+
