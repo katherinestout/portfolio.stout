@@ -25,7 +25,7 @@
             
             
             a {
-            color: $main-font-color;
+            color: black;
             text-decoration: none; 
             text-transform: lowercase;
             padding: 1rem;
@@ -66,6 +66,9 @@
         nav {
             position: sticky;
             top: 0;
+
+
+         
      
         .nav-items {
         background-color: $main-background;
@@ -75,6 +78,9 @@
         width: 100%;
         text-align: center;
         transition: 0.5s;
+        height: 100%;
+        // margin-top: 0;
+        
         
         }
        
@@ -88,6 +94,10 @@
             width: 100%;
             background-color: $main-background;
             transition: 0.5s;
+
+            height: 100%;
+            position: fixed;
+       
 
             
             .nav-items {
@@ -121,7 +131,11 @@
                            
                         }
                 }
-            }  
+            } 
+            .hamburger {
+                position: fixed;
+                top: 0;
+            } 
         }
 
 
