@@ -4,8 +4,7 @@ import headerGraphic from "./../../svg/headerGraphic2.png";
 const Header = () => (
   <div className={styles}>
     <img src={headerGraphic} alt="headerGraphic" className="headerGraphic" />
-    <header>
-    </header>
+    <header></header>
   </div>
 );
 
