@@ -2,6 +2,7 @@
   
 
 .project-container {
+    justify-content: center;
     display: grid;
     grid-template-columns: auto auto;
     margin-left: 10%;
@@ -54,6 +55,7 @@
                     ul {
                         list-style-type: none;
                         text-align: right;
+                        // text-align: center;
                         padding-left: 0;
                     }
                    
@@ -95,90 +97,102 @@
 
 }
 
-@media only screen and (max-width: 992px) {
-
-.project-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 10%;
-    margin-right: 10%;
+@media only screen and (max-width: 1150px) {
 
 
-    a:link {
-        text-decoration: none;
-        
-    }
-
-
-    .project {
-       
-        // padding: 50px;
-        background-color: $white;
-        margin: 10px;
-        box-shadow: 0px 5px 10px $main-shadow;
-
+    .project-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        padding: 2%;
-
-        .div1 {
+        grid-template-columns: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    
+        a:link {
+            text-decoration: none;
             
-            display: flex;
-            height: 100%;
-            text-align: center;
+        }
+    
+    
+        .project {
+           
+            padding: 3%;
+            background-color: $white;
+            margin: 10px;
+            box-shadow: 0px 5px 10px $main-shadow;
+    
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+    
+            .div1 {
+                text-align: right;
+                display: flex;
+                height: 100%;
+                .div2 {
+                    // display: inline-block;
+                    align-self: flex-end;
+                    padding: 25px;
+                    text-align: right;
+                    .project-title {
+                        font-size: 50px;
+                        color: black;
+                        
+                      
+                        
+                    }
             
-            .div2 {
-                
-                align-self: flex-end;
-                padding: 25px;
-                text-align: center;
-                
-                .project-title {
-                    font-size: 50px;
-                    color: black;
-                    text-align: center;
-                  
+                    .project-content {
+                        font-size: 15px;
+                        color: black;
+                        // line-height: 50%;
+    
+                        ul {
+                            list-style-type: none;
+                            text-align: right;
+                            padding-left: 0;
+                        }
+                       
                     
                 }
-        
-                .project-content {
-                    font-size: 15px;
-                    color: black;
-                    // line-height: 50%;
-                    
-                    ul {
-                        list-style-type: none;
-                        text-align: center;
-
-                    }
-                   
+                }
+    
+             
+            }
+    
+           
+    
+            .front-graphic {
+                height: 400px;
                 
             }
-            }
-
-         
-        }
-
-       
-
-        .front-graphic {
-            height: 400px;
+    
             
+    
+           
         }
-
-        
-
-       
+    
+        .project-1:hover {
+            background-color: $crewcuts-body;
+            transition: 0.5s;
+        }
+        .project-2:hover {
+            background-color: $mpp-light;
+            transition: 0.5s;
+        }
+        .project-3:hover {
+            background-color: $alice-blue;
+            transition: 0.5s;
+        }
+        .project-4:hover {
+            background-color: $pink;
+            transition: 0.5s;
+        }
+    
     }
-
-    .project:hover {
-        background-color: $white;
-        transition: 0.5s;
-    }
-}
     
 }
 
@@ -201,6 +215,7 @@
         
             text-align: center;
             padding: 1%;
+            width: 400px;
             
 
             .div1 {
@@ -213,12 +228,24 @@
             .div2 {
             
                 text-align: center;
-            
+
+
+            .project-content {
+                ul {
+                    list-style-type: none;
+                    text-align: center;
+                    padding-left: 0;
+                }
+            }
             }
             } 
             .div3 {
                 grid-area: 2 / 1 / 3 / 2; 
                 text-align: center;
+            }
+            .front-graphic {
+                height: 200px;
+                
             }
         }
     }
@@ -243,6 +270,7 @@
         
             text-align: center;
             padding: 1%;
+            width: 350px;
             
 
             .div1 {
@@ -268,6 +296,13 @@
             .div3 {
                 grid-area: 2 / 1 / 3 / 2; 
                 text-align: center;
+                
+            }
+
+            .front-graphic {
+                height: 150px;
+               
+                
             }
         }
     }
