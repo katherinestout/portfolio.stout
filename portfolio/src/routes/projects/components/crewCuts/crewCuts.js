@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./../../styles/crewCuts.scss";
 import ccGraphic from "./../../../../svg/crewCuts/crewcutssq.png";
-import talkBubbles from "./../../../../svg/crewCuts/talkBubbles.png";
+// import talkBubbles from "./../../../../svg/crewCuts/talkBubbles.png";
 import sitemap from "./../../../../svg/crewCuts/sitemapCrewCuts.png";
 import lowFiPrototype from "./../../../../svg/crewCuts/lowFiScreenshot.png";
 import lowFi from "./../../../../svg/crewCuts/lowFi.png";
@@ -141,11 +141,10 @@ const CrewCuts = () => (
               <li>Silver Spring, MD</li>
             </ul>
           </div>
-          <div className="div4"></div>
         </div>
 
         <div className="center">
-          <img src={talkBubbles} alt="talkbubbles" className="talkBubbles" />
+          {/* <img src={talkBubbles} alt="talkbubbles" className="talkBubbles" /> */}
         </div>
 
         <div className="wrapper-8">
@@ -174,7 +173,10 @@ const CrewCuts = () => (
 
         <div className="wrapper-9">
           <div className="parent-1">
-            <div className="header div1"> Sitemap </div>
+            <div className="div1">
+              <div className="header">Sitemap</div>
+              <div className="content">Sitemap</div>
+            </div>
             <div className="div2"></div>
             <div className="div3">
               {" "}
@@ -183,7 +185,10 @@ const CrewCuts = () => (
           </div>
 
           <div className="parent-2">
-            <div className="header div1">Wireframes</div>
+            <div className="header div1">
+              <div className="header">Wireframes</div>
+              <div className="content">wireframes</div>
+            </div>
             <div className="div2"></div>
             <div className="div3">
               <img
@@ -196,17 +201,17 @@ const CrewCuts = () => (
 
           <div className="parent-3">
             <div className="header div1">Low-Fidelity Prototype</div>
-            <div className="div2">
+            <div className="div2 div5">
               <img src={lowFi} alt="lowFi2" className="lowFi" />
             </div>
-            <div className="div3">
+            <div className="div3 div6">
               <img
                 src={lowFiPrototype}
                 alt="lowfi"
                 className="lowFiPrototype"
               />
             </div>
-            <div className="div4">
+            <div className="div4 div7">
               {" "}
               <Link
                 to={{
@@ -234,11 +239,11 @@ const CrewCuts = () => (
 
           <div className="parent-4">
             <div className="header div1">High-Fidelity Prototype</div>
-            <div className="div2">
+            <div className="div2 div5">
               {" "}
               <img src={highFi} alt="highfi2" className="highFi" />
             </div>
-            <div className="div3">
+            <div className="div3 div6">
               {" "}
               <img
                 src={highFiPrototype}
@@ -246,7 +251,7 @@ const CrewCuts = () => (
                 className="highFiPrototype"
               />
             </div>
-            <div className="div4">
+            <div className="div4 div7">
               {" "}
               <Link
                 to={{
