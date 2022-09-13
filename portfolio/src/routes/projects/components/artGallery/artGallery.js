@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./../../styles/galleryApp.scss";
+import { Link } from "react-router-dom";
 
 const ArtGallery = () => (
   <div className={styles}>
@@ -38,7 +39,10 @@ const ArtGallery = () => (
           <div className="div2">
             <div className="subHeader">Problem </div>
 
-            <div className="content">The goal was to create an app that allowed fThe goal was to create an app that allowed f</div>
+            <div className="content">
+              The goal was to create an app that allowed fThe goal was to create
+              an app that allowed f
+            </div>
           </div>
         </div>
 
@@ -151,8 +155,20 @@ const ArtGallery = () => (
 
           <div className="div6 header">Low-Fidelity Prototypes</div>
 
-          <div className="div7">
-            https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415{" "}
+          <div
+            className="div7"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <Link
+              to={{
+                pathname:
+                  "https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415",
+              }}
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              Low-Fi Link
+            </Link>
           </div>
         </div>
 
@@ -185,7 +201,16 @@ const ArtGallery = () => (
           <div className="div1 subHeader">Refining the Design</div>
           <div className="div2 header">High-Fidelity Prototype</div>
           <div className="div3">
-            https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455
+            <Link
+              to={{
+                pathname:
+                  "https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455",
+              }}
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              High-Fi Link
+            </Link>
           </div>
           <div className="div4">text</div>
         </div>

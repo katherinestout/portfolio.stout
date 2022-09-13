@@ -15,13 +15,7 @@ const CrewCuts = () => (
     <div className="crewCutsBody">
       <div className="crewCutsContent">
         <img src={ccGraphic} alt="ccGraphic" className="ccGraphic" />
-        <ul>
-          <li>Empathize</li>
-          <li>Define</li>
-          <li>Ideate</li>
-          <li>Prototype</li>
-          <li>Test</li>
-        </ul>
+
         <div className="wrapper-1">
           <div className="div1">
             <div className="header"> Responsibilities</div>
@@ -122,7 +116,7 @@ const CrewCuts = () => (
           </div>
         </div>
 
-        <div className="wrapper-6 center">
+        <div className="wrapper-6">
           <div className="header div1">Key themes found in survey:</div>
           <div className="subHeader div2">Timeliness</div>
           <div className="subHeader div3">Trustworthiness</div>
@@ -219,6 +213,7 @@ const CrewCuts = () => (
                     "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen",
                 }}
                 target="_blank"
+                style={{ textDecoration: "none", color: "black" }}
               >
                 {" "}
                 Click here to see the low-fidelity prototype of CrewCuts Mobile
@@ -230,6 +225,7 @@ const CrewCuts = () => (
                     "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/grid",
                 }}
                 target="_blank"
+                style={{ textDecoration: "none", color: "black" }}
               >
                 {" "}
                 Click here to see all screens!
@@ -259,6 +255,7 @@ const CrewCuts = () => (
                     "https://xd.adobe.com/view/d8470e34-f515-4044-8a05-7127faf10f3f-8d14/?fullscreen",
                 }}
                 target="_blank"
+                style={{ textDecoration: "none", color: "black" }}
               >
                 {" "}
                 Click here to see the high-fidelity prototype of CrewCuts Mobile
@@ -270,6 +267,7 @@ const CrewCuts = () => (
                     "https://xd.adobe.com/view/d8470e34-f515-4044-8a05-7127faf10f3f-8d14/grid/",
                 }}
                 target="_blank"
+                style={{ textDecoration: "none", color: "black" }}
               >
                 {" "}
                 Click here to see all screens!
