@@ -50,7 +50,7 @@
       
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fit(2, 1fr));
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         .div1{
@@ -73,7 +73,7 @@
         margin-top: 10%;
 display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(.25, 1fr);
+grid-template-rows: repeat(auto-fit(.25, 1fr));
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 
@@ -86,7 +86,7 @@ grid-row-gap: 0px;
         margin-top: 10%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(.25, 1fr);
+        grid-template-rows: repeat(auto-fit(.25, 1fr));
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         
@@ -98,7 +98,7 @@ grid-row-gap: 0px;
         margin-top: 10%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(.25, 1fr);
+        grid-template-rows: repeat(auto-fit(.25, 1fr));
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         
@@ -110,8 +110,8 @@ grid-row-gap: 0px;
     .wrapper-5 {
         margin-top: 10%;
         display: grid; 
-        grid-template-columns: repeat(3, 1fr); 
-        grid-template-rows: repeat(2, 1fr); 
+        grid-template-columns: repeat(auto-fit(3, 1fr)); 
+        grid-template-rows: repeat(auto-fit(2, 1fr)); 
         grid-column-gap: 0px;
         grid-row-gap: 0px; 
 
@@ -126,7 +126,7 @@ grid-row-gap: 0px;
         margin-top: 10%;
         display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(4, 1fr);
+grid-template-rows: repeat(auto-fit(4, 1fr));
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 
@@ -143,7 +143,7 @@ grid-row-gap: 0px;
     .wrapper-7 { 
         margin-top: 10%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit(2, 1fr));
         grid-template-rows: .25fr 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
@@ -194,7 +194,7 @@ grid-row-gap: 0px;
                 margin-top: 10%;
                 display: grid;
                 grid-template-columns: 1fr;
-                grid-template-rows: repeat(2, .25fr) 1fr;
+                grid-template-rows: repeat(auto-fit(2, .25fr)) 1fr;
                 grid-column-gap: 0px;
                 grid-row-gap: 0px;
                 justify-content: center;
@@ -214,7 +214,7 @@ grid-row-gap: 0px;
                 margin-top: 10%;
                 display: grid;
                 grid-template-columns: 1fr;
-                grid-template-rows: repeat(2, .25fr) 1fr;
+                grid-template-rows: repeat(auto-fit(2, .25fr)) 1fr;
                 grid-column-gap: 0px;
                 grid-row-gap: 0px;
                 justify-content: center;
@@ -313,7 +313,7 @@ grid-row-gap: 0px;
             // margin-bottom: 5%;
             margin-top: 10%;
             display: grid; 
-            grid-template-columns: repeat(3, 1fr); 
+            grid-template-columns: repeat(auto-fit(3, 1fr)); 
             grid-template-rows: 1fr; 
             grid-column-gap: 0px;
             grid-row-gap: 0px; 
@@ -333,7 +333,7 @@ grid-row-gap: 0px;
         .wrapper-2 {
             margin-top: 10%;
                 display: grid; 
-                grid-template-columns: repeat(3, 1fr); 
+                grid-template-columns: repeat(auto-fit(3, 1fr)); 
                 grid-template-rows: 1fr; 
                 grid-column-gap: 0px;
                 grid-row-gap: 0px; 
@@ -344,7 +344,7 @@ grid-row-gap: 0px;
         .wrapper-3 {
             margin-top: 10%;
             display: grid; 
-            grid-template-columns: repeat(3, 1fr); 
+            grid-template-columns: repeat(auto-fit(3, 1fr)); 
             grid-template-rows: 1fr; 
             grid-column-gap: 0px;
             grid-row-gap: 0px; 
@@ -354,7 +354,7 @@ grid-row-gap: 0px;
         .wrapper-4 {
             margin-top: 10%;
             display: grid; 
-            grid-template-columns: repeat(3, 1fr); 
+            grid-template-columns:repeat(auto-fit(3, 1fr)); 
             grid-template-rows: 1fr; 
             grid-column-gap: 0px;
             grid-row-gap: 0px; 
@@ -365,8 +365,8 @@ grid-row-gap: 0px;
         .wrapper-5 {
             margin-top: 10%;
             display: grid; 
-            grid-template-columns: repeat(3, 1fr); 
-            grid-template-rows: repeat(2, 1fr); 
+            grid-template-columns: repeat(auto-fit(3, 1fr)); 
+            grid-template-rows: repeat(auto-fit(2, 1fr)); 
             grid-column-gap: 0px;
             grid-row-gap: 0px; 
     
@@ -380,8 +380,8 @@ grid-row-gap: 0px;
         .wrapper-6 {
             margin-top: 10%;
             display: grid; 
-            grid-template-columns: repeat(3, 1fr); 
-            grid-template-rows: repeat(2, 1fr); 
+            grid-template-columns: repeat(auto-fit(3, 1fr)); 
+            grid-template-rows: repeat(auto-fit(2, 1fr)); 
             grid-column-gap: 0px;
             grid-row-gap: 0px; 
     
@@ -411,8 +411,8 @@ grid-row-gap: 0px;
             .wrapper-8 { 
                 
                 display: grid; 
-                grid-template-columns: repeat(3, 1fr); 
-                grid-template-rows: repeat(3, 1fr); 
+                grid-template-columns: repeat(auto-fit(3, 1fr)); 
+                grid-template-rows: repeat(auto-fit(3, 1fr)); 
                 grid-column-gap: 0px;
                 grid-row-gap: 0px; 
                 
@@ -430,8 +430,8 @@ grid-row-gap: 0px;
                 .parent-1 {
                     margin-top: 5%;
                     display: grid; 
-                    grid-template-columns: repeat(3, 1fr); 
-                    grid-template-rows: .25fr repeat(2, 1fr); 
+                    grid-template-columns: repeat(auto-fit(3, 1fr)); 
+                    grid-template-rows: .25fr repeat(auto-fit(2, 1fr)); 
                     grid-column-gap: 0px;
                     grid-row-gap: 0px; 
                     .div1 { grid-area: 1 / 1 / 2 / 4; } 
@@ -448,8 +448,8 @@ grid-row-gap: 0px;
                 .parent-2 {
                     margin-top: 5%;
                     display: grid; 
-                    grid-template-columns: repeat(3, 1fr); 
-                    grid-template-rows: .25fr repeat(2, 1fr); 
+                    grid-template-columns: repeat(auto-fit(3, 1fr)); 
+                    grid-template-rows: .25fr repeat(auto-fit(2, 1fr)); 
                     grid-column-gap: 0px;
                     grid-row-gap: 0px; 
                     .div1 { grid-area: 1 / 1 / 2 / 4; } 
@@ -464,8 +464,8 @@ grid-row-gap: 0px;
                 .parent-3 {
                     margin-top: 5%;
                     display: grid; 
-                    grid-template-columns: repeat(3, 1fr); 
-                    grid-template-rows: .25fr repeat(2, 1fr); 
+                    grid-template-columns: repeat(auto-fit(3, 1fr)); 
+                    grid-template-rows: .25fr repeat(auto-fit(2, 1fr)); 
                     grid-column-gap: 0px;
                     grid-row-gap: 0px; 
     
@@ -487,8 +487,8 @@ grid-row-gap: 0px;
                 .parent-4 {
                     margin-top: 5%;
                     display: grid; 
-                    grid-template-columns: repeat(3, 1fr); 
-                    grid-template-rows: .25fr repeat(2, 1fr); 
+                    grid-template-columns: repeat(auto-fit(3, 1fr)); 
+                    grid-template-rows: .25fr repeat(auto-fit(2, 1fr)); 
                     grid-column-gap: 0px;
                     grid-row-gap: 0px; 
     
