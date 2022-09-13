@@ -38,7 +38,7 @@ const ArtGallery = () => (
           <div className="div2">
             <div className="subHeader">Problem </div>
 
-            <div className="content">Problem</div>
+            <div className="content">The goal was to create an app that allowed fThe goal was to create an app that allowed f</div>
           </div>
         </div>
 
