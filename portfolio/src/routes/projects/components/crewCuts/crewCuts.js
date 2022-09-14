@@ -118,9 +118,15 @@ const CrewCuts = () => (
 
         <div className="wrapper-6">
           <div className="subHeader div1">Key themes found in survey:</div>
-          <div className="header div2">Timeliness</div>
-          <div className="header div3">Trustworthiness</div>
-          <div className="header div4">Proven Work</div>
+          <div className="header div2">
+            <i>Timeliness</i>
+          </div>
+          <div className="header div3">
+            <i>Trustworthiness</i>
+          </div>
+          <div className="header div4">
+            <i>Proven Work</i>
+          </div>
         </div>
 
         <div className="wrapper-7">
@@ -142,20 +148,20 @@ const CrewCuts = () => (
         </div>
 
         <div className="wrapper-8">
-          <div className="div1 header">Needs</div>
+          <div className="div1 subHeader">Needs</div>
 
           <div className="div2 content">
             Easily see before and after photos of gardening. Reviews to show
             trustworthiness and quality of work.
           </div>
-          <div className="div3 header">Frustrations</div>
+          <div className="div3 subHeader">Frustrations</div>
           <div className="div4 content">
             {" "}
             I can’t find a lawn-service company that is timely, trustworthy, or
             has a proven track record.{" "}
           </div>
 
-          <div className="div5 header">Problem Statement</div>
+          <div className="div5 subHeader">Problem Statement</div>
           <div className="div6 content">
             Jan Gardiner is a 30 year old homeowner who needs a lawn-care
             service that is experienced and has proven results, to plant her
@@ -168,7 +174,7 @@ const CrewCuts = () => (
         <div className="wrapper-9">
           <div className="parent-1">
             <div className="div1">
-              <div className="header">Sitemap</div>
+              <div className="subHeader">Sitemap</div>
               <div className="content">Sitemap</div>
             </div>
             <div className="div2"></div>
@@ -179,8 +185,8 @@ const CrewCuts = () => (
           </div>
 
           <div className="parent-2">
-            <div className="header div1">
-              <div className="header">Wireframes</div>
+            <div className=" div1">
+              <div className="subHeader">Wireframes</div>
               <div className="content">wireframes</div>
             </div>
             <div className="div2"></div>
@@ -194,19 +200,14 @@ const CrewCuts = () => (
           </div>
 
           <div className="parent-3">
-            <div className="header div1">Low-Fidelity Prototype</div>
-            <div className="div2 div5">
-              <img src={lowFi} alt="lowFi2" className="lowFi" />
-            </div>
-            <div className="div3 div6">
+            <div className="subHeader div1">Low-Fidelity Prototype</div>
+            <div className="div2">
               <img
                 src={lowFiPrototype}
                 alt="lowfi"
                 className="lowFiPrototype"
               />
-            </div>
-            <div className="div4 div7">
-              {" "}
+
               <Link
                 to={{
                   pathname:
@@ -231,24 +232,20 @@ const CrewCuts = () => (
                 Click here to see all screens!
               </Link>
             </div>
+            <div className="div3">
+              <img src={lowFi} alt="lowFi2" className="lowFi" />
+            </div>
           </div>
 
           <div className="parent-4">
-            <div className="header div1">High-Fidelity Prototype</div>
-            <div className="div2 div5">
-              {" "}
-              <img src={highFi} alt="highfi2" className="highFi" />
-            </div>
-            <div className="div3 div6">
+            <div className="subHeader div1">High-Fidelity Prototype</div>
+            <div className="div2">
               {" "}
               <img
                 src={highFiPrototype}
                 alt="highfi"
                 className="highFiPrototype"
               />
-            </div>
-            <div className="div4 div7">
-              {" "}
               <Link
                 to={{
                   pathname:
@@ -272,6 +269,9 @@ const CrewCuts = () => (
                 {" "}
                 Click here to see all screens!
               </Link>
+            </div>
+            <div className="div3">
+              <img src={highFi} alt="highfi2" className="highFi" />
             </div>
           </div>
         </div>
