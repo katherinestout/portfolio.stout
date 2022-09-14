@@ -69,7 +69,7 @@ const ArtGallery = () => (
 
           <div className="header div2">User Research Summary </div>
 
-          <div className=" div3">
+          <div className=" div3 content">
             I found that users wanted a variety of art to select from. Users
             also wanted to be able to contact artists directly and from the
             specific gallery websites. Often galleries don’t list contact
@@ -174,22 +174,20 @@ const ArtGallery = () => (
 
         <div className="wrapper-9">
           <div className="div1 header"> Usability Studies</div>
-          <div className="div2">
+          <div className="div2 content">
             I conducted two rounds of usability studies. Findings from the first
             study helped guide the designs from wireframes to mockups. The
             second study used a high fidelity prototype and revealed what
             aspects of the mockups needed refining.
           </div>
-          <div className="div3">
-            Round One Findings:
-            <br />
+          <div className="div3 content">
+            <div className="bold">Round One Findings:</div>
             1.Users want to easily find what art They are looking for.
             <br />
             2. Users want to be able to view art in Great detail.
           </div>
-          <div className="div4">
-            Round Two Findings:
-            <br />
+          <div className="div4 content">
+            <div className="bold">Round Two Findings:</div>
             1. Users want to be able to be directed somewhere after filling out
             contact form.
             <br />
@@ -212,7 +210,7 @@ const ArtGallery = () => (
               High-Fi Link
             </Link>
           </div>
-          <div className="div4">text</div>
+          <div className="div4 content">text text text</div>
         </div>
 
         <div className="wrapper-11">
