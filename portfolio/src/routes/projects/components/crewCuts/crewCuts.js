@@ -117,10 +117,10 @@ const CrewCuts = () => (
         </div>
 
         <div className="wrapper-6">
-          <div className="header div1">Key themes found in survey:</div>
-          <div className="subHeader div2">Timeliness</div>
-          <div className="subHeader div3">Trustworthiness</div>
-          <div className="subHeader div4">Proven Work</div>
+          <div className="subHeader div1">Key themes found in survey:</div>
+          <div className="header div2">Timeliness</div>
+          <div className="header div3">Trustworthiness</div>
+          <div className="header div4">Proven Work</div>
         </div>
 
         <div className="wrapper-7">
