@@ -41,6 +41,7 @@ const ArtGallery = () => (
 
             <div className="content">
               The goal was to create an app that allowed fThe goal was to create
+              an app that allowed fThe goal was to create an app that allowed fThe goal was to create
               an app that allowed f
             </div>
           </div>
@@ -64,7 +65,7 @@ const ArtGallery = () => (
 
         <div className="wrapper-4">
           <div className="subHeader div1">
-            Understanding the User: Empathize and Define
+            Understanding the User: <i>Empathize and Define</i>
           </div>
 
           <div className="header div2">User Research Summary </div>
@@ -144,7 +145,7 @@ const ArtGallery = () => (
 
         <div className="wrapper-8">
           <div className="subHeader div1">
-            Starting The Design: Ideate, Prototype, and Test
+            Starting The Design: <i>Ideate, Prototype, and Test</i>
           </div>
           <div className="header div2">Paper Wireframes</div>
           <div className="div3">Paper wireframes IMAGE</div>
