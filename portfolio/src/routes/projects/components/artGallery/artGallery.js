@@ -41,8 +41,8 @@ const ArtGallery = () => (
 
             <div className="content">
               The goal was to create an app that allowed fThe goal was to create
-              an app that allowed fThe goal was to create an app that allowed fThe goal was to create
-              an app that allowed f
+              an app that allowed fThe goal was to create an app that allowed
+              fThe goal was to create an app that allowed f
             </div>
           </div>
         </div>
