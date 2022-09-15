@@ -92,34 +92,32 @@ const ArtGallery = () => (
 
         <div className="wrapper-5">
           <div className="div1 subHeader">User Pain Points</div>
-          <div className="div2">IMAGE</div>
-          <div className="div3">IMAGE</div>
-          <div className="div4">IMAGE</div>
-          <div className="div5 content">
+       
+          <div className="div2 content">
             1. Galleries don't have a way for me to contact artists.
           </div>
-          <div className="div8 boldContent">
+          <div className="div3 boldContent">
             Provide multiple ways to contact artists, such as a contact form,
             the artist’s contact information, and the artist’s individual
             website.
           </div>
 
-          <div className="div6 content">
+          <div className="div4 content">
             {" "}
             2. Galleries often have limited selection of art, I cannot find what
             I am looking for.{" "}
           </div>
 
-          <div className="div9 boldContent">
+          <div className="div5 boldContent">
             Provide multiple ways of searching for the art via the gallery app.
             Can put genre, artist, and multiple genres. Provide a search bar.
           </div>
 
-          <div className="div7 content">
+          <div className="div6 content">
             3. Because of the pandemic, I cannot get to galleries in person.{" "}
           </div>
 
-          <div className="div10 boldContent">Provide high quality images.</div>
+          <div className="div7 boldContent">Provide high quality images.</div>
         </div>
 
         <div className="wrapper-6">
