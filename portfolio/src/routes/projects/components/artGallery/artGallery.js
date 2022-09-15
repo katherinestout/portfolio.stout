@@ -1,6 +1,15 @@
 import React from "react";
 import styles from "./../../styles/galleryApp.scss";
 import { Link } from "react-router-dom";
+import Before from "./../../../../svg/gallery/Before.png";
+import After from "./../../../../svg/gallery/After.png";
+import Persona from "./../../../../svg/gallery/persona.png";
+import UserJourney from "./../../../../svg/gallery/UserJourney.png";
+import Digital1 from "./../../../../svg/gallery/Digital1.png";
+import Digital2 from "./../../../../svg/gallery/Digital2.png";
+import LowFi1 from "./../../../../svg/gallery/LowFi1.png";
+import LowFi2 from "./../../../../svg/gallery/LowFi2.png";
+import PaperWireframe from  "./../../../../svg/gallery/paperWireframe.jpg";
 
 const ArtGallery = () => (
   <div className={styles}>
@@ -123,7 +132,15 @@ const ArtGallery = () => (
               Problem statement: Tiffany Young is an art dealer who needs to be
               able to view art virtually because she doesn’t have time to
               travel.
-              <div>IMAGE OF PERSONA / with stuff on it </div>
+              <div>
+                  <div className="persona">
+                  <img
+                src={Persona}
+                alt="persona"
+                className="persona"
+              />
+                  </div>
+                  </div>
             </div>
           </div>
         </div>
@@ -132,13 +149,18 @@ const ArtGallery = () => (
           <div className="header div1">User Journey Map</div>
 
           <div className="div2">
-            <div> USER JOURNEY MAP </div>
+            <div className="userJourney"> 
+            <img
+                src={UserJourney}
+                alt="userJourney"
+                className="userJourney"
+              />
+             </div>
 
             <div className="content">
               Mapping Tiffany’s journey shows several problems that could arise
               with the app. Definitely simplicity/ conciseness in the menu style
-              and high quality photos are a must. Persona: Tiffany Young Goal:
-              Find new art pieces for my gallery.
+              and high quality photos are a must.
             </div>
           </div>
         </div>
@@ -148,18 +170,65 @@ const ArtGallery = () => (
             Starting The Design: <i>Ideate, Prototype, and Test</i>
           </div>
           <div className="header div2">Paper Wireframes</div>
-          <div className="div3">Paper wireframes IMAGE</div>
+          <div className="div3">
+          <img
+                src={PaperWireframe}
+                alt="paperWireframe"
+                className="paperWireframe"
+              />
+
+              
+              </div>
 
           <div className="div4 header">Digital Wireframes</div>
 
-          <div className="div5">IMAGE WITH LABELS</div>
+          <div className="div5">
+              <div className =  "digitals">
+                  <div className="digital1">
+                  <img
+                src={Digital1}
+                alt="digital1"
+                className="digital1"
+              />
+                  </div>
+                  <div className="digital2">
+                  <img
+                src={Digital2}
+                alt="digital2"
+                className="digital2"
+              />
+
+                  </div>
+            
+              </div>
+            <div>
+            
+            </div>
+               
+
+          </div>
 
           <div className="div6 header">Low-Fidelity Prototypes</div>
 
-          <div
-            className="div7"
-            style={{ textDecoration: "none", color: "black" }}
-          >
+          <div className="div7"
+            style={{ textDecoration: "none", color: "black" }}>
+
+<div className =  "lowFi">
+                  <div className="lowFi1">
+                  <img
+                src={LowFi1}
+                alt="lowFi1"
+                className="lowFi1"
+              />
+                  </div>
+                  <div className="lowFi2">
+                  <img
+                src={LowFi2}
+                alt="lowFi2"
+                className="lowFi2"
+              />
+                </div>
+</div>
             <Link
               to={{
                 pathname:
@@ -168,7 +237,10 @@ const ArtGallery = () => (
               target="_blank"
               style={{ textDecoration: "none", color: "black" }}
             >
-              Low-Fi Link
+                
+            
+
+            Low-Fidelity Prototype
             </Link>
           </div>
         </div>
@@ -217,8 +289,16 @@ const ArtGallery = () => (
         <div className="wrapper-11">
           <div className="div1 subHeader">User Testing</div>
           <div className="div2 header">Accessibility Considerations</div>
-          <div className="div3">BEFORE</div>
-          <div className="div4">AFTER</div>
+          <div className="div3"> <img
+                src={Before}
+                alt="before"
+                className="before"
+              /> Before</div>
+          <div className="div4"> <img
+                src={After}
+                alt="after"
+                className="after"
+              /> After</div>
         </div>
       </div>
     </div>
