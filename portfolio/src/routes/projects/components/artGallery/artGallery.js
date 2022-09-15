@@ -9,7 +9,9 @@ import Digital1 from "./../../../../svg/gallery/Digital1.png";
 import Digital2 from "./../../../../svg/gallery/Digital2.png";
 import LowFi1 from "./../../../../svg/gallery/LowFi1.png";
 import LowFi2 from "./../../../../svg/gallery/LowFi2.png";
-import PaperWireframe from  "./../../../../svg/gallery/paperWireframe.jpg";
+import PaperWireframe from "./../../../../svg/gallery/paperWireframe.jpg";
+import HighFi1 from "./../../../../svg/gallery/HighFi1.png";
+import HighFi2 from "./../../../../svg/gallery/HighFi2.png";
 
 const ArtGallery = () => (
   <div className={styles}>
@@ -92,7 +94,7 @@ const ArtGallery = () => (
 
         <div className="wrapper-5">
           <div className="div1 subHeader">User Pain Points</div>
-       
+
           <div className="div2 content">
             1. Galleries don't have a way for me to contact artists.
           </div>
@@ -131,14 +133,10 @@ const ArtGallery = () => (
               able to view art virtually because she doesn’t have time to
               travel.
               <div>
-                  <div className="persona">
-                  <img
-                src={Persona}
-                alt="persona"
-                className="persona"
-              />
-                  </div>
-                  </div>
+                <div className="persona">
+                  <img src={Persona} alt="persona" className="persona" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -147,13 +145,13 @@ const ArtGallery = () => (
           <div className="header div1">User Journey Map</div>
 
           <div className="div2">
-            <div className="userJourney"> 
-            <img
+            <div className="userJourney">
+              <img
                 src={UserJourney}
                 alt="userJourney"
                 className="userJourney"
               />
-             </div>
+            </div>
 
             <div className="content">
               Mapping Tiffany’s journey shows several problems that could arise
@@ -169,64 +167,41 @@ const ArtGallery = () => (
           </div>
           <div className="header div2">Paper Wireframes</div>
           <div className="div3">
-          <img
-                src={PaperWireframe}
-                alt="paperWireframe"
-                className="paperWireframe"
-              />
-
-              
-              </div>
+            <img
+              src={PaperWireframe}
+              alt="paperWireframe"
+              className="paperWireframe"
+            />
+          </div>
 
           <div className="div4 header">Digital Wireframes</div>
 
           <div className="div5">
-              <div className =  "digitals">
-                  <div className="digital1">
-                  <img
-                src={Digital1}
-                alt="digital1"
-                className="digital1"
-              />
-                  </div>
-                  <div className="digital2">
-                  <img
-                src={Digital2}
-                alt="digital2"
-                className="digital2"
-              />
-
-                  </div>
-            
+            <div className="digitals">
+              <div className="digital1">
+                <img src={Digital1} alt="digital1" className="digital1" />
               </div>
-            <div>
-            
+              <div className="digital2">
+                <img src={Digital2} alt="digital2" className="digital2" />
+              </div>
             </div>
-               
-
+            <div></div>
           </div>
 
           <div className="div6 header">Low-Fidelity Prototypes</div>
 
-          <div className="div7"
-            style={{ textDecoration: "none", color: "black" }}>
-
-<div className =  "lowFi">
-                  <div className="lowFi1">
-                  <img
-                src={LowFi1}
-                alt="lowFi1"
-                className="lowFi1"
-              />
-                  </div>
-                  <div className="lowFi2">
-                  <img
-                src={LowFi2}
-                alt="lowFi2"
-                className="lowFi2"
-              />
-                </div>
-</div>
+          <div
+            className="div7"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <div className="lowFi">
+              <div className="lowFi1">
+                <img src={LowFi1} alt="lowFi1" className="lowFi1" />
+              </div>
+              <div className="lowFi2">
+                <img src={LowFi2} alt="lowFi2" className="lowFi2" />
+              </div>
+            </div>
             <Link
               to={{
                 pathname:
@@ -235,10 +210,7 @@ const ArtGallery = () => (
               target="_blank"
               style={{ textDecoration: "none", color: "black" }}
             >
-                
-            
-
-            Low-Fidelity Prototype
+              Low-Fidelity Prototype
             </Link>
           </div>
         </div>
@@ -281,22 +253,29 @@ const ArtGallery = () => (
               High-Fi Link
             </Link>
           </div>
-          <div className="div4 content">text text text</div>
+          <div className="div4 content">
+            <div className="highFi">
+              <div className="highFi1">
+                <img src={HighFi1} alt="highFi1" className="highFi1" />{" "}
+              </div>
+              <div className="highFi2">
+                <img src={HighFi2} alt="highFi2" className="highFi2" />
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="wrapper-11">
           <div className="div1 subHeader">User Testing</div>
           <div className="div2 header">Accessibility Considerations</div>
-          <div className="div3"> <img
-                src={Before}
-                alt="before"
-                className="before"
-              /> Before</div>
-          <div className="div4"> <img
-                src={After}
-                alt="after"
-                className="after"
-              /> After</div>
+          <div className="div3">
+            {" "}
+            <img src={Before} alt="before" className="before" /> Before
+          </div>
+          <div className="div4">
+            {" "}
+            <img src={After} alt="after" className="after" /> After
+          </div>
         </div>
       </div>
     </div>
