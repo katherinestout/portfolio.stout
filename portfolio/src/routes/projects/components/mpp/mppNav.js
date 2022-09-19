@@ -11,16 +11,16 @@ const MppNav = () => {
     <Router>
       <div>
         <div className={mppNavStyles}>
-          <nav>
-            <ul className="nav-items">
-              <li className="nav-item">
+          <nav className = "mppNav">
+            <ul className="mpp-nav-items">
+              <li className="mpp-nav-item">
                 <Link to="/mpp/mppHomePage">HOME PAGE</Link>
               </li>
-              <li className="nav-item">
+              <li className="mpp-nav-item">
                 <Link to="/mpp/mppMedicarePages">MEDICARE PAGES</Link>
               </li>
 
-              <li className="nav-item">
+              <li className="mpp-nav-item">
                 <Link to="/mpp/mppAboutPage"> ABOUT PAGE </Link>
               </li>
             </ul>
