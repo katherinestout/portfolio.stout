@@ -83,48 +83,92 @@
                 } }
     }
     .wrapper-3 {
+        margin-top: 15%;
 
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: repeat(8, 1fr);
+            grid-template-rows: repeat(auto-fit(8, 1fr));
             grid-column-gap: 0px;
             grid-row-gap: 0px;
 
 
             .div1 { grid-area: 1 / 1 / 2 / 2; }
-            .div2 { grid-area: 2 / 1 / 3 / 2; }
-            .div3 { grid-area: 3 / 1 / 4 / 2; }
-            .div4 { grid-area: 4 / 1 / 5 / 2; }
-            .div5 { grid-area: 5 / 1 / 6 / 2; }
-            .div6 { grid-area: 6 / 1 / 7 / 2; }
+            .div2 { grid-area: 2 / 1 / 3 / 2; 
+                margin-top: 10%;
+            .one {
+                width: 7%;
+            }
+            }
+            .div3 { grid-area: 3 / 1 / 4 / 2; 
+            .about4 {
+                margin-top: 5%;
+                width: 50%;
+            }
+            }
+            .div4 { grid-area: 4 / 1 / 5 / 2; 
+                margin-top: 10%;
+            .two {
+                width: 7%;
+                
+            }
+            }
+            .div5 { grid-area: 5 / 1 / 6 / 2; 
+                margin-top: 5%;
+            .about5 {
+                width: 100%;
+            }
+            }
+            .div6 { grid-area: 6 / 1 / 7 / 2; 
+                margin-top: 10%;
+            
+            .three {
+                width: 7%;
+            }
+            }
             .div7 { grid-area: 7 / 1 / 8 / 2; 
+                margin-top: 5%;
             .about6 {
-                width: 100px;
+                width: 100%;
             }}
             .div8 { grid-area: 8 / 1 / 9 / 2; 
                 .parent-1 {
                     display: grid;
                     grid-template-columns: repeat(auto-fit(2, 1fr));
-                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-rows: repeat(auto-fit(2, 1fr));
                     grid-column-gap: 0px;
                     grid-row-gap: 0px;
-
+                    margin-top: 10%;
 
                     .div1 { grid-area: 1 / 1 / 2 / 2; 
+                     
+                        margin-top: 10%;
+                        margin-right: 5%;
                     .ff1 {
-                        width: 50%;
+                        width: 100%;
+                        
                     }}
                     .div2 { grid-area: 1 / 2 / 2 / 3; 
+                        margin-left: 5%;
+
                     .ff2 {
-                        width: 50%;
+                        width: 100%;
+                       
                     }}
                     .div3 { grid-area: 2 / 1 / 3 / 2;
+                        margin-top: 10%;
+                        margin-right: 5%;
+
                     .ff3{
-                        width: 50%;
+                        width: 100%;
+                 
                     } }
                     .div4 { grid-area: 2 / 2 / 3 / 3;
+                        margin-left: 5%;
+                
                     .ff4 {
-                        width: 50%;
+                        width: 100%;
+                  
+                      
                     } }
                 }
             }

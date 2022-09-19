@@ -57,11 +57,11 @@ const MppAboutPage = () =>
   
 
 <div className = "wrapper-3">
-        <div className = "div1">
+        <div className = "div1 subHeader">
         THE PIECES
         </div>
         
-        <div className = "div2">
+        <div className = "div2 content">
         <img src={one} alt="one" className="one"/>
             A brief explanation of Medicare.
         </div>
@@ -69,30 +69,36 @@ const MppAboutPage = () =>
    
 
         <div className = "image div3"> 
-        <img src={about4} alt="about4" className="about4"/></div>
+        <img src={about4} alt="about4" className="about4"/>
+        </div>
  
-        <div className = "div4"> 
+        <div className = "div4 content"> 
+        <img src={two} alt="two" className="two"/>
         
-        <img src={two} alt="two" className="two"/></div>
         5 sections of content
         pertaining to Medicare.
         </div>
 
-            <div className = "image div5"> <img src={about5} alt="about5" className="about5"/></div>
+            <div className = "image div5"> 
+            <img src={about5} alt="about5" className="about5"/>
+            </div>
 
-            <div className = "div6">
-            <img src={three} alt="three" className="three"/></div>
+            <div className = "div6 content">
+            <img src={three} alt="three" className="three"/>
             Four slides of interesting facts and figures having to do with Medicare Beneficiaries, Healthcare costs, and the Federal Governments’ Medicare spending costs.
             </div>
 
-        <div className = "image div7"> <img src={about6} alt="about6" className="about6"/></div>
-        <div className = "div8"> 
-        <div className = "parent-1">
-        <div className = "image div1">  <img src={ff1} alt="ff1" className="ff1 "/> </div>
-        <div className = "image div2"> <img src={ff2} alt="ff12" className="ff2"/> </div>
-        <div className = "image div3"> <img src={ff3} alt="ff3" className="ff3"/> </div>
-        <div className = "image div4"> <img src={ff4} alt="ff4" className="ff4"/></div>
+        <div className = "image div7"> 
+        <img src={about6} alt="about6" className="about6"/>
         </div>
+
+        <div className = "div8"> 
+                <div className = "parent-1">
+                        <div className = "image div1">  <img src={ff1} alt="ff1" className="ff1 "/> </div>
+                        <div className = "image div2"> <img src={ff2} alt="ff12" className="ff2"/> </div>
+                        <div className = "image div3"> <img src={ff3} alt="ff3" className="ff3"/> </div>
+                        <div className = "image div4"> <img src={ff4} alt="ff4" className="ff4"/></div>
+                </div>
         </div>
 </div>
 
@@ -113,6 +119,8 @@ const MppAboutPage = () =>
             <div className = "image"> <img src={about11} alt="about11" className="about11"/></div>
             <div className = "image"> <img src={about12} alt="about12" className="about12"/></div>
             <div className = "image"> <img src={about13} alt="about13" className="about13"/></div>
+            </div>
+            </div>
             </div>
 </div>;
 
