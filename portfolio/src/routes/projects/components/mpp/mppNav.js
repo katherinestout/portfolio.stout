@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 
 import mppNavStyles from "./../../styles/mppNav/mppNav.scss";
 import MppHomePage from "./mppSections/mppHomePage";
@@ -27,7 +27,15 @@ const MppNav = () => {
           </nav>
 
           <Switch>
-            <Route path="/mpp/mppHomePage" component={MppHomePage} />
+          <Route
+              exact
+              path="/mpp"
+              render={() => {
+                return <Redirect to="/mpp/mppHomePage" />;
+              }}
+            />
+
+            <Route exact path="/mpp/mppHomePage" component={MppHomePage} />
             <Route path="/mpp/mppMedicarePages" component={MppMedicarePages} />
             <Route path="/mpp/mppAboutPage" component={MppAboutPage} />
           </Switch>
