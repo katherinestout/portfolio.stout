@@ -4,10 +4,8 @@ import mppMedicareStyles from "./../../../styles/mppNav/mppMedicare.scss";
 const MppMedicarePage = () => 
 
 <div className={mppMedicareStyles}>
-<div className = "">
-   
-   </div>
-    
+<div className = "mppMedicarePage">
+<div className="mppContainer">
 <div className = "wrapper-1">
     <div className = "">
         <div className = "">
@@ -101,13 +99,9 @@ const MppMedicarePage = () =>
    <div className = "">
    IMAGES
    </div>
-   
    </div>
-   
-  
-    
-    
-    
+   </div>
+   </div>
     </div>;
 
 export default MppMedicarePage;

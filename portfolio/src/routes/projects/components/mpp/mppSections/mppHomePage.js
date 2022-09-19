@@ -3,10 +3,8 @@ import mppHomeStyles from "./../../../styles/mppNav/mppHome.scss";
 
 const MppHomePage = () => 
 <div className={mppHomeStyles}>
-    <div className = "">
-   
-   </div>
-    
+    <div className = "mppHomePage">
+    <div className="mppContainer">
     <div className = "wrapper-1">
         <div className = "">
         <div className = "">
@@ -22,9 +20,9 @@ const MppHomePage = () =>
         <div className = "">
         IMAGES
         </div>
-    
+        </div>
     </div>
-
+    </div>
     </div>;
 
 export default MppHomePage;

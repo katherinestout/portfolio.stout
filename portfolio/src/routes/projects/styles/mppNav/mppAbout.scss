@@ -1,0 +1,138 @@
+
+@import "./../../../../global/sass/colors";
+@import "./../../../../global/mixins/projects";
+
+
+.header {
+    @include projectHeaders;
+}
+.subHeader{
+    @include projectSubHeaders;
+}
+.content {
+    @include content;
+}
+.percents {
+    @include percents;
+}
+
+.boldContent {
+    @include boldContent;
+}
+
+.mppAboutPage {
+
+    // .image {
+    //     width: 100%;
+    // }
+
+    background-color: $mpp-dark;
+    color: $white;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+
+    .mppContainer {
+        margin-left: 15%;
+        margin-right: 15%;
+        // margin-top: 5%;
+
+    .wrapper-1 {
+        margin-top: 0%;
+        padding-top: 15%;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fit(2, 1fr));
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-content: center;
+
+
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 2 / 1 / 3 / 2; }
+
+    }
+    .wrapper-2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit(3, 1fr));
+        grid-template-rows: repeat(auto-fit(2, 1fr));
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+        align-content: center;
+        .div1 { grid-area: 1 / 1 / 2 / 4;
+            text-align: center;
+       }
+        .div2 { grid-area: 2 / 1 / 3 / 2; 
+
+            .about1 {
+            width: 50%;
+            margin: 0;
+            } }
+        .div3 { grid-area: 2 / 2 / 3 / 3; 
+            .about2 {
+                width: 50%;
+                margin: 0;
+                } }
+        .div4 { grid-area: 2 / 3 / 3 / 4; 
+            .about3 {
+                width: 50%;
+                margin: 0;
+                } }
+    }
+    .wrapper-3 {
+
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+
+
+            .div1 { grid-area: 1 / 1 / 2 / 2; }
+            .div2 { grid-area: 2 / 1 / 3 / 2; }
+            .div3 { grid-area: 3 / 1 / 4 / 2; }
+            .div4 { grid-area: 4 / 1 / 5 / 2; }
+            .div5 { grid-area: 5 / 1 / 6 / 2; }
+            .div6 { grid-area: 6 / 1 / 7 / 2; }
+            .div7 { grid-area: 7 / 1 / 8 / 2; 
+            .about6 {
+                width: 100px;
+            }}
+            .div8 { grid-area: 8 / 1 / 9 / 2; 
+                .parent-1 {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit(2, 1fr));
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+
+
+                    .div1 { grid-area: 1 / 1 / 2 / 2; 
+                    .ff1 {
+                        width: 50%;
+                    }}
+                    .div2 { grid-area: 1 / 2 / 2 / 3; 
+                    .ff2 {
+                        width: 50%;
+                    }}
+                    .div3 { grid-area: 2 / 1 / 3 / 2;
+                    .ff3{
+                        width: 50%;
+                    } }
+                    .div4 { grid-area: 2 / 2 / 3 / 3;
+                    .ff4 {
+                        width: 50%;
+                    } }
+                }
+            }
+        
+    }
+    .wrapper-4 {
+        
+    }
+}
+
+}
