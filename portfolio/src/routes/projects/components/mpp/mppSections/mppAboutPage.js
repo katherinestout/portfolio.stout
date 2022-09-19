@@ -5,13 +5,17 @@ const MppAboutPage = () =>
 <div className={mppAboutStyles}>
 <div className = "">
 
-
+    <div className = "wrapper-1">
     <div className = "">
     CREATING MPP - THE PROCESS 
-        About Page
-    </div>
-  
-    <div className = "">
+   </div>
+   <div className = "">
+   About Page
+   </div>
+   </div>
+    
+    <div className = "wrapper-2">
+    <div >
         SKETCHES
         WIREFRAMES 
         FINAL PRODUCT
@@ -20,8 +24,10 @@ const MppAboutPage = () =>
     <div className = "">
    IMAGES
      </div>
+    </div>
+  
 
-  <div className = "">
+  <div className = "wrapper-3">
   <div className = "">
   THE PIECES
    </div>
@@ -37,7 +43,7 @@ const MppAboutPage = () =>
    </div>
    </div>
 
-   <div className = "aboutGraphics">
+   <div className = "wrapper-4">
    <div className = "">
    GRAPHICS AND ICONS
    </div>

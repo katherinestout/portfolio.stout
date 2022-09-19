@@ -8,11 +8,17 @@ const MppMedicarePage = () =>
    
    </div>
     
-<div className = "">
-<div className = "">
-   CREATING MPP - THE PROCESS
-   Parts Of Medicare Pages
+<div className = "wrapper-1">
+    <div className = "">
+        <div className = "">
+        CREATING MPP - THE PROCESS
+        </div>
+        <div className = "">
+        Parts Of Medicare Pages
+        </div>
    </div>
+
+   
    <div className = "">
    SKETCHES WIREFRAMES FINAL PRODUCT
    </div>
@@ -21,7 +27,7 @@ const MppMedicarePage = () =>
    </div>
    </div>
 
-   <div className = "">
+   <div className = "wrapper-2">
    <div className = "">
    THE PIECES
    </div>
@@ -71,6 +77,33 @@ const MppMedicarePage = () =>
    </div>
 
    </div>
+
+   <div className = "wrapper-3">
+   <div className = "">
+   GRAPHICS AND ICONS 
+   </div>
+   <div className = "">
+   Graphics for each part of Medicare, representative of what each part pertains to
+
+   </div>
+   <div className = "">
+   IMAGES
+   </div>
+   <div className = "">
+   Detailed Icons for Finance, Services, and MPP Data sections
+   </div>
+   <div className = "">
+   IMAGES
+   </div>
+   <div className = "">
+   Graphic that briefly summarizes each Spending Gap section.
+   </div>
+   <div className = "">
+   IMAGES
+   </div>
+   
+   </div>
+   
   
     
     
