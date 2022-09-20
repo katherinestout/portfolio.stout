@@ -23,6 +23,7 @@ import about16 from "./../../../../../svg/mpp/about/about16.png";
 import one from "./../../../../../svg/one.png";
 import two from "./../../../../../svg/two.png";
 import three from "./../../../../../svg/three.png";
+import { Link } from "react-router-dom";
 
 const MppAboutPage = () => (
   <div className={mppAboutStyles}>
@@ -68,6 +69,16 @@ const MppAboutPage = () => (
             <img src={about3} alt="about3" className="about3" />
           </div>
         </div>
+
+        <div className="mppLink content"><Link
+         to={{
+            pathname:
+              "https://mpp.t1cg.io",
+          }}
+          target="_blank"
+          style={{ textDecoration: "none", color: "white" }}
+        >  [ Click here to see the MPP site ] </Link></div>
+
         <div className = "pageDetail"><img src={about15} alt="about15" className="about15" /></div>
         <div className="wrapper-3">
           <div className="div1 subHeader">THE PIECES</div>
