@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+} from "react-router-dom";
 
 import mppNavStyles from "./../../styles/mppNav/mppNav.scss";
 import MppHomePage from "./mppSections/mppHomePage";
@@ -11,7 +17,7 @@ const MppNav = () => {
     <Router>
       <div>
         <div className={mppNavStyles}>
-          <nav className = "mppNav">
+          <nav className="mppNav">
             <ul className="mpp-nav-items">
               <li className="mpp-nav-item">
                 <Link to="/mpp/mppHomePage">HOME PAGE</Link>
@@ -27,7 +33,7 @@ const MppNav = () => {
           </nav>
 
           <Switch>
-          <Route
+            <Route
               exact
               path="/mpp"
               render={() => {
