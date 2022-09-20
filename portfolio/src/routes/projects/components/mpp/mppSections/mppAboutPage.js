@@ -18,8 +18,8 @@ import about11 from "./../../../../../svg/mpp/about/about11.png";
 import about12 from "./../../../../../svg/mpp/about/about12.png";
 import about13 from "./../../../../../svg/mpp/about/about13.png";
 // import about14 from "./../../../../../svg/mpp/about/about14.png";
-// import about15 from "./../../../../../svg/mpp/about/about15.png";
-// import about16 from "./../../../../../svg/mpp/about/about16.png";
+import about15 from "./../../../../../svg/mpp/about/about15.png";
+import about16 from "./../../../../../svg/mpp/about/about16.png";
 import one from "./../../../../../svg/one.png";
 import two from "./../../../../../svg/two.png";
 import three from "./../../../../../svg/three.png";
@@ -34,7 +34,25 @@ const MppAboutPage = () => (
         </div>
 
         <div className="wrapper-2">
-          <div className="div1">SKETCHES WIREFRAMES FINAL PRODUCT</div>
+          <div className="div1">
+            <div className = "parent-1">
+            <div className = "div1">
+            SKETCHES 
+            </div>
+            <div className = "div2">
+            <img src={about16} alt="about16" className="about16" />  
+            </div>
+            <div className = "div3">
+            WIREFRAMES 
+            </div>
+            <div className = "div4">
+            <img src={about16} alt="about16" className="about16" />  
+            </div>
+            <div className = "div5">
+            FINAL PRODUCT
+            </div>
+            </div>
+              </div>
 
           {/* <div className = "image div1"> <img src={about14} alt="about14" className="about14"/></div> */}
           <div className="image div2">
@@ -50,7 +68,7 @@ const MppAboutPage = () => (
             <img src={about3} alt="about3" className="about3" />
           </div>
         </div>
-
+        <div className = "pageDetail"><img src={about15} alt="about15" className="about15" /></div>
         <div className="wrapper-3">
           <div className="div1 subHeader">THE PIECES</div>
 
@@ -114,6 +132,8 @@ const MppAboutPage = () => (
             </div>
           </div>
         </div>
+
+        <div className = "pageDetail"><img src={about15} alt="about15" className="about15" /></div>
 
         <div className="wrapper-4">
           <div className="parent-1">
