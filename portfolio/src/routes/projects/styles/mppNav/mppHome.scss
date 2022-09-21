@@ -19,14 +19,7 @@
     @include boldContent;
 }
 
-.mppAboutPage {
-        background-color: $mpp-dark;
-        color: $white;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        text-align: center;
-
+.mppHomePage {
         .one {width: 15%; margin-bottom: -10px; margin-right: 15px;}
         .two {width: 15%; margin-bottom: -10px; margin-right: 15px;}
         .three {width: 15%; margin-bottom: -10px; margin-right: 15px;}
@@ -46,6 +39,14 @@
             margin-top: 10%;
         }
 
+
+
+        background-color: $mpp-dark;
+        color: $white;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
     
     .mppContainer {
         margin-left: 15%;
@@ -54,4 +55,307 @@
 
 
 
+        .wrapper-1 {
+            margin-top: 0%;
+            padding-top: 15%;
+            display: grid;
+            grid-template-columns: (1fr);
+            grid-template-rows: repeat(auto-fit(2, 1fr));
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            text-align: center;
+         
+            .div1 { grid-area: 1 / 1 / 2 / 2;  
+       
+            
+            }
+            .div2 { grid-area: 2 / 1 / 3 / 2; }
+    
+        }
+
+        .wrapper-2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(auto-fit(2, 1fr));
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            .div1 {
+                grid-area: 1 / 1 / 2 / 2;
+
+                .parent-1 {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit(3, 1fr));
+                    grid-template-rows: auto-fit(1fr);
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    .div1 { grid-area: 1 / 1 / 2 / 2; }
+                    .div2 { grid-area: 1 / 2 / 2 / 3; .about16 {width: 80%; padding: 2px; margin-top: -10px;}}
+                    .div3 { grid-area: 1 / 3 / 2 / 4;}
+
+                }
+
+                
+            }
+            .div2 {
+                grid-area: 2 / 1 / 3 / 2; 
+                .parent-2
+                 {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: 1fr;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+
+                    .div1 {
+                        grid-area: 1 / 1 / 2 / 2; 
+                        .home5 {
+
+                            width: 90%;
+                            margin: 5%;
+                            margin-top: 10%;
+    
+                        }
+                    }
+                    .div2 {
+                        grid-area: 1 / 2 / 2 / 3;
+                        .home6 {
+
+                            width: 90%;
+                            margin: 5%;
+                            margin-top: 10%;
+    
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrapper-3 {
+
+            .div2 {
+                .div1 {
+                  
+                                .div1 {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        grid-template-rows: 1fr;
+                        grid-column-gap: 0px;
+                        grid-row-gap: 0px;
+                                .hospital {grid-area: 1 / 1 / 2 / 2; 
+                                    .hospital {width: 100%;}}
+                                .iv {grid-area: 1 / 2 / 2 / 3; 
+                                    .iv {width: 100%;}}
+                                .pill{grid-area: 1 / 3 / 2 / 4;
+                                    .pill{width: 100%;}}
+                                .syringe{grid-area: 1 / 4 / 2 / 5; 
+                                    .syringe{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                    
+                }
+            }
+
+            .div3 {
+                .parent-1 {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(auto-fit(4, 1fr));
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+
+
+                    .div1 { grid-area: 1 / 1 / 2 / 2; 
+            
+                    }
+                    .div2 { grid-area: 2 / 1 / 3 / 2; 
+                    .parent-1 {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            grid-template-rows: 1fr;
+                            grid-column-gap: 0px;
+                            grid-row-gap: 0px;
+                        .div1 {
+                            grid-area: 1 / 1 / 2 / 2;
+
+                            .home8 {
+                                width: 100%;
+
+                            }
+
+                        }
+                        .div2 { grid-area: 1 / 2 / 2 / 3;
+                            .home9 {
+                                width: 100%;
+
+                            }
+                        }
+                    }}
+                    .div3 { grid-area: 3 / 1 / 4 / 2; }
+                    .div4 { grid-area: 4 / 1 / 5 / 2; }
+                }
+            }
+
+
+            .div4 {
+                .parent-1 {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(auto-fit(8, 1fr));
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    text-align: center;
+                    
+                    .div1 { grid-area: 1 / 1 / 2 / 2; }
+                    .div2 { grid-area: 2 / 1 / 3 / 2; 
+                    .home2 {
+                        width: 100%;
+
+                    }}
+                    .div3 { grid-area: 3 / 1 / 4 / 2; }
+                    .div4 { grid-area: 4 / 1 / 5 / 2; 
+                    .home4{
+                        width: 100%;
+                    }}
+                    .div5 { grid-area: 5 / 1 / 6 / 2; }
+                    .div6 { grid-area: 6 / 1 / 7 / 2; 
+                    .home1{
+                        width: 100%;
+                    }}
+                    .div7 { grid-area: 7 / 1 / 8 / 2; }
+                    .div8 { grid-area: 8 / 1 / 9 / 2; 
+                    .home3{
+                        width: 100%;
+                    }}
+                }
+            }
+        }
+
     }}
+
+
+    @media only screen and (min-width: 750px) {
+        .mppHomePage {
+            .mppContainer {
+                .one {width: 7%; margin-bottom: -10px;}
+                .two {width: 7%; margin-bottom: -10px;}
+                .three {width: 7%; margin-bottom: -10px;}
+                .wrapper-2 {
+                    font-size: 30px;
+
+                    .div1 {
+                        .parent-1 {
+                            .div2 {
+                                .about16 {width: 70%; padding: 0; margin-top: -20px;}
+                            }
+                        }
+                    }
+    
+                   
+                }
+
+                .wrapper-3 {
+                    .div4 {
+                        .parent-1 {
+                            .div2 {
+                                .home2 {
+                                    width: 80%;
+                                }}
+
+                            .div4 {
+                                .home4 {
+                                    width: 80%;
+                                }
+                            }
+                              
+                            .div6 {
+                                .home1 {
+                                    width: 80%;
+                                }
+                            }
+                              
+                                .div8{
+                                    .home3 {
+                                        width: 80%;
+                                    }
+                                }
+                               
+
+                            
+                        }
+                        
+                    }
+                }
+
+               
+
+            }
+          
+                }
+    }
+
+
+
+    @media only screen and (min-width: 1150px) {
+        .mppHomePage {
+            .mppContainer {
+                .one {width: 7%; margin-bottom: -10px;}
+                .two {width: 7%; margin-bottom: -10px;}
+                .three {width: 7%; margin-bottom: -10px;}
+                .wrapper-2 {
+                    font-size: 30px;
+
+                    .div1 {
+                        .parent-1 {
+                            .div2 {
+                                .about16 {width: 70%; padding: 0; margin-top: -20px;}
+                            }
+                        }
+                    }
+    
+                   
+                }
+
+                .wrapper-3 {
+                    .div4 {
+                        .parent-1 {
+                            .div2 {
+                                .home2 {
+                                    width: 60%;
+                                }}
+
+                            .div4 {
+                                .home4 {
+                                    width: 60%;
+                                }
+                            }
+                              
+                            .div6 {
+                                .home1 {
+                                    width: 60%;
+                                }
+                            }
+                              
+                                .div8{
+                                    .home3 {
+                                        width: 60%;
+                                    }
+                                }
+                               
+
+                            
+                        }
+                        
+                    }
+                }
+
+               
+
+            }
+          
+                }
+    }
+    
