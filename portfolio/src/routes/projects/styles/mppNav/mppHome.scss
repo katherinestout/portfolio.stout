@@ -1,10 +1,57 @@
 @import "./../../../../global/sass/colors";
+@import "./../../../../global/mixins/projects";
 
 
-.mppHomePage {
+.header {
+    @include projectHeaders;
+}
+.subHeader{
+    @include projectSubHeaders;
+}
+.content {
+    @include content;
+}
+.percents {
+    @include percents;
+}
+
+.boldContent {
+    @include boldContent;
+}
+
+.mppAboutPage {
+        background-color: $mpp-dark;
+        color: $white;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+
+        .one {width: 15%; margin-bottom: -10px; margin-right: 15px;}
+        .two {width: 15%; margin-bottom: -10px; margin-right: 15px;}
+        .three {width: 15%; margin-bottom: -10px; margin-right: 15px;}
+
+
+        .pageDetail {
+            margin-top: 15%;
+            margin-bottom: 15%;
+           .about15 {
+            width: 141%;
+            margin-left: -20%;
+            margin-right: -20%;
+           } 
+        }
+
+        .mppLink {
+            margin-top: 10%;
+        }
+
+    
     .mppContainer {
         margin-left: 15%;
         margin-right: 15%;
-    }
+        // margin-top: 5%;
 
-}
+
+
+    }}

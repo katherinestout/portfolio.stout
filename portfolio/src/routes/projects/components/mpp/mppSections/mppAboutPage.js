@@ -36,24 +36,18 @@ const MppAboutPage = () => (
 
         <div className="wrapper-2">
           <div className="div1">
-            <div className = "parent-1">
-            <div className = "div1">
-            SKETCHES 
-            </div>
-            <div className = "div2">
-            <img src={about16} alt="about16" className="about16" />  
-            </div>
-            <div className = "div3">
-            WIREFRAMES 
-            </div>
-            <div className = "div4">
-            <img src={about16} alt="about16" className="about16" />  
-            </div>
-            <div className = "div5">
-            FINAL PRODUCT
-            </div>
-            </div>
+            <div className="parent-1">
+              <div className="div1">SKETCHES</div>
+              <div className="div2">
+                <img src={about16} alt="about16" className="about16" />
               </div>
+              <div className="div3">WIREFRAMES</div>
+              <div className="div4">
+                <img src={about16} alt="about16" className="about16" />
+              </div>
+              <div className="div5">FINAL PRODUCT</div>
+            </div>
+          </div>
 
           {/* <div className = "image div1"> <img src={about14} alt="about14" className="about14"/></div> */}
           <div className="image div2">
@@ -70,16 +64,22 @@ const MppAboutPage = () => (
           </div>
         </div>
 
-        <div className="mppLink content"><Link
-         to={{
-            pathname:
-              "https://mpp.t1cg.io",
-          }}
-          target="_blank"
-          style={{ textDecoration: "none", color: "white" }}
-        >  [ Click here to see the MPP site ] </Link></div>
+        <div className="mppLink content">
+          <Link
+            to={{
+              pathname: "https://mpp.t1cg.io",
+            }}
+            target="_blank"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            {" "}
+            [ Click here to see the MPP site ]{" "}
+          </Link>
+        </div>
 
-        <div className = "pageDetail"><img src={about15} alt="about15" className="about15" /></div>
+        <div className="pageDetail">
+          <img src={about15} alt="about15" className="about15" />
+        </div>
         <div className="wrapper-3">
           <div className="div1 subHeader">THE PIECES</div>
 
@@ -144,7 +144,9 @@ const MppAboutPage = () => (
           </div>
         </div>
 
-        <div className = "pageDetail"><img src={about15} alt="about15" className="about15" /></div>
+        <div className="pageDetail">
+          <img src={about15} alt="about15" className="about15" />
+        </div>
 
         <div className="wrapper-4">
           <div className="parent-1">
