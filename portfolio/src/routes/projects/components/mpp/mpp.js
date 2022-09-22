@@ -6,7 +6,6 @@ const MPP = () => (
   <div className={styles}>
     <div className="mppBody">
       <div className="mppContent1">
-
         <div className="wrapper-1">
           <div className="div1">
             <div className="darkHeader"> Responsibilities</div>
@@ -64,7 +63,7 @@ const MPP = () => (
           <div className="wrapper-4">
             <div className="lightHeader div1">User Research</div>
             <div className="div2">
-              <div className="lightSubHeader"> ?? </div>
+              <div className="lightSubHeader"> A Deep Dive into Data </div>
               <div className="lightContent">
                 The team was asked to use the CMS site (statistical graphs and
                 charts) to find useful and tangible data regarding payments and
