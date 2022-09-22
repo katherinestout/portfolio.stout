@@ -6,13 +6,6 @@ const MPP = () => (
   <div className={styles}>
     <div className="mppBody">
       <div className="mppContent1">
-        <ul>
-          <li>Empathize</li>
-          <li>Define</li>
-          <li>Ideate</li>
-          <li>Prototype</li>
-          <li>Test</li>
-        </ul>
 
         <div className="wrapper-1">
           <div className="div1">
@@ -27,7 +20,7 @@ const MPP = () => (
             </ul>
           </div>
           <div className="div2">
-            <div className="darkSubHeader">Background </div>
+            <div className="darkSubHeader">Background</div>
             <div className="content">
               MPP was created for data enthusiasts to easily analyze and
               visualize useful and intriguing Medicare data. After analyzing the
