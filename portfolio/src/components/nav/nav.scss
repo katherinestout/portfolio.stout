@@ -32,10 +32,10 @@
             
             }
             a:hover {
-                color: $main-background;
-                background-color: $main-font-color;
+
                 padding: 1rem;
                 transition: 0.5s;
+                font-weight: bold;
             }
         }
         }
