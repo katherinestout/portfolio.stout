@@ -20,7 +20,7 @@
     .project {
        
         padding: 3%;
-        background-color: $white;
+        // background-color: rgb(243, 243, 243);
         margin: 10px;
         box-shadow: 0px 5px 10px $main-shadow;
 
@@ -30,6 +30,7 @@
         grid-column-gap: 0px;
         grid-row-gap: 0px;
 
+       
         .div1 {
             text-align: right;
             display: flex;
@@ -77,21 +78,37 @@
 
        
     }
+    .project-1 {
+        background-color: $crew-cuts;
+        // transition: 0.5s;
+    }
+    .project-2 {
+        background-color: $mpp;
+        // transition: 0.5s;
+    }
+    .project-3 {
+        background-color: $gallery;
+        // transition: 0.5s;
+    }
+    .project-4 {
+        background-color: $portfolio;
+        // transition: 0.5s;
+    }
 
     .project-1:hover {
-        background-color: $crewcuts-body;
+        background-color: $crew-cuts-hover;
         transition: 0.5s;
     }
     .project-2:hover {
-        background-color: $mpp-light;
+        background-color: $mpp-hover;
         transition: 0.5s;
     }
     .project-3:hover {
-        background-color: $alice-blue;
+        background-color: $gallery-hover;
         transition: 0.5s;
     }
     .project-4:hover {
-        background-color: $pink;
+        background-color: $portfolio-hover;
         transition: 0.5s;
     }
 
@@ -118,7 +135,7 @@
         .project {
            
             padding: 3%;
-            background-color: $white;
+            // background-color: $white;
             margin: 10px;
             box-shadow: 0px 5px 10px $main-shadow;
     
@@ -175,22 +192,22 @@
            
         }
     
-        .project-1:hover {
-            background-color: $crewcuts-body;
-            transition: 0.5s;
-        }
-        .project-2:hover {
-            background-color: $mpp-light;
-            transition: 0.5s;
-        }
-        .project-3:hover {
-            background-color: $alice-blue;
-            transition: 0.5s;
-        }
-        .project-4:hover {
-            background-color: $pink;
-            transition: 0.5s;
-        }
+        // .project-1:hover {
+        //     background-color: $crewcuts-body;
+        //     transition: 0.5s;
+        // }
+        // .project-2:hover {
+        //     background-color: $mpp-light;
+        //     transition: 0.5s;
+        // }
+        // .project-3:hover {
+        //     background-color: $alice-blue;
+        //     transition: 0.5s;
+        // }
+        // .project-4:hover {
+        //     background-color: $pink;
+        //     transition: 0.5s;
+        // }
     
     }
     
