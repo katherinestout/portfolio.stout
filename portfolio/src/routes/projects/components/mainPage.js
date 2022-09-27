@@ -86,11 +86,12 @@ const MainPage = () => (
               <br />
               <span className="project-content">
                 <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li>Website</li>
+                  <li>Adobe XD</li>
+                  <li>Affinity Designer</li>
+                  <li>Real-World Project</li>
                 </ul>
-                skhkahsdfklhaksfdh jkshfdkashdflk ksjdhfkaj
+               
               </span>
             </div>
           </div>
