@@ -91,7 +91,6 @@ const MainPage = () => (
                   <li>Affinity Designer</li>
                   <li>Real-World Project</li>
                 </ul>
-               
               </span>
             </div>
           </div>
