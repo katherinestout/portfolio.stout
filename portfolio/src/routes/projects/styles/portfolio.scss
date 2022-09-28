@@ -1,0 +1,164 @@
+@import "./../../../global/mixins/projects";
+@import "./../../../global//sass/colors";
+
+
+.portfolioBody {
+
+
+    .lightHeader {
+        @include lightMppHeaders;
+        
+    }
+
+    .darkHeader {
+        @include darkMppHeaders;
+    }
+    
+    .lightSubHeader{
+        @include lightMppSubHeaders;
+    }
+
+    .darkSubHeader {
+        @include darkMppSubHeaders;
+    }
+
+    .content {
+        @include content;
+    }
+
+    .boldContent {
+        @include boldContent;
+    }
+
+    .lightContent {
+        @include lightMppContent;
+    }
+
+    .center {
+        @include center;
+    }
+
+
+    margin: 15%;
+
+
+  .wrapper-1 {
+
+  }
+  .wrapper-2 {
+    margin-top: 15%;
+    .sitemap {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+  }
+  .wrapper-3 {
+      text-align: center;
+      margin-top: 15%;
+
+    ul {
+        list-style-type: none;
+                
+                   margin: 0;
+                   padding:0;
+    }
+
+
+
+  }
+  .wrapper-4 {
+    margin-top: 15%;
+
+  }
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 750px) { 
+.portfolioBody {
+
+
+    .lightHeader {
+        @include lightMppHeaders;
+        
+    }
+
+    .darkHeader {
+        @include darkMppHeaders;
+    }
+    
+    .lightSubHeader{
+        @include lightMppSubHeaders;
+    }
+
+    .darkSubHeader {
+        @include darkMppSubHeaders;
+    }
+
+    .content {
+        @include content;
+    }
+
+    .boldContent {
+        @include boldContent;
+    }
+
+    .lightContent {
+        @include lightMppContent;
+    }
+
+    .center {
+        @include center;
+    }
+
+
+    margin: 15%;
+    margin-top: 10%;
+
+  .wrapper-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit(2, 1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3;  margin-top: 0; margin-left: 15%;}
+
+  }
+  .wrapper-2 {
+    margin-top: 10%;
+    .sitemap {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+  }
+  .wrapper-3 {
+      text-align: center;
+      margin-top: 15%;
+
+    ul {
+        list-style-type: none;
+                
+                   margin: 0;
+                   padding:0;
+    }
+
+
+
+  }
+  .wrapper-4 {
+    margin-top: 10%;
+
+  }
+
+}
+}
