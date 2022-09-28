@@ -195,10 +195,27 @@ const ArtGallery = () => (
           >
             <div className="lowFi">
               <div className="lowFi1">
+              <Link
+              to={{
+                pathname:
+                  "https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415",
+              }}
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+            >
                 <img src={LowFi1} alt="lowFi1" className="lowFi1" />
+                </Link>
               </div>
               <div className="lowFi2">
-                <img src={LowFi2} alt="lowFi2" className="lowFi2" />
+              <Link
+              to={{
+                pathname:
+                  "https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415",
+              }}
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+                <img src={LowFi2} alt="lowFi2" className="lowFi2" /></Link>
               </div>
             </div>
             <Link
@@ -249,16 +266,32 @@ const ArtGallery = () => (
               target="_blank"
               style={{ textDecoration: "none", color: "black" }}
             >
-              High-Fi Link
+              Click here to view the finished High-Fi Prototype!
             </Link>
           </div>
           <div className="div4 content">
             <div className="highFi">
               <div className="highFi1">
-                <img src={HighFi1} alt="highFi1" className="highFi1" />{" "}
+              <Link
+              to={{
+                pathname:
+                  "https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455",
+              }}
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+                <img src={HighFi1} alt="highFi1" className="highFi1" /></Link>
               </div>
               <div className="highFi2">
-                <img src={HighFi2} alt="highFi2" className="highFi2" />
+              <Link
+              to={{
+                pathname:
+                  "https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455",
+              }}
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+                <img src={HighFi2} alt="highFi2" className="highFi2" /> </Link>
               </div>
             </div>
           </div>

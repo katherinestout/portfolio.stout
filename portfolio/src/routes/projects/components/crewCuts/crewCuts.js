@@ -202,13 +202,7 @@ const CrewCuts = () => (
           <div className="parent-3">
             <div className="subHeader div1">Low-Fidelity Prototype</div>
             <div className="div2">
-              <img
-                src={lowFiPrototype}
-                alt="lowfi"
-                className="lowFiPrototype"
-              />
-
-              <Link
+            <Link
                 to={{
                   pathname:
                     "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen",
@@ -216,24 +210,31 @@ const CrewCuts = () => (
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
               >
+
+              <img
+                src={lowFiPrototype}
+                alt="lowfi"
+                className="lowFiPrototype"
+              />
+
+
                 {" "}
                 Click here to see the low-fidelity prototype of CrewCuts Mobile
                 App here!
               </Link>
-              <Link
+             
+            </div>
+            <div className="div3">
+            <Link
                 to={{
                   pathname:
-                    "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/grid",
+                    "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen",
                 }}
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
               >
-                {" "}
-                Click here to see all screens!
-              </Link>
-            </div>
-            <div className="div3">
               <img src={lowFi} alt="lowFi2" className="lowFi" />
+              </Link>
             </div>
           </div>
 
@@ -241,11 +242,6 @@ const CrewCuts = () => (
             <div className="subHeader div1">High-Fidelity Prototype</div>
             <div className="div2">
               {" "}
-              <img
-                src={highFiPrototype}
-                alt="highfi"
-                className="highFiPrototype"
-              />
               <Link
                 to={{
                   pathname:
@@ -254,24 +250,28 @@ const CrewCuts = () => (
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
               >
+              <img
+                src={highFiPrototype}
+                alt="highfi"
+                className="highFiPrototype"
+              />
+             
                 {" "}
                 Click here to see the high-fidelity prototype of CrewCuts Mobile
                 App here!
               </Link>
-              <Link
+           
+            </div>
+            <div className="div3">
+            <Link
                 to={{
                   pathname:
-                    "https://xd.adobe.com/view/d8470e34-f515-4044-8a05-7127faf10f3f-8d14/grid/",
+                    "https://xd.adobe.com/view/d8470e34-f515-4044-8a05-7127faf10f3f-8d14/?fullscreen",
                 }}
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
               >
-                {" "}
-                Click here to see all screens!
-              </Link>
-            </div>
-            <div className="div3">
-              <img src={highFi} alt="highfi2" className="highFi" />
+              <img src={highFi} alt="highfi2" className="highFi" /> </Link>
             </div>
           </div>
         </div>

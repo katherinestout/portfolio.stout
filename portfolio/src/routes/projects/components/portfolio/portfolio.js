@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./../../styles/portfolio.scss";
 import sitemap from "./../../../../svg/portfolioSitemap.jpeg";
+import screenshot from "./../../../../svg/portfolioscreenshot.png";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => (
   <div className={styles}>
@@ -39,7 +41,7 @@ const Portfolio = () => (
               <li>SASS</li>
               <li>Prettier</li>
               <li>Javascript</li>
-              <li>React</li>
+              <li>React.js</li>
               <li>CSS Grid</li>
             </ul>
           </p>
@@ -49,11 +51,36 @@ const Portfolio = () => (
         <div className="div1">
           <div className="subHeader">High-Fidelity Prototype</div>
           <div className="content">
-            Here is a link to the finished prototype for this website, made with
+
+            <Link
+              to={{
+                pathname:
+                  "https://xd.adobe.com/view/a4ad0111-fb69-4103-8f66-fde03a96f2ee-f1fe/?fullscreen&hints=off",
+              }}
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+             Click here to see the finished prototype for this website, made with
             Adobe XD.
+            </Link>
           </div>
         </div>
-        <div className="div2">screenshot</div>
+        <div className="div2">
+        <Link
+              to={{
+                pathname:
+                  "https://xd.adobe.com/view/a4ad0111-fb69-4103-8f66-fde03a96f2ee-f1fe/?fullscreen&hints=off",
+              }}
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+            <div className = "linkDiv">
+            <img src={screenshot} alt="screenshot" className="screenshot" />
+            </div>
+            
+            
+            </Link>
+            </div>
       </div>
     </div>
   </div>

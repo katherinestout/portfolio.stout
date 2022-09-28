@@ -69,6 +69,19 @@
   }
   .wrapper-4 {
     margin-top: 15%;
+ 
+    .div2 {
+
+        .linkDiv {
+            display: grid;
+            place-items: center;
+            margin-top: 10%;
+            .screenshot {
+                width: 50%;
+            }
+        }
+        
+    }
 
   }
 
@@ -156,7 +169,17 @@
 
   }
   .wrapper-4 {
-    margin-top: 10%;
+    // margin-top: 10%;
+    .div2 {
+        .linkDiv {
+            display: grid;
+            place-items: center;
+            margin-top: 10%;
+            .screenshot {
+                width: 50%;
+            }
+        }
+    }
 
   }
 
