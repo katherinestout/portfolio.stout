@@ -15,7 +15,7 @@ const AboutPage = () => (
           <p className="bio">
             <div className="title">Hi There!</div>
             <p>
-              My name is Katie Stout, I'm a UI UX Designer and Front End Web
+              My name is <b>Katie Stout</b>, I'm a UI UX Designer and Front End Web
               Developer, with a background in painting and drawing. I absolutely
               love to create wireframes, to design icons and graphics, and to
               fiddle with CSS. I have several years experience as a Full Stack

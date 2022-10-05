@@ -48,11 +48,11 @@ const ArtGallery = () => (
           <div className="div2">
             <div className="subHeader">Background </div>
             <div className="content">
-              The Product The Artist Bio App for an Art Gallery in Edinburgh was
-              designed to connect our target users ( users who are interested in
-              obtaining art pieces such as art collectors ) with other artists
-              via the app. This App was one of the projects completed from
-              beginning to end while I obtained the Certificate in UX design
+              The Artist Bio App for an Art Gallery in Edinburgh was
+              designed to connect our target users (users who are interested in
+              obtaining art pieces such as art collectors) with other artists
+              via the app. This app was one of the projects completed from
+              beginning to end while I obtained the Certificate in UX design course
               from Google. We utilized the five stages of the design thinking
               process: Empathize, Define, Ideate, Prototype, and Test.
             </div>
@@ -66,9 +66,7 @@ const ArtGallery = () => (
             <div className="subHeader">Problem </div>
 
             <div className="content">
-              The goal was to create an app that allowed fThe goal was to create
-              an app that allowed fThe goal was to create an app that allowed
-              fThe goal was to create an app that allowed f
+              Users need an app to easily find art pieces. The app must have high quality images, and ways to contact artists.  
             </div>
           </div>
         </div>
@@ -203,7 +201,12 @@ const ArtGallery = () => (
             <div></div>
           </div>
 
-          <div className="div6 header">Low-Fidelity Prototypes</div>
+          <div className="div6 header">Low-Fidelity Prototypes
+          <div className = "content">
+          Click the images below to view the finished Low-Fi Prototype.
+
+          </div>
+          </div>
 
           <div
             className="div7"
@@ -218,7 +221,9 @@ const ArtGallery = () => (
               }}
               target="_blank"
               style={{ textDecoration: "none", color: "black" }}
+              className = "content"
             >
+             
                 <img src={LowFi1} alt="lowFi1" className="lowFi1" />
                 </Link>
               </div>
@@ -234,16 +239,7 @@ const ArtGallery = () => (
                 <img src={LowFi2} alt="lowFi2" className="lowFi2" /></Link>
               </div>
             </div>
-            <Link
-              to={{
-                pathname:
-                  "https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415",
-              }}
-              target="_blank"
-              style={{ textDecoration: "none", color: "black" }}
-            >
-              Low-Fidelity Prototype
-            </Link>
+         
           </div>
         </div>
 
@@ -272,7 +268,11 @@ const ArtGallery = () => (
 
         <div className="wrapper-10">
           <div className="div1 subHeader">Refining the Design</div>
-          <div className="div2 header">High-Fidelity Prototype</div>
+          <div className="div2 header">High-Fidelity Prototype
+          <div className = "content">
+          Click the images below to view the finished High-Fi Prototype.
+          </div>
+          </div>
           <div className="div3">
             <Link
               to={{
@@ -281,8 +281,9 @@ const ArtGallery = () => (
               }}
               target="_blank"
               style={{ textDecoration: "none", color: "black" }}
+              className="content"
             >
-              Click here to view the finished High-Fi Prototype!
+             
             </Link>
           </div>
           <div className="div4 content">
@@ -315,14 +316,16 @@ const ArtGallery = () => (
 
         <div className="wrapper-11">
           <div className="div1 subHeader">User Testing</div>
-          <div className="div2 header">Accessibility Considerations</div>
+          <div className="div2 header">Accessibility Considerations
+          
+          <div className= "content">During user testing, it was suggested by my peers that the app might have readability issues. To fix the issue, I added white background behind text, in addition to the transparent background.</div></div>
           <div className="div3">
             {" "}
-            <img src={Before} alt="before" className="before" /> Before
+            <img src={Before} alt="before" className="before" /> 
           </div>
           <div className="div4">
             {" "}
-            <img src={After} alt="after" className="after" /> After
+            <img src={After} alt="after" className="after" /> 
           </div>
         </div>
       </div>

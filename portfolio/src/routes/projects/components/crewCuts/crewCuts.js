@@ -101,34 +101,36 @@ const CrewCuts = () => (
         <div className="wrapper-5">
           <div className="div1">
             <p className="percents ">70% </p>
-            <p className="boldContent">Would book online vs call</p>
+            <p className="boldContent">Would book online over calling.</p>
           </div>
           <div className="percents div2">
             <p className="percents ">80% </p>
             <p className="boldContent">
-              Look at Yelp or Google reviews to help them decide on a service
+              Look at Yelp or Google reviews to help them decide on a service.
             </p>
           </div>
           <div className="percents div3">
             <p className="percents ">100% </p>
-            <p className="boldContent">Value before and after pictures</p>
+            <p className="boldContent">Value before and after pictures.</p>
           </div>
 
           <div className="div4">
             <p className="percents">80%</p>
             <p className="boldContent">
-              Would rather hire a Small local business rather than a big company{" "}
+              Would rather hire a Small local business rather than a big company.{" "}
             </p>
 
             <p className="content center">
-              50% hire small business or do it themselves 50% hire big well
-              known companies
+              50% would rather hire small business or do it themselves. 
+              <br></br>
+              50% hire big well
+              known companies.
             </p>
             <p className="content center">
               Of the 50% that hire big companies, 100% of users said to sway
               them to hire a small business they would upon consideration based
               on reviews online, or recommendations from someone they already
-              know
+              know.
             </p>
           </div>
         </div>
@@ -192,7 +194,7 @@ const CrewCuts = () => (
           <div className="parent-1">
             <div className="div1">
               <div className="subHeader">Sitemap</div>
-              <div className="content">Sitemap</div>
+              <div className="content">I created a sitemap to map out the pages and content of each page.</div>
             </div>
             <div className="div2"></div>
             <div className="div3">
@@ -204,7 +206,7 @@ const CrewCuts = () => (
           <div className="parent-2">
             <div className=" div1">
               <div className="subHeader">Wireframes</div>
-              <div className="content">wireframes</div>
+              <div className="content">I started with paper wireframes to draft out the app.</div>
             </div>
             <div className="div2"></div>
             <div className="div3">
@@ -217,7 +219,15 @@ const CrewCuts = () => (
           </div>
 
           <div className="parent-3">
-            <div className="subHeader div1">Low-Fidelity Prototype</div>
+            <div className="sdiv1">
+              <div className = "subHeader ">
+              Low-Fidelity Prototype
+              </div>
+             
+            <div className = "content">
+            Click the images below to view the finished, Low-Fi Prototype.
+            </div>
+            </div>
             <div className="div2">
             <Link
                 to={{
@@ -236,8 +246,7 @@ const CrewCuts = () => (
 
 
                 {" "}
-                Click here to see the low-fidelity prototype of CrewCuts Mobile
-                App here!
+               
               </Link>
              
             </div>
@@ -256,7 +265,15 @@ const CrewCuts = () => (
           </div>
 
           <div className="parent-4">
-            <div className="subHeader div1">High-Fidelity Prototype</div>
+            <div className=" div1">
+              
+              <div className = "subHeader">
+              High-Fidelity Prototype
+                </div>
+            <div className = "content">
+            Click the images below to view the finished, High-Fi Prototype.
+            </div>
+            </div>
             <div className="div2">
               {" "}
               <Link
@@ -274,8 +291,7 @@ const CrewCuts = () => (
               />
              
                 {" "}
-                Click here to see the high-fidelity prototype of CrewCuts Mobile
-                App here!
+               
               </Link>
            
             </div>

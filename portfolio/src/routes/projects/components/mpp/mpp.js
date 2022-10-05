@@ -32,7 +32,7 @@ const MPP = () => (
 
         <div className="wrapper-1">
           <div className="div1">
-            <div className="darkHeader"> Responsibilities</div>
+            <div className="header"> Responsibilities</div>
             <ul className="content">
               <li>User Research</li>
               <li>Wireframes</li>
@@ -43,7 +43,7 @@ const MPP = () => (
             </ul>
           </div>
           <div className="div2">
-            <div className="darkSubHeader">Background</div>
+            <div className="subHeader">Background</div>
             <div className="content">
               MPP was created for data enthusiasts to easily analyze and
               visualize useful and intriguing Medicare data. After analyzing the
@@ -57,7 +57,7 @@ const MPP = () => (
               Orthotics, and Supplies), Part A (Hospital Insurance),Part B
               (Medical Insurance), and Part D (Drug Coverage).
             </div>
-            <div className="darkSubHeader marginDiv">Team and Role</div>
+            <div className="subHeader marginDiv">Team and Role</div>
             <div className="content">
               I joined T1CG in the middle of 2019 as a Front End Developer, and
               was assigned to the Medicare Provider Data Project (MPP). A few
@@ -70,10 +70,10 @@ const MPP = () => (
         </div>
 
         <div className="wrapper-2">
-          <div className="darkHeader div1">Problem</div>
+          <div className="div1 header">Problem</div>
 
           <div className="div2">
-            <div className="darkSubHeader">Hard to Process </div>
+            <div className="subHeader">Hard to Process </div>
 
             <div className="content">
               CMS data is not easily digestible, it can be dense and hard to
@@ -112,9 +112,9 @@ const MPP = () => (
 
         <div className="mppContent3">
           <div className="wrapper-3">
-            <div className="darkHeader div1">Solution</div>
+            <div className="header div1">Solution</div>
             <div className="div2">
-              <div className="darkSubHeader">
+              <div className="subHeader">
                 {" "}
                 Comprehensive Facts and Figures{" "}
               </div>
