@@ -80,6 +80,7 @@ const MppAboutPage = () => (
         <div className="pageDetail">
           <img src={about15} alt="about15" className="about15" />
         </div>
+
         <div className="wrapper-3">
           <div className="div1 subHeader">THE PIECES</div>
 
@@ -147,6 +148,9 @@ const MppAboutPage = () => (
         <div className="pageDetail">
           <img src={about15} alt="about15" className="about15" />
         </div>
+
+
+
 
         <div className="wrapper-4">
           <div className="parent-1">
