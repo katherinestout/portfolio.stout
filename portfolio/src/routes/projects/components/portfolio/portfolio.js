@@ -2,11 +2,26 @@ import React from "react";
 import styles from "./../../styles/portfolio.scss";
 import sitemap from "./../../../../svg/portfolioSitemap.jpeg";
 import screenshot from "./../../../../svg/portfolioscreenshot.png";
+import headerGraphic from "./../../../../svg/portfolioscreenshot.png";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => (
   <div className={styles}>
     <div className="portfolioBody">
+    <div className = "header-wrapper">
+        <div className = "div1">
+        <img src={headerGraphic} alt="headerGraphic" className="headerGraphic" />
+        </div>
+        <div className = "div2">
+        <span className="headerTitle"> Portfolio </span>
+                <ul>
+                  <li>Website</li>
+                  <li>Adobe XD</li>
+                  <li>Affinity Designer</li>
+                  <li>Real-World Project</li>
+                </ul>
+        </div>
+        </div>
       <div className="wrapper-1">
         <div className="div1 subHeader">About</div>
         <div className="div2 content">

@@ -12,11 +12,27 @@ import LowFi2 from "./../../../../svg/gallery/LowFi2.png";
 import PaperWireframe from "./../../../../svg/gallery/paperWireframe.jpg";
 import HighFi1 from "./../../../../svg/gallery/HighFi1.png";
 import HighFi2 from "./../../../../svg/gallery/HighFi2.png";
+import headerGraphic from "./../../../../svg/gallery/galleryFront.png";
 
 const ArtGallery = () => (
   <div className={styles}>
     <div className="galleryBody">
       <div className="galleryContent">
+
+
+      <div className = "header-wrapper">
+        <div className = "div1">
+        <img src={headerGraphic} alt="headerGraphic" className="headerGraphic" />
+        </div>
+        <div className = "div2">
+        <span className="headerTitle">Art Gallery </span>
+                <ul>
+                  <li>Mobile App</li>
+                  <li>Figma</li>
+                  <li>Google UI UX Certificate</li>
+                </ul>
+        </div>
+        </div>
         <div className="wrapper-1">
           <div className="div1">
             <div className="header"> Responsibilities</div>
