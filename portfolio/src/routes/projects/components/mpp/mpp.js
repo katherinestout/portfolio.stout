@@ -2,6 +2,12 @@ import React from "react";
 import styles from "./../../styles/mpp.scss";
 import MppNav from "./mppNav";
 import headerGraphic from "../../../../svg/mpp/mppFront.png";
+import mpp1 from "./../../../../svg/mpp/research/mpp-1.png";
+import mpp2 from "./../../../../svg/mpp/research/mpp-2.png";
+import mpp3 from "./../../../../svg/mpp/research/mpp-3.png";
+import mpp4 from "./../../../../svg/mpp/research/mpp-4.png";
+import mpp5 from "./../../../../svg/mpp/research/mpp-5.png";
+
 
 const MPP = () => (
   <div className={styles}>
@@ -91,6 +97,14 @@ const MPP = () => (
                   to ask:
                 </p>
                 <p className="p2">What are the issues with the CMS site?</p>
+                <div className = "parent-1">
+                  <div className="div1"><img src={mpp1} alt="mpp1" className="mpp1" /></div>
+                  <div className="div2"><img src={mpp2} alt="mpp2" className="mpp2" /></div>
+                  <div className="div3"><img src={mpp3} alt="mpp3" className="mpp3" /></div>
+                  <div className="div4"><img src={mpp4} alt="mpp4" className="mpp4" /></div>
+                  <div className="div5"><img src={mpp5} alt="mpp5" className="mpp5" /></div>
+
+                </div>
               </div>
             </div>
           </div>

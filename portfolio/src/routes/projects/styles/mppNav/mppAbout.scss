@@ -169,13 +169,14 @@
                     grid-template-rows: repeat(auto-fit(2, 1fr));
                     grid-column-gap: 0px;
                     grid-row-gap: 0px;
-                    margin-top: 10%;
+                    // margin-top: 10%;
 
                     .div1 { grid-area: 1 / 1 / 2 / 2; 
                             margin-top: 10%;
                             margin-right: 5%;
                         .ff1 {width: 100%;}}
                     .div2 { grid-area: 1 / 2 / 2 / 3; 
+                        margin-top: 10%;
                             margin-left: 5%;
                         .ff2 {width: 100%;}}
                     .div3 { grid-area: 2 / 1 / 3 / 2;
@@ -184,7 +185,8 @@
                         .ff3{ width: 100%;
                         } }
                     .div4 { grid-area: 2 / 2 / 3 / 3;
-                        margin-left: 5%;
+                        margin-left: 5%; 
+                        margin-top: 10%;
                         .ff4 {width: 100%;  
                         } }
                 }

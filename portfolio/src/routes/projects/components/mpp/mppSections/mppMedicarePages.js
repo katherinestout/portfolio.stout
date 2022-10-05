@@ -145,7 +145,7 @@ const MppMedicarePage = () => (
             <div className="div1 content">
               <img src={one} alt="one" className="one" />
               Graphics for each part of Medicare, representative of what each
-              part pertains to
+              part pertains to.
             </div>
             <div className="div2">
               <img src={med14} alt="med14" className="med14" />
@@ -155,7 +155,7 @@ const MppMedicarePage = () => (
           <div className="parent-2">
             <div className="div1 content">
               <img src={two} alt="two" className="two" />
-              Detailed Icons for Finance, Services, and MPP Data sections
+              Detailed Icons for Finance, Services, and MPP Data sections.
             </div>
             <div className="div2">
               <img src={med15} alt="med15" className="med15" />
