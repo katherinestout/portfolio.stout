@@ -232,7 +232,7 @@ const CrewCuts = () => (
             <Link
                 to={{
                   pathname:
-                    "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen",
+                    "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen&hints=off",
                 }}
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
@@ -254,7 +254,7 @@ const CrewCuts = () => (
             <Link
                 to={{
                   pathname:
-                    "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen",
+                    "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen&hints=off",
                 }}
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}

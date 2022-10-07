@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./../styles/mainPage.scss";
 import { Link } from "react-router-dom";
-import ccGraphic from "./../../../svg/crewCuts/crewcutssq.png";
-import galleryGraphic from "./../../../svg/gallery/galleryFront.png";
-import mppGraphic from "./../../../svg/mpp/mppFront.png";
-import portfolioGraphic from "./../../../svg/portfolioscreenshot.png";
+import ccGraphic from "./../../../svg/frontPageImages/front-4.png";
+import galleryGraphic from "./../../../svg/frontPageImages/front-3.png";
+import mppGraphic from "./../../../svg/frontPageImages/front-2.png";
+import portfolioGraphic from "./../../../svg/frontPageImages/front-1.png";
 
 const MainPage = () => (
   <div className={styles}>
     <div className="project-container">
+      <div className = "parent-1">
       <Link to="/crewCuts">
         <div className="project project-1">
           <div className="div1">
@@ -99,8 +100,10 @@ const MainPage = () => (
             <img src={portfolioGraphic} alt="portfolioGraphic" className="front-graphic" />
           </div>
         </div>
+    
       </Link>
     </div>
+  </div>
   </div>
 );
 
