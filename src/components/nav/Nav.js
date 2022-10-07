@@ -57,16 +57,17 @@ const Nav = () => {
           </nav>
 
           <Switch>
-            <Route
+            {/* <Route
               exact
               path="/work"
               render={() => {
                 return <Redirect to="/" />;
               }}
-            />
+            /> */}
 
             <Route exact path="/" component={MainPage} />
-            <Route path = "/work" component={MainPage}/>
+            {/* <Route path = "/" component={MainPage}/> */}
+            <Route path = "/work" component = {MainPage}/>
             <Route path="/about" component={AboutPage} />
             <Route path="/crewcuts" component={CrewCuts} />
             <Route path="/artgallery" component={ArtGallery} />
