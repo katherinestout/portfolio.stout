@@ -65,9 +65,12 @@ const Nav = () => {
               }}
             /> */}
 
-            <Route exact path="/" component={MainPage} />
+            <Route exact path="/work" component={MainPage} />
             {/* <Route path = "/" component={MainPage}/> */}
-            <Route path = "/work" component = {MainPage}/>
+            {/* <Route path = "/work" component = {MainPage}/> */}
+            <Route exact path = "/">
+              <Redirect to ="/work"/>
+            </Route>
             <Route path="/about" component={AboutPage} />
             <Route path="/crewcuts" component={CrewCuts} />
             <Route path="/artgallery" component={ArtGallery} />
