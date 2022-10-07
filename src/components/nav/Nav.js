@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
   Link,
-  Redirect,
+  // Redirect,
 } from "react-router-dom";
 import MainPage from "./../../routes/projects/components/mainPage";
 import AboutPage from "./../../routes/about/components/aboutPage";
@@ -24,7 +24,7 @@ const Nav = () => {
           <nav className={open === "active" ? "open" : "!open"}>
             <ul className="nav-items">
               <li className="nav-item" onClick={() => setOpen("!active")}>
-                <Link to="/work">Work</Link>
+                <Link to="/">Work</Link>
               </li>
               <li className="nav-item" onClick={() => setOpen("!active")}>
                 <Link to="/about">About</Link>
@@ -57,15 +57,15 @@ const Nav = () => {
           </nav>
 
           <Switch>
-            <Route
+            {/* <Route
               exact
               path="/"
               render={() => {
                 return <Redirect to="/work" />;
               }}
-            />
+            /> */}
 
-            <Route exact path="/work" component={MainPage} />
+            <Route exact path="/" component={MainPage} />
             <Route path="/about" component={AboutPage} />
             <Route path="/crewcuts" component={CrewCuts} />
             <Route path="/artgallery" component={ArtGallery} />
