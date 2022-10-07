@@ -42,5 +42,8 @@
       "last 1 safari version"
     ],
     "homepage": "https://katherinestout.gihub.io/portfolio.stout"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
