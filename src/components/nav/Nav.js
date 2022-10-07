@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
   Link,
-  // Redirect,
+  Redirect,
 } from "react-router-dom";
 import MainPage from "./../../routes/projects/components/mainPage";
 import AboutPage from "./../../routes/about/components/aboutPage";
