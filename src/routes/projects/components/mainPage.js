@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import ccGraphic from "./../../../svg/crewCuts/crewcutssq.png";
 import galleryGraphic from "./../../../svg/gallery/galleryFront.png";
 import mppGraphic from "./../../../svg/mpp/mppFront.png";
+import portfolioGraphic from "./../../../svg/portfolioscreenshot.png";
 
 const MainPage = () => (
   <div className={styles}>
@@ -95,7 +96,7 @@ const MainPage = () => (
             </div>
           </div>
           <div className="div3">
-            <img src={ccGraphic} alt="ccGraphic" className="front-graphic" />
+            <img src={portfolioGraphic} alt="portfolioGraphic" className="front-graphic" />
           </div>
         </div>
       </Link>
