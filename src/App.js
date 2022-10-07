@@ -7,6 +7,7 @@ import styles from "./global/sass/main.scss";
 export default function App() {
   return (
     <div className={styles}>
+ 
       <Header />
       <Nav />
       <Footer />

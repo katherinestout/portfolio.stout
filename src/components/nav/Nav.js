@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
   Link,
-  Redirect,
+  // Redirect,
 } from "react-router-dom";
 import MainPage from "./../../routes/projects/components/mainPage";
 import AboutPage from "./../../routes/about/components/aboutPage";
@@ -57,15 +57,16 @@ const Nav = () => {
           </nav>
 
           <Switch>
-            <Route
+            {/* <Route
               exact
               path="/"
               render={() => {
                 return <Redirect to="/work" />;
               }}
-            />
+            /> */}
 
             <Route exact path="/work" component={MainPage} />
+            <Route path = "/" component={MainPage}/>
             <Route path="/about" component={AboutPage} />
             <Route path="/crewcuts" component={CrewCuts} />
             <Route path="/artgallery" component={ArtGallery} />
