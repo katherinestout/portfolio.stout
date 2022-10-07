@@ -57,13 +57,13 @@ const Nav = () => {
           </nav>
 
           <Switch>
-            {/* <Route
+            <Route
               exact
               path="/"
               render={() => {
                 return <Redirect to="/work" />;
               }}
-            /> */}
+            />
 
             <Route exact path="/work" component={MainPage} />
             <Route path = "/" component={MainPage}/>
