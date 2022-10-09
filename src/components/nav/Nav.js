@@ -1,11 +1,11 @@
 import styles from "./nav.scss";
 import React, { useState } from "react";
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Switch,
   Route,
   Link,
-  Redirect,
+  // Redirect,
 } from "react-router-dom";
 import MainPage from "./../../routes/projects/components/mainPage";
 import AboutPage from "./../../routes/about/components/aboutPage";
@@ -18,13 +18,13 @@ const Nav = () => {
   const [open, setOpen] = useState("!active");
 
   return (
-    <Router>
+    // <Router>
       <div>
         <div className={styles}>
           <nav className={open === "active" ? "open" : "!open"}>
             <ul className="nav-items">
               <li className="nav-item" onClick={() => setOpen("!active")}>
-                <Link to="/work">Work</Link>
+                <Link to="/">Work</Link>
               </li>
               <li className="nav-item" onClick={() => setOpen("!active")}>
                 <Link to="/about">About</Link>
@@ -65,12 +65,12 @@ const Nav = () => {
               }}
             /> */}
 
-            <Route exact path="/work" component={MainPage} />
+            <Route exact path="/" component={MainPage} />
             {/* <Route path = "/" component={MainPage}/> */}
             {/* <Route path = "/work" component = {MainPage}/> */}
-            <Route exact path = "/">
+            {/* <Route exact path = "/">
               <Redirect to ="/work"/>
-            </Route>
+            </Route> */}
             <Route path="/about" component={AboutPage} />
             <Route path="/crewcuts" component={CrewCuts} />
             <Route path="/artgallery" component={ArtGallery} />
@@ -79,7 +79,7 @@ const Nav = () => {
           </Switch>
         </div>
       </div>
-    </Router>
+    // </Router>
   );
 };
 
