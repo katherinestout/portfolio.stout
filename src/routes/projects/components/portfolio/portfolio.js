@@ -8,20 +8,24 @@ import { Link } from "react-router-dom";
 const Portfolio = () => (
   <div className={styles}>
     <div className="portfolioBody">
-    <div className = "header-wrapper">
-        <div className = "div1">
-        <img src={headerGraphic} alt="headerGraphic" className="headerGraphic" />
+      <div className="header-wrapper">
+        <div className="div1">
+          <img
+            src={headerGraphic}
+            alt="headerGraphic"
+            className="headerGraphic"
+          />
         </div>
-        <div className = "div2">
-        <span className="headerTitle"> Portfolio </span>
-                <ul>
-                  <li>Website</li>
-                  <li>Adobe XD</li>
-                  <li>Affinity Designer</li>
-                  <li>Real-World Project</li>
-                </ul>
+        <div className="div2">
+          <span className="headerTitle"> Portfolio </span>
+          <ul>
+            <li>Website</li>
+            <li>Adobe XD</li>
+            <li>Affinity Designer</li>
+            <li>Real-World Project</li>
+          </ul>
         </div>
-        </div>
+      </div>
       <div className="wrapper-1">
         <div className="div1 subHeader">About</div>
         <div className="div2 content">
@@ -66,7 +70,6 @@ const Portfolio = () => (
         <div className="div1">
           <div className="subHeader">High-Fidelity Prototype</div>
           <div className="content">
-
             <Link
               to={{
                 pathname:
@@ -75,27 +78,25 @@ const Portfolio = () => (
               target="_blank"
               style={{ textDecoration: "none", color: "black" }}
             >
-             Click here to see the finished prototype for this website, made with
-            Adobe XD.
+              Click here to see the finished prototype for this website, made
+              with Adobe XD.
             </Link>
           </div>
         </div>
         <div className="div2">
-        <Link
-              to={{
-                pathname:
-                  "https://xd.adobe.com/view/a4ad0111-fb69-4103-8f66-fde03a96f2ee-f1fe/?fullscreen&hints=off",
-              }}
-              target="_blank"
-              style={{ textDecoration: "none", color: "black" }}
-            >
-            <div className = "linkDiv">
-            <img src={screenshot} alt="screenshot" className="screenshot" />
+          <Link
+            to={{
+              pathname:
+                "https://xd.adobe.com/view/a4ad0111-fb69-4103-8f66-fde03a96f2ee-f1fe/?fullscreen&hints=off",
+            }}
+            target="_blank"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <div className="linkDiv">
+              <img src={screenshot} alt="screenshot" className="screenshot" />
             </div>
-            
-            
-            </Link>
-            </div>
+          </Link>
+        </div>
       </div>
     </div>
   </div>

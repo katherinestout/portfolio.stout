@@ -149,9 +149,6 @@ const MppAboutPage = () => (
           <img src={about15} alt="about15" className="about15" />
         </div>
 
-
-
-
         <div className="wrapper-4">
           <div className="parent-1">
             <div className="subHeader div1">GRAPHICS AND ICONS</div>

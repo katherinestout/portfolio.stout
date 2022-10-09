@@ -8,27 +8,28 @@ import mpp3 from "./../../../../svg/mpp/research/mpp-3.png";
 import mpp4 from "./../../../../svg/mpp/research/mpp-4.png";
 import mpp5 from "./../../../../svg/mpp/research/mpp-5.png";
 
-
 const MPP = () => (
   <div className={styles}>
     <div className="mppBody">
       <div className="mppContent1">
-
-      <div className = "header-wrapper">
-        <div className = "div1">
-        <img src={headerGraphic} alt="headerGraphic" className="headerGraphic" />
+        <div className="header-wrapper">
+          <div className="div1">
+            <img
+              src={headerGraphic}
+              alt="headerGraphic"
+              className="headerGraphic"
+            />
+          </div>
+          <div className="div2">
+            <span className="headerTitle"> MPP </span>
+            <ul>
+              <li>Website</li>
+              <li>Adobe XD</li>
+              <li>Affinity Designer</li>
+              <li>Previous Work Experience</li>
+            </ul>
+          </div>
         </div>
-        <div className = "div2">
-        <span className="headerTitle"> MPP </span>
-                <ul>
-                  <li>Website</li>
-                  <li>Adobe XD</li>
-                  <li>Affinity Designer</li>
-                  <li>Previous Work Experience</li>
-                </ul>
-        </div>
-        </div>
-     
 
         <div className="wrapper-1">
           <div className="div1">
@@ -97,13 +98,22 @@ const MPP = () => (
                   to ask:
                 </p>
                 <p className="p2">What are the issues with the CMS site?</p>
-                <div className = "parent-1">
-                  <div className="div1"><img src={mpp1} alt="mpp1" className="mpp1" /></div>
-                  <div className="div2"><img src={mpp2} alt="mpp2" className="mpp2" /></div>
-                  <div className="div3"><img src={mpp3} alt="mpp3" className="mpp3" /></div>
-                  <div className="div4"><img src={mpp4} alt="mpp4" className="mpp4" /></div>
-                  <div className="div5"><img src={mpp5} alt="mpp5" className="mpp5" /></div>
-
+                <div className="parent-1">
+                  <div className="div1">
+                    <img src={mpp1} alt="mpp1" className="mpp1" />
+                  </div>
+                  <div className="div2">
+                    <img src={mpp2} alt="mpp2" className="mpp2" />
+                  </div>
+                  <div className="div3">
+                    <img src={mpp3} alt="mpp3" className="mpp3" />
+                  </div>
+                  <div className="div4">
+                    <img src={mpp4} alt="mpp4" className="mpp4" />
+                  </div>
+                  <div className="div5">
+                    <img src={mpp5} alt="mpp5" className="mpp5" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -114,10 +124,7 @@ const MPP = () => (
           <div className="wrapper-3">
             <div className="header div1">Solution</div>
             <div className="div2">
-              <div className="subHeader">
-                {" "}
-                Comprehensive Facts and Figures{" "}
-              </div>
+              <div className="subHeader"> Comprehensive Facts and Figures </div>
               <div className="content">
                 The UI UX team decided we needed to really break it down into
                 bite sized pieces, so any user who came to the site could

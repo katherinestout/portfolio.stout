@@ -14,24 +14,24 @@ const CrewCuts = () => (
   <div className={styles}>
     <div className="crewCutsBody">
       <div className="crewCutsContent">
-   
-        <div className = "header-wrapper">
-        <div className = "div1">
-        <img src={headerGraphic} alt="headerGraphic" className="headerGraphic" />
+        <div className="header-wrapper">
+          <div className="div1">
+            <img
+              src={headerGraphic}
+              alt="headerGraphic"
+              className="headerGraphic"
+            />
+          </div>
+          <div className="div2">
+            <span className="headerTitle">CrewCuts </span>
+            <ul>
+              <li>Mobile App</li>
+              <li>Adobe XD</li>
+              <li>Affinity Designer</li>
+              <li>Real-World project</li>
+            </ul>
+          </div>
         </div>
-        <div className = "div2">
-        <span className="headerTitle">CrewCuts </span>
-                <ul>
-                  <li>Mobile App</li>
-                  <li>Adobe XD</li>
-                  <li>Affinity Designer</li>
-                  <li>Real-World project</li>
-                </ul>
-        </div>
-        </div>
-     
-
-
 
         <div className="wrapper-1">
           <div className="div1">
@@ -117,14 +117,14 @@ const CrewCuts = () => (
           <div className="div4">
             <p className="percents">80%</p>
             <p className="boldContent">
-              Would rather hire a Small local business rather than a big company.{" "}
+              Would rather hire a Small local business rather than a big
+              company.{" "}
             </p>
 
             <p className="content center">
-              50% would rather hire small business or do it themselves. 
+              50% would rather hire small business or do it themselves.
               <br></br>
-              50% hire big well
-              known companies.
+              50% hire big well known companies.
             </p>
             <p className="content center">
               Of the 50% that hire big companies, 100% of users said to sway
@@ -194,7 +194,10 @@ const CrewCuts = () => (
           <div className="parent-1">
             <div className="div1">
               <div className="subHeader">Sitemap</div>
-              <div className="content">I created a sitemap to map out the pages and content of each page.</div>
+              <div className="content">
+                I created a sitemap to map out the pages and content of each
+                page.
+              </div>
             </div>
             <div className="div2"></div>
             <div className="div3">
@@ -206,7 +209,9 @@ const CrewCuts = () => (
           <div className="parent-2">
             <div className=" div1">
               <div className="subHeader">Wireframes</div>
-              <div className="content">I started with paper wireframes to draft out the app.</div>
+              <div className="content">
+                I started with paper wireframes to draft out the app.
+              </div>
             </div>
             <div className="div2"></div>
             <div className="div3">
@@ -220,16 +225,14 @@ const CrewCuts = () => (
 
           <div className="parent-3">
             <div className="sdiv1">
-              <div className = "subHeader ">
-              Low-Fidelity Prototype
+              <div className="subHeader ">Low-Fidelity Prototype</div>
+
+              <div className="content">
+                Click the images below to view the finished, Low-Fi Prototype.
               </div>
-             
-            <div className = "content">
-            Click the images below to view the finished, Low-Fi Prototype.
-            </div>
             </div>
             <div className="div2">
-            <Link
+              <Link
                 to={{
                   pathname:
                     "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen&hints=off",
@@ -237,21 +240,15 @@ const CrewCuts = () => (
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
               >
-
-              <img
-                src={lowFiPrototype}
-                alt="lowfi"
-                className="lowFiPrototype"
-              />
-
-
-                {" "}
-               
+                <img
+                  src={lowFiPrototype}
+                  alt="lowfi"
+                  className="lowFiPrototype"
+                />{" "}
               </Link>
-             
             </div>
             <div className="div3">
-            <Link
+              <Link
                 to={{
                   pathname:
                     "https://xd.adobe.com/view/85f94a98-fc43-4c64-aca7-d12f5184ab0b-d0aa/?fullscreen&hints=off",
@@ -259,20 +256,17 @@ const CrewCuts = () => (
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
               >
-              <img src={lowFi} alt="lowFi2" className="lowFi" />
+                <img src={lowFi} alt="lowFi2" className="lowFi" />
               </Link>
             </div>
           </div>
 
           <div className="parent-4">
             <div className=" div1">
-              
-              <div className = "subHeader">
-              High-Fidelity Prototype
-                </div>
-            <div className = "content">
-            Click the images below to view the finished, High-Fi Prototype.
-            </div>
+              <div className="subHeader">High-Fidelity Prototype</div>
+              <div className="content">
+                Click the images below to view the finished, High-Fi Prototype.
+              </div>
             </div>
             <div className="div2">
               {" "}
@@ -284,19 +278,15 @@ const CrewCuts = () => (
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
               >
-              <img
-                src={highFiPrototype}
-                alt="highfi"
-                className="highFiPrototype"
-              />
-             
-                {" "}
-               
+                <img
+                  src={highFiPrototype}
+                  alt="highfi"
+                  className="highFiPrototype"
+                />{" "}
               </Link>
-           
             </div>
             <div className="div3">
-            <Link
+              <Link
                 to={{
                   pathname:
                     "https://xd.adobe.com/view/d8470e34-f515-4044-8a05-7127faf10f3f-8d14/?fullscreen",
@@ -304,7 +294,8 @@ const CrewCuts = () => (
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
               >
-              <img src={highFi} alt="highfi2" className="highFi" /> </Link>
+                <img src={highFi} alt="highfi2" className="highFi" />{" "}
+              </Link>
             </div>
           </div>
         </div>

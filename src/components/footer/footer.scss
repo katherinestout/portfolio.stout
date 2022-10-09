@@ -8,17 +8,20 @@
         // position: absolute;
         bottom: 0;
         left: 0;
+
         width: 100%;
-        overflow: hidden;
+        // overflow: hidden;
         padding-top: 5%;
         padding-bottom: 5%;
 
         .footer-items {
             list-style-type: none;
+            margin-right: 10%;
             .footer-item {
                 text-align: center;
-                // margin-left: 15%;
-                line-height: 180%;
+                
+                // line-height: 180%;
+                left: 0;
                 
                 a:link{
                     color: $white;
@@ -29,10 +32,7 @@
                     color: $white;
                     text-decoration: none;
                 }
-                span {
-                    position: relative;
-                   bottom: 10px;
-                }
+
 
             }
         }

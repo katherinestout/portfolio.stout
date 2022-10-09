@@ -18,20 +18,22 @@ const ArtGallery = () => (
   <div className={styles}>
     <div className="galleryBody">
       <div className="galleryContent">
-
-
-      <div className = "header-wrapper">
-        <div className = "div1">
-        <img src={headerGraphic} alt="headerGraphic" className="headerGraphic" />
-        </div>
-        <div className = "div2">
-        <span className="headerTitle">Art Gallery </span>
-                <ul>
-                  <li>Mobile App</li>
-                  <li>Figma</li>
-                  <li>Google UI UX Certificate</li>
-                </ul>
-        </div>
+        <div className="header-wrapper">
+          <div className="div1">
+            <img
+              src={headerGraphic}
+              alt="headerGraphic"
+              className="headerGraphic"
+            />
+          </div>
+          <div className="div2">
+            <span className="headerTitle">Art Gallery </span>
+            <ul>
+              <li>Mobile App</li>
+              <li>Figma</li>
+              <li>Google UI UX Certificate</li>
+            </ul>
+          </div>
         </div>
         <div className="wrapper-1">
           <div className="div1">
@@ -48,13 +50,13 @@ const ArtGallery = () => (
           <div className="div2">
             <div className="subHeader">Background </div>
             <div className="content">
-              The Artist Bio App for an Art Gallery in Edinburgh was
-              designed to connect our target users (users who are interested in
-              obtaining art pieces such as art collectors) with other artists
-              via the app. This app was one of the projects completed from
-              beginning to end while I obtained the Certificate in UX design course
-              from Google. We utilized the five stages of the design thinking
-              process: Empathize, Define, Ideate, Prototype, and Test.
+              The Artist Bio App for an Art Gallery in Edinburgh was designed to
+              connect our target users (users who are interested in obtaining
+              art pieces such as art collectors) with other artists via the app.
+              This app was one of the projects completed from beginning to end
+              while I obtained the Certificate in UX design course from Google.
+              We utilized the five stages of the design thinking process:
+              Empathize, Define, Ideate, Prototype, and Test.
             </div>
           </div>
         </div>
@@ -66,7 +68,8 @@ const ArtGallery = () => (
             <div className="subHeader">Problem </div>
 
             <div className="content">
-              Users need an app to easily find art pieces. The app must have high quality images, and ways to contact artists.  
+              Users need an app to easily find art pieces. The app must have
+              high quality images, and ways to contact artists.
             </div>
           </div>
         </div>
@@ -201,11 +204,11 @@ const ArtGallery = () => (
             <div></div>
           </div>
 
-          <div className="div6 header">Low-Fidelity Prototypes
-          <div className = "content">
-          Click the images below to view the finished Low-Fi Prototype.
-
-          </div>
+          <div className="div6 header">
+            Low-Fidelity Prototypes
+            <div className="content">
+              Click the images below to view the finished Low-Fi Prototype.
+            </div>
           </div>
 
           <div
@@ -214,32 +217,31 @@ const ArtGallery = () => (
           >
             <div className="lowFi">
               <div className="lowFi1">
-              <Link
-              to={{
-                pathname:
-                  "https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415",
-              }}
-              target="_blank"
-              style={{ textDecoration: "none", color: "black" }}
-              className = "content"
-            >
-             
-                <img src={LowFi1} alt="lowFi1" className="lowFi1" />
+                <Link
+                  to={{
+                    pathname:
+                      "https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415",
+                  }}
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "black" }}
+                  className="content"
+                >
+                  <img src={LowFi1} alt="lowFi1" className="lowFi1" />
                 </Link>
               </div>
               <div className="lowFi2">
-              <Link
-              to={{
-                pathname:
-                  "https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415",
-              }}
-              target="_blank"
-              style={{ textDecoration: "none", color: "black" }}
-            >
-                <img src={LowFi2} alt="lowFi2" className="lowFi2" /></Link>
+                <Link
+                  to={{
+                    pathname:
+                      "https://www.figma.com/proto/BkvbbGLoYEyj2PUKLNQsWp/EdinburghGalleryApp?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A415",
+                  }}
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "black" }}
+                >
+                  <img src={LowFi2} alt="lowFi2" className="lowFi2" />
+                </Link>
               </div>
             </div>
-         
           </div>
         </div>
 
@@ -268,10 +270,11 @@ const ArtGallery = () => (
 
         <div className="wrapper-10">
           <div className="div1 subHeader">Refining the Design</div>
-          <div className="div2 header">High-Fidelity Prototype
-          <div className = "content">
-          Click the images below to view the finished High-Fi Prototype.
-          </div>
+          <div className="div2 header">
+            High-Fidelity Prototype
+            <div className="content">
+              Click the images below to view the finished High-Fi Prototype.
+            </div>
           </div>
           <div className="div3">
             <Link
@@ -282,33 +285,33 @@ const ArtGallery = () => (
               target="_blank"
               style={{ textDecoration: "none", color: "black" }}
               className="content"
-            >
-             
-            </Link>
+            ></Link>
           </div>
           <div className="div4 content">
             <div className="highFi">
               <div className="highFi1">
-              <Link
-              to={{
-                pathname:
-                  "https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455",
-              }}
-              target="_blank"
-              style={{ textDecoration: "none", color: "black" }}
-            >
-                <img src={HighFi1} alt="highFi1" className="highFi1" /></Link>
+                <Link
+                  to={{
+                    pathname:
+                      "https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455",
+                  }}
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "black" }}
+                >
+                  <img src={HighFi1} alt="highFi1" className="highFi1" />
+                </Link>
               </div>
               <div className="highFi2">
-              <Link
-              to={{
-                pathname:
-                  "https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455",
-              }}
-              target="_blank"
-              style={{ textDecoration: "none", color: "black" }}
-            >
-                <img src={HighFi2} alt="highFi2" className="highFi2" /> </Link>
+                <Link
+                  to={{
+                    pathname:
+                      "https://www.figma.com/proto/tOggtjWuy6ImMI2hmPZLEx/High-Fidelity-Prototypes?node-id=2%3A455&starting-point-node-id=2%3A455",
+                  }}
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "black" }}
+                >
+                  <img src={HighFi2} alt="highFi2" className="highFi2" />{" "}
+                </Link>
               </div>
             </div>
           </div>
@@ -316,16 +319,21 @@ const ArtGallery = () => (
 
         <div className="wrapper-11">
           <div className="div1 subHeader">User Testing</div>
-          <div className="div2 header">Accessibility Considerations
-          
-          <div className= "content">During user testing, it was suggested by my peers that the app might have readability issues. To fix the issue, I added white background behind text, in addition to the transparent background.</div></div>
+          <div className="div2 header">
+            Accessibility Considerations
+            <div className="content">
+              During user testing, it was suggested by my peers that the app
+              might have readability issues. To fix the issue, I added white
+              background behind text, in addition to the transparent background.
+            </div>
+          </div>
           <div className="div3">
             {" "}
-            <img src={Before} alt="before" className="before" /> 
+            <img src={Before} alt="before" className="before" />
           </div>
           <div className="div4">
             {" "}
-            <img src={After} alt="after" className="after" /> 
+            <img src={After} alt="after" className="after" />
           </div>
         </div>
       </div>

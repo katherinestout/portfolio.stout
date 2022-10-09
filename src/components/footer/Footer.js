@@ -7,18 +7,15 @@ const Footer = () => (
       <ul className="footer-items">
         <li className="footer-item">
           <a href="https://github.com/katherinestout">
-         
             <span> Github</span>
           </a>
         </li>
         <li className="footer-item">
           <a href="https://www.linkedin.com/in/katherinejstout/">
-         
             <span> LinkedIn</span>
           </a>
         </li>
         <li className="footer-item">
-          
           <span> stout.katie@outlook.com</span>
         </li>
       </ul>

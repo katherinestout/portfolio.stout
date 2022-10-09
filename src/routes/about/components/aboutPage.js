@@ -15,14 +15,14 @@ const AboutPage = () => (
           <p className="bio">
             <div className="title">Hi There!</div>
             <p>
-              My name is <b>Katie Stout</b>, I'm a UI UX Designer and Front End Web
-              Developer, with a background in painting and drawing. I absolutely
-              love to create wireframes, to design icons and graphics, and to
-              fiddle with CSS. I have several years experience as a Full Stack
-              Developer. What I really enjoy is the visual aspect of User
-              Experience Design, as it has such an impact overall on what we
-              create. It is rewarding to come up with ideas for websites, and
-              then be able to help create your own vision.
+              My name is <b>Katie Stout</b>, I'm a UI UX Designer and Front End
+              Web Developer, with a background in painting and drawing. I
+              absolutely love to create wireframes, to design icons and
+              graphics, and to fiddle with CSS. I have several years experience
+              as a Full Stack Developer. What I really enjoy is the visual
+              aspect of User Experience Design, as it has such an impact overall
+              on what we create. It is rewarding to come up with ideas for
+              websites, and then be able to help create your own vision.
             </p>
             <p>
               Among my many hobbies I enjoy photography (portrait and food
