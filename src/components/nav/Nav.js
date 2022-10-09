@@ -27,7 +27,7 @@ const Nav = () => {
                 <Link to="/portfolio.stout">Work</Link>
               </li>
               <li className="nav-item" onClick={() => setOpen("!active")}>
-                <Link to="/portfolio.stout/about">About</Link>
+                <Link to="/about">About</Link>
               </li>
 
               <li className="nav-item" onClick={() => setOpen("!active")}>
@@ -65,13 +65,13 @@ const Nav = () => {
               }}
             /> */}
 
-            <Route exact path="/portfolio.stout" component={MainPage} />
+            <Route path="/portfolio.stout" component={MainPage} />
             {/* <Route path = "/" component={MainPage}/> */}
             {/* <Route path = "/work" component = {MainPage}/> */}
             {/* <Route exact path = "/">
               <Redirect to ="/work"/>
             </Route> */}
-            <Route path="/portfolio.stout/about" component={AboutPage} />
+            <Route path="/about" component={AboutPage} />
             <Route path="/portfolio.stout/crewcuts" component={CrewCuts} />
             <Route path="/portfolio.stout/artgallery" component={ArtGallery} />
             <Route path="/portfolio.stout/mpp" component={MPP} />
