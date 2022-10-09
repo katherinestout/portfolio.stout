@@ -5,10 +5,10 @@ import ccGraphic from "./../../../svg/frontPageImages/front-4.png";
 import galleryGraphic from "./../../../svg/frontPageImages/front-3.png";
 import mppGraphic from "./../../../svg/frontPageImages/front-2.png";
 import portfolioGraphic from "./../../../svg/frontPageImages/front-1.png";
-import CrewCuts from "./crewCuts/crewCuts";
-import ArtGallery from "./artGallery/artGallery";
-import MPP from "./mpp/mpp";
-import Portfolio from "./portfolio/portfolio";
+import CrewCuts from "./crewCuts/crewCuts.js";
+import ArtGallery from "./artGallery/artGallery.js";
+import MPP from "./mpp/mpp.js";
+import Portfolio from "./portfolio/portfolio.js";
 
 const MainPage = () => (
   <div className={styles}>
@@ -108,12 +108,7 @@ const MainPage = () => (
       </Link>
     </div>
   </div>
-  <Switch>
-  <Route path="/portfolio.stout/crewcuts" component={CrewCuts} />
-  <Route path="/artgallery" component={ArtGallery} />
-  <Route path="/mpp" component={MPP} />
-  <Route path="/portfolio" component={Portfolio} />
-  </Switch>
+
   </div>
 );
 

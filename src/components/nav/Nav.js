@@ -9,10 +9,10 @@ import {
 } from "react-router-dom";
 import MainPage from "./../../routes/projects/components/mainPage";
 import AboutPage from "./../../routes/about/components/aboutPage";
-// import CrewCuts from "../../routes/projects/components/crewCuts/crewCuts";
-// import ArtGallery from "../../routes/projects/components/artGallery/artGallery";
-// import MPP from "../../routes/projects/components/mpp/mpp";
-// import Portfolio from "../../routes/projects/components/portfolio/portfolio";
+import CrewCuts from "../../routes/projects/components/crewCuts/crewCuts";
+import ArtGallery from "../../routes/projects/components/artGallery/artGallery";
+import MPP from "../../routes/projects/components/mpp/mpp";
+import Portfolio from "../../routes/projects/components/portfolio/portfolio";
 
 const Nav = () => {
   const [open, setOpen] = useState("!active");
@@ -72,6 +72,10 @@ const Nav = () => {
               <Redirect to ="/work"/>
             </Route> */}
             <Route path="/about" component={AboutPage} />
+            <Route path="/portfolio.stout/crewcuts" component={CrewCuts} />
+  <Route path="/artgallery" component={ArtGallery} />
+  <Route path="/mpp" component={MPP} />
+  <Route path="/portfolio" component={Portfolio} />
             
           </Switch>
         </div>
