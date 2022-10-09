@@ -14,7 +14,7 @@ const MainPage = () => (
   <div className={styles}>
     <div className="project-container">
       <div className = "parent-1">
-      <Link to="/portfolio.stout/crewCuts">
+      <Link to="/portfolio.stout/crewcuts">
         <div className="project project-1">
           <div className="div1">
             <div className="div2">
@@ -59,7 +59,7 @@ const MainPage = () => (
         </div>
       </Link>
 
-      <Link to="/artGallery">
+      <Link to="/artgallery">
         <div className="project project-3">
           <div className="div1">
             <div className="div2">
