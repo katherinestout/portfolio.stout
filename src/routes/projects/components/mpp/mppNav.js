@@ -20,14 +20,14 @@ const MppNav = () => {
           <nav className="mppNav">
             <ul className="mpp-nav-items">
               <li className="mpp-nav-item">
-                <Link to="/portfolio.stout/mpp/mppHomePage">HOME PAGE</Link>
+                <Link to="/mpp/mppHomePage">HOME PAGE</Link>
               </li>
               <li className="mpp-nav-item">
-                <Link to="/portfolio.stout/mpp/mppMedicarePages">MEDICARE PAGES</Link>
+                <Link to="/mpp/mppMedicarePages">MEDICARE PAGES</Link>
               </li>
 
               <li className="mpp-nav-item">
-                <Link to="/portfolio.stout/mpp/mppAboutPage"> ABOUT PAGE </Link>
+                <Link to="/mpp/mppAboutPage"> ABOUT PAGE </Link>
               </li>
             </ul>
           </nav>
@@ -37,13 +37,13 @@ const MppNav = () => {
               exact
               path="/mpp"
               render={() => {
-                return <Redirect to="/portfolio.stout/mpp/mppHomePage" />;
+                return <Redirect to="/mpp/mppHomePage" />;
               }}
             />
 
-            <Route exact path="/portfolio.stout/mpp/mppHomePage" component={MppHomePage} />
-            <Route path="/portfolio.stout/mpp/mppMedicarePages" component={MppMedicarePages} />
-            <Route path="/portfolio.stout/mpp/mppAboutPage" component={MppAboutPage} />
+            <Route exact path="/mpp/mppHomePage" component={MppHomePage} />
+            <Route path="/mpp/mppMedicarePages" component={MppMedicarePages} />
+            <Route path="/mpp/mppAboutPage" component={MppAboutPage} />
           </Switch>
         </div>
       </div>

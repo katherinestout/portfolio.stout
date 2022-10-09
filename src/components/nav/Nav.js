@@ -72,10 +72,10 @@ const Nav = () => {
               <Redirect to ="/work"/>
             </Route> */}
             <Route path="/about" component={AboutPage} />
-            <Route path="/portfolio.stout/crewcuts" component={CrewCuts} />
-            <Route path="/portfolio.stout/artgallery" component={ArtGallery} />
-            <Route path="/portfolio.stout/mpp" component={MPP} />
-            <Route path="/portfolio.stout/portfolio" component={Portfolio} />
+            <Route path="/crewcuts" component={CrewCuts} />
+            <Route path="/artgallery" component={ArtGallery} />
+            <Route path="/mpp" component={MPP} />
+            <Route path="/portfolio" component={Portfolio} />
           </Switch>
         </div>
       </div>
