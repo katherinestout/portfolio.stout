@@ -5,6 +5,10 @@ import ccGraphic from "./../../../svg/frontPageImages/front-4.png";
 import galleryGraphic from "./../../../svg/frontPageImages/front-3.png";
 import mppGraphic from "./../../../svg/frontPageImages/front-2.png";
 import portfolioGraphic from "./../../../svg/frontPageImages/front-1.png";
+import CrewCuts from "./crewCuts/crewCuts";
+import ArtGallery from "./artGallery/artGallery";
+import MPP from "./mpp/mpp";
+import Portfolio from "./portfolio/portfolio";
 
 const MainPage = () => (
   <div className={styles}>
