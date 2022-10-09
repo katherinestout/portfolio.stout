@@ -24,10 +24,10 @@ const Nav = () => {
           <nav className={open === "active" ? "open" : "!open"}>
             <ul className="nav-items">
               <li className="nav-item" onClick={() => setOpen("!active")}>
-                <Link to="/">Work</Link>
+                <Link to="/portfolio.stout">Work</Link>
               </li>
               <li className="nav-item" onClick={() => setOpen("!active")}>
-                <Link to="/about">About</Link>
+                <Link to="/portfolio.stout/about">About</Link>
               </li>
 
               <li className="nav-item" onClick={() => setOpen("!active")}>
