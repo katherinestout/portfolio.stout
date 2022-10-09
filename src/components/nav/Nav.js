@@ -65,17 +65,17 @@ const Nav = () => {
               }}
             /> */}
 
-            <Route exact path="/" component={MainPage} />
+            <Route exact path="/portfolio.stout" component={MainPage} />
             {/* <Route path = "/" component={MainPage}/> */}
             {/* <Route path = "/work" component = {MainPage}/> */}
             {/* <Route exact path = "/">
               <Redirect to ="/work"/>
             </Route> */}
-            <Route path="/about" component={AboutPage} />
-            <Route path="/crewcuts" component={CrewCuts} />
-            <Route path="/artgallery" component={ArtGallery} />
-            <Route path="/mpp" component={MPP} />
-            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/portfolio.stout/about" component={AboutPage} />
+            <Route path="/portfolio.stout/crewcuts" component={CrewCuts} />
+            <Route path="/portfolio.stout/artgallery" component={ArtGallery} />
+            <Route path="/portfolio.stout/mpp" component={MPP} />
+            <Route path="/portfolio.stout/portfolio" component={Portfolio} />
           </Switch>
         </div>
       </div>
