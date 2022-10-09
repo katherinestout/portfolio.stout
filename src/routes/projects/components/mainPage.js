@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./../styles/mainPage.scss";
-import { Link } from "react-router-dom";
+import { Link, Switch, Route } from "react-router-dom";
 import ccGraphic from "./../../../svg/frontPageImages/front-4.png";
 import galleryGraphic from "./../../../svg/frontPageImages/front-3.png";
 import mppGraphic from "./../../../svg/frontPageImages/front-2.png";
@@ -10,7 +10,7 @@ const MainPage = () => (
   <div className={styles}>
     <div className="project-container">
       <div className = "parent-1">
-      <Link to="/crewCuts">
+      <Link to="/portfolio.stout/crewCuts">
         <div className="project project-1">
           <div className="div1">
             <div className="div2">
@@ -104,6 +104,12 @@ const MainPage = () => (
       </Link>
     </div>
   </div>
+  <Switch>
+  <Route path="/portfolio.stout/crewcuts" component={CrewCuts} />
+  <Route path="/artgallery" component={ArtGallery} />
+  <Route path="/mpp" component={MPP} />
+  <Route path="/portfolio" component={Portfolio} />
+  </Switch>
   </div>
 );
 
