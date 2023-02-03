@@ -5,10 +5,22 @@ import ccGraphic from "./../../../svg/frontPageImages/front-4.png";
 import galleryGraphic from "./../../../svg/frontPageImages/front-3.png";
 import mppGraphic from "./../../../svg/frontPageImages/front-2.png";
 import portfolioGraphic from "./../../../svg/frontPageImages/front-1.png";
+import icon from "./../../../svg/katieicon.png";
 
 const MainPage = () => (
   <div className={styles}>
     <div className="project-container">
+      <div className="iconDiv">
+            <img src={icon} alt="icon" className="icon" />
+            <div>
+              <p>
+              Hi, <b>I'm Katie Stout.</b>
+                  <br/>I am a UI UX Designer, Graphic Designer, 
+                  <br/>Illustrator, and Front-End Web Developer.
+                  <br/> <i>Welcome to my portfolio!</i>
+              </p>
+            </div>
+          </div>
       <div className="parent-1">
         <Link to="/crewcuts">
           <div className="project project-1">
@@ -16,13 +28,12 @@ const MainPage = () => (
               <div className="div2">
                 <span className="project-title">CrewCuts </span>
                 <span className="project-content">
-                  <ul>
-                    <li>Mobile App</li>
-                    <li>Adobe XD</li>
-
-                    <li>Affinity Designer</li>
-                    <li>Real-World project</li>
-                  </ul>
+                 <p>
+                   Local lawn care business looking to building their online prescence to attract customers.
+                   <br/>
+                   <br/>
+                    <b> Learn More</b>
+                 </p>
                 </span>
               </div>
             </div>
@@ -40,12 +51,13 @@ const MainPage = () => (
                 <span className="project-title">MPP </span>
                 <br />
                 <span className="project-content">
-                  <ul>
-                    <li>Website </li>
-                    <li>Adobe XD </li>
-                    <li>Affinity Designer</li>
-                    <li> Previous Work Experience</li>
-                  </ul>
+                 <p>
+                   Medicare Provider Data Project,
+                   designed to create data visualizations conveying patterns and statstics found within the CMS website.
+                   <br/>
+                   <br/>
+                    <b> Learn More</b>
+                 </p>
                 </span>
               </div>
             </div>
@@ -66,21 +78,22 @@ const MainPage = () => (
                 <span className="project-title">Art Gallery</span>
                 <br />
                 <span className="project-content">
-                  <ul>
-                    <li>Mobile App </li>
-                    <li>Figma</li>
-                    <li>Google UI UX Certificate Course</li>
-                  </ul>
+                 <p>
+                
+                 An online gallery app designed to facilitate communication and business for Art Dealers and Artists.
+                 <br/>
+<br/><b> Learn More</b>
+                 </p>
                 </span>
               </div>
             </div>
-            <div className="div3">
-              <img
-                src={galleryGraphic}
-                alt="galleryGraphic"
-                className="front-graphic"
-              />
-            </div>
+                          <div className="div3">
+                            <img
+                              src={galleryGraphic}
+                              alt="galleryGraphic"
+                              className="front-graphic"
+                            />
+                          </div>
           </div>
         </Link>
 
@@ -91,12 +104,13 @@ const MainPage = () => (
                 <span className="project-title">Portfolio</span>
                 <br />
                 <span className="project-content">
-                  <ul>
-                    <li>Website</li>
-                    <li>Adobe XD</li>
-                    <li>Affinity Designer</li>
-                    <li>Real-World Project</li>
-                  </ul>
+                  <p>
+                  The process, design, and redesigns 
+of this UI UX Design portfolio.
+<br/>
+<br/>
+                  <b> Learn More</b>
+                  </p>
                 </span>
               </div>
             </div>

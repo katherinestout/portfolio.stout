@@ -16,7 +16,7 @@ const Footer = () => (
           </a>
         </li>
         <li className="footer-item">
-          <span> stout.katie@outlook.com</span>
+          <span> katherinejstout@outlook.com</span>
         </li>
       </ul>
       {/* <p className="name-tag">&#169; Katie Stout 2021</p> */}
