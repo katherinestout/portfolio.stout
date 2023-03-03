@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./../../styles/mpp.scss";
 import MppNav from "./mppNav";
-import headerGraphic from "../../../../svg/mpp/mppFront.png";
+import headerGraphic from "../../../../svg/mpp/MPPHeader.png";
 import mpp1 from "./../../../../svg/mpp/research/mpp-1.png";
 import mpp2 from "./../../../../svg/mpp/research/mpp-2.png";
 import mpp3 from "./../../../../svg/mpp/research/mpp-3.png";
@@ -11,25 +11,16 @@ import mpp5 from "./../../../../svg/mpp/research/mpp-5.png";
 const MPP = () => (
   <div className={styles}>
     <div className="mppBody">
-      <div className="mppContent1">
-        <div className="header-wrapper">
-          <div className="div1">
-            <img
+      <div className="header-wrapper">
+      <img
               src={headerGraphic}
               alt="headerGraphic"
               className="headerGraphic"
             />
-          </div>
-          <div className="div2">
-            <span className="headerTitle"> MPP </span>
-            <ul>
-              <li>Website</li>
-              <li>Adobe XD</li>
-              <li>Affinity Designer</li>
-              <li>Previous Work Experience</li>
-            </ul>
-          </div>
-        </div>
+
+      </div>
+      <div className="mppContent1">
+        
 
         <div className="wrapper-1">
           <div className="div1">

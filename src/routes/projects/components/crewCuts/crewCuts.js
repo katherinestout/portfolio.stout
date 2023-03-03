@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./../../styles/crewCuts.scss";
-import headerGraphic from "./../../../../svg/crewCuts/crewcutssq.png";
+import headerGraphic from "./../../../../svg/crewCuts/CrewCutsHeader.png";
 // import talkBubbles from "./../../../../svg/crewCuts/talkBubbles.png";
 import sitemap from "./../../../../svg/crewCuts/sitemapCrewCuts.png";
 import lowFiPrototype from "./../../../../svg/crewCuts/lowFiScreenshot.png";
@@ -10,29 +10,21 @@ import highFiPrototype from "./../../../../svg/crewCuts/highFiScreenshot.png";
 import highFi from "./../../../../svg/crewCuts/highFi.png";
 import ccWireframes from "./../../../../svg/crewCuts/ccWireframes.png";
 
+
 const CrewCuts = () => (
   <div className={styles}>
     <div className="crewCutsBody">
-      <div className="crewCutsContent">
+      
         <div className="header-wrapper">
-          <div className="div1">
+ 
             <img
               src={headerGraphic}
               alt="headerGraphic"
               className="headerGraphic"
             />
-          </div>
-          <div className="div2">
-            <span className="headerTitle">CrewCuts </span>
-            <ul>
-              <li>Mobile App</li>
-              <li>Adobe XD</li>
-              <li>Affinity Designer</li>
-              <li>Real-World project</li>
-            </ul>
-          </div>
-        </div>
 
+        </div>
+        <div className="crewCutsContent">
         <div className="wrapper-1">
           <div className="div1">
             <div className="header"> Responsibilities</div>

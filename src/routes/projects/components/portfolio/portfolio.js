@@ -2,30 +2,23 @@ import React from "react";
 import styles from "./../../styles/portfolio.scss";
 import sitemap from "./../../../../svg/portfolioSitemap.jpeg";
 import screenshot from "./../../../../svg/portfolioscreenshot.png";
-import headerGraphic from "./../../../../svg/portfolioscreenshot.png";
+import headerGraphic from "./../../../../svg/PortfolioHeader.png";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => (
   <div className={styles}>
-    <div className="portfolioBody">
-      <div className="header-wrapper">
-        <div className="div1">
-          <img
+    <div className = "portfolio-wrapper">
+    <div className="header-wrapper">
+      <img
             src={headerGraphic}
             alt="headerGraphic"
             className="headerGraphic"
           />
-        </div>
-        <div className="div2">
-          <span className="headerTitle"> Portfolio </span>
-          <ul>
-            <li>Website</li>
-            <li>Adobe XD</li>
-            <li>Affinity Designer</li>
-            <li>Real-World Project</li>
-          </ul>
-        </div>
       </div>
+
+    <div className="portfolioBody">
+     
+
       <div className="wrapper-1">
         <div className="div1 subHeader">About</div>
         <div className="div2 content">
@@ -36,6 +29,7 @@ const Portfolio = () => (
           used Adobe XD, and for the graphics I used Affinity Designer.
         </div>
       </div>
+
       <div className="wrapper-2">
         <div className="div1">
           <div className="subHeader">Sitemap</div>
@@ -48,6 +42,8 @@ const Portfolio = () => (
           <img src={sitemap} alt="sitemap" className="sitemap" />
         </div>
       </div>
+
+
       <div className="wrapper-3 content">
         <div>
           <b className="subHeader">This project contains:</b>
@@ -99,6 +95,7 @@ const Portfolio = () => (
         </div>
       </div>
     </div>
+  </div>
   </div>
 );
 
