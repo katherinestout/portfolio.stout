@@ -7,6 +7,7 @@ import mpp2 from "./../../../../svg/mpp/research/mpp-2.png";
 import mpp3 from "./../../../../svg/mpp/research/mpp-3.png";
 import mpp4 from "./../../../../svg/mpp/research/mpp-4.png";
 import mpp5 from "./../../../../svg/mpp/research/mpp-5.png";
+//test
 
 const MPP = () => (
   <div className={styles}>
